@@ -1,0 +1,123 @@
+﻿Partial Public Class RastreoRemisiones1
+    Inherits BasePage
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Dim tbl_Importe As New DsRastreoRemisiones.tbl_RastreoImporteDataTable
+        gv_Importes.DataSource = fn_MostrarSiempre(tbl_Importe)
+        gv_Importes.DataBind()
+
+        Dim tbl_Envases As New DsRastreoRemisiones.tbl_RastreoEnvasesDataTable
+        gv_Envases.DataSource = fn_MostrarSiempre(tbl_Envases)
+        gv_Envases.DataBind()
+    End Sub
+
+    Protected Sub btn_Buscar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Buscar.Click
+        If (txt_Remision.Text = "") Then
+            fn_Alerta("Debe Capturar un numero de remisión")
+            Exit Sub
+        End If
+
+        Dim NumeroRemision As Long
+
+        If Not Long.TryParse(txt_Remision.Text, NumeroRemision) Then
+            fn_Alerta("Debe capturar un numero de remisión valido.")
+            Exit Sub
+        End If
+
+        Dim tbl As DataTable = cn.fn_RastreoRemisiones_Buscar(NumeroRemision)
+
+        If tbl Is Nothing Then
+            fn_Alerta("Ha ocurrido un error al buscar la remisión")
+            Exit Sub
+        End If
+
+        If tbl.Rows.Count = 0 Then
+            fn_Alerta("No se ha encontrado la remisión solicitada")
+            Exit Sub
+        End If
+
+        Dim Id_Remision As Integer = tbl(0)("Id_Remision")
+
+        Actualizar(Id_Remision)
+
+    End Sub
+
+    Protected Sub Actualizar(ByVal Id_Remision As Integer)
+        Dim tbl As DataTable = cn.fn_RastreoRemisiones_Detalle(Id_Remision)
+
+        If tbl Is Nothing Then
+            fn_Alerta("No se pudo obtener el detalle de la remision")
+            Exit Sub
+        End If
+
+        If tbl.Rows.Count > 0 Then
+            Dim rowRemision As DataRow = tbl.Rows(0)
+
+            txt_NumeroRemision.Text = rowRemision("Numero_Remision")
+            txt_FechaCaptura.Text = rowRemision("Fecha_Registro")
+            txt_HoraCaptura.Text = rowRemision("Hora_Registro")
+            txt_Importe.Text = rowRemision("Importe")
+            txt_EnvasesSN.Text = rowRemision("EnvasesSN")
+
+        End If
+
+        Dim tbl_Importe As DataTable = cn.fn_RastreoRemisiones_RastreoImporte(Id_Remision)
+
+        Tabla("tbl_Importe") = tbl_Importe
+
+        gv_Importes.DataSource = fn_MostrarSiempre(tbl_Importe)
+        gv_Importes.DataBind()
+
+        Dim tbl_Envases As DataTable = cn.fn_RestreoRemisiones_RastreoEnvase(Id_Remision)
+        Tabla("tbl_RastreoEnvases") = tbl_Envases
+
+        gv_Envases.DataSource = fn_MostrarSiempre(tbl_Envases)
+        gv_Envases.DataBind()
+
+        Dim tbl_Log As DataTable = cn.fn_RastreoRemisiones_Log(Id_Remision)
+
+        gv_Log.DataSource = tbl_Log
+        gv_Log.DataBind()
+
+    End Sub
+
+    Protected Sub gv_Importes_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Importes.PageIndexChanging
+        Dim tbl As DataTable = Tabla("tbl_Importe")
+        Dim tbl_tipada As New DsRastreoRemisiones.tbl_RastreoImporteDataTable
+
+        For Each r As DataRow In tbl.Rows
+            tbl_tipada.ImportRow(r)
+        Next
+
+        gv_Importes.PageIndex = e.NewPageIndex
+        gv_Importes.DataSource = tbl_tipada
+        gv_Importes.DataBind()
+    End Sub
+
+    Protected Sub gv_Importes_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Importes.RowCreated
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            e.Row.Attributes.Add("onmouseover", "this.originalstyle=this.style.backgroundColor;this.style.backgroundColor='#D8A42C'")  '#D0A540'")
+            e.Row.Attributes.Add("onmouseout", "this.style.backgroundColor=this.originalstyle;")
+        End If
+    End Sub
+
+    Protected Sub gv_Envases_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Envases.RowCreated
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            e.Row.Attributes.Add("onmouseover", "this.originalstyle=this.style.backgroundColor;this.style.backgroundColor='#D8A42C'")  '#D0A540'")
+            e.Row.Attributes.Add("onmouseout", "this.style.backgroundColor=this.originalstyle;")
+        End If
+    End Sub
+
+    Protected Sub gv_Envases_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Envases.PageIndexChanging
+        Dim tbl As DataTable = Tabla("tbl_RastreoEnvases")
+        Dim tbl_tipada As New DsRastreoRemisiones.tbl_RastreoEnvasesDataTable
+
+        For Each r As DataRow In tbl.Rows
+            tbl_tipada.ImportRow(r)
+        Next
+
+        gv_Envases.PageIndex = e.NewPageIndex
+        gv_Envases.DataSource = tbl_tipada
+        gv_Envases.DataBind()
+    End Sub
+End Class

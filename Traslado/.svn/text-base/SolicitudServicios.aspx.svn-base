@@ -1,0 +1,108 @@
+<%@ Page Language="vb" AutoEventWireup="false" Theme="NegroAmarillo" MasterPageFile="~/MasterPage.Master" CodeBehind="SolicitudServicios.aspx.vb" Inherits="SissaPortal.SolicitudServicios" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table cellspacing="10">
+    <tr>
+        <td>
+            Servicio:
+        </td>
+        <td>
+            <asp:DropDownList ID="ddl_Servicio" runat="server" DataTextField="Descripcion" 
+                DataValueField="Id_Precio" Width="400px">
+            </asp:DropDownList>
+        </td>
+        <td>
+            Fecha:
+        </td>
+        <td>
+            <asp:TextBox ID="txt_Fecha" runat="server" CssClass="txt_Fecha" />
+            <asp:CalendarExtender ID="txt_Fecha_CalendarExtender" runat="server" Enabled="True"
+                TargetControlID="txt_Fecha" Format="dd/MM/yyyy">
+            </asp:CalendarExtender>
+        </td>
+    </tr>
+</table>  
+<fieldset >
+<legend>Cliente de Origen</legend>
+    <table cellspacing="10" width="300px">
+        <tr>
+            <td align="right">
+                Origen:
+            </td>
+            <td colspan="3">
+                <asp:DropDownList ID="ddl_Origen" runat="server"  Width="400px"
+                    DataTextField="Nombre_Comercial" DataValueField="Id_Cliente">
+                </asp:DropDownList>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">
+                Horario de Recolección
+            </td>
+        </tr>
+        <tr>
+            <td align="right" style=" width: 40px;">
+                De:
+            </td>
+            <td align="left" style=" width: 100px;">
+                <asp:DropDownList ID="ddl_De" runat="server" 
+                    DataTextField="Hora" DataTextFormatString="{0:HH}:{0:mm}" 
+                    DataValueField="Hora">
+                </asp:DropDownList>
+            </td>
+            <td align="right" style=" width: 40px;">
+                A:
+            </td>
+            <td align="left" style=" width: 100px;">
+                <asp:DropDownList ID="ddl_A" runat="server" 
+                    DataTextField="Hora" DataTextFormatString="{0:HH}:{0:mm}" 
+                    DataValueField="Hora">
+                </asp:DropDownList>
+            </td>
+        </tr>
+    </table>
+</fieldset> 
+<fieldset>
+<legend>Cliente de Destino</legend>
+    <table cellspacing="10" width="300px">
+        <tr>
+            <td align="right">
+                Destino:
+            </td>
+            <td colspan="3">
+                <asp:DropDownList ID="ddl_Destino" runat="server"  Width="400px"
+                    DataTextField="Nombre_Comercial" DataValueField="Id_Cliente">
+                </asp:DropDownList>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">
+                Horario de Entrega
+            </td>
+        </tr>
+        <tr>
+            <td align="right" style=" width: 40px;">
+                De:
+            </td>
+            <td align="left" style=" width: 100px;">
+                <asp:DropDownList ID="ddl_DeD" runat="server" 
+                    DataTextField="Hora" DataTextFormatString="{0:HH}:{0:mm}" 
+                    DataValueField="Hora">
+                </asp:DropDownList>
+            </td>
+            <td align="right" style=" width: 40px;">
+                A:
+            </td>
+            <td align="left" style=" width: 100px;">
+                <asp:DropDownList ID="ddl_AD" runat="server" 
+                    DataTextField="Hora" DataTextFormatString="{0:HH}:{0:mm}" 
+                    DataValueField="Hora">
+                </asp:DropDownList>
+            </td>
+        </tr>
+    </table>
+</fieldset> 
+    <asp:Button ID="btn_Solicitar" runat="server" Text="Solicitar" />
+</asp:Content>

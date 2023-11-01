@@ -1,0 +1,9 @@
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Release\ResolveAssemblyReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Release\SissaPortal.Resources.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Release\SissaPortal.vbproj.GenerateResource.Cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\bin\x86\Release\SissaPortal.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\bin\x86\Release\SissaPortal.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\bin\x86\Release\SissaPortal.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Release\SissaPortal.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Release\SissaPortal.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Release\SissaPortal.pdb

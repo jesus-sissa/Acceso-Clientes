@@ -1,0 +1,319 @@
+﻿Imports System.Data.SqlClient
+Imports System.Data
+Imports SissaPortal.cn_Datos
+
+Public Class Cn_Portal
+
+#Region "Variables Privadas"
+
+    Private Session As HttpSessionState
+
+    Private Request As HttpRequest
+
+#End Region
+
+#Region "Constructores"
+
+    Public Sub New(ByVal MySession As HttpSessionState, ByVal MyRequest As HttpRequest)
+        Session = MySession
+        Request = MyRequest
+    End Sub
+
+#End Region
+
+#Region "Propiedades"
+
+    Public Property Id_Usuario() As Integer
+        Get
+            Dim res As Integer = 0
+            Integer.TryParse(Session("Id_Usuario"), res)
+            Return res
+        End Get
+        Set(ByVal value As Integer)
+            Session("Id_Usuario") = value
+        End Set
+    End Property
+
+    Public Property TipoContacto() As Short
+        Get
+            Dim res As Short = 0
+            Short.TryParse(Session("TipoContacto"), res)
+            Return res
+        End Get
+        Set(ByVal value As Short)
+            Session("TipoContacto") = value
+        End Set
+    End Property
+
+    Public Property Nombre() As String
+        Get
+            Return Session("Nombre")
+        End Get
+        Set(ByVal value As String)
+            Session("Nombre") = value
+        End Set
+    End Property
+
+    Public Property NombreUsuario() As String
+        Get
+            Return Session("NombreUsuario")
+        End Get
+        Set(ByVal value As String)
+            Session("NombreUsuario") = value
+        End Set
+    End Property
+
+    Public Property IdCliente() As Integer
+        Get
+            Dim res As Integer = 0
+            Integer.TryParse(Session("IdCliente"), res)
+            Return res
+        End Get
+        Set(ByVal value As Integer)
+            Session("IdCliente") = value
+        End Set
+    End Property
+
+    Public Property IdClienteP() As Integer
+        Get
+            Dim res As Integer
+            Integer.TryParse(Session("IdClienteP"), res)
+            Return res
+        End Get
+        Set(ByVal value As Integer)
+            Session("IdClienteP") = value
+        End Set
+    End Property
+
+    Public ReadOnly Property IpCliente() As String
+        Get
+            Return Request.UserHostAddress
+        End Get
+    End Property
+
+    Public ReadOnly Property EstacionCliente() As String
+        Get
+            Return Request.UserHostName
+        End Get
+    End Property
+
+#End Region
+
+#Region "Funciones Comunes"
+
+    Public Sub TrataEx(ByVal Ex As Exception)
+
+        Dim cmd As SqlCommand = CreaComando("Usr_Errores_Create")
+
+        CreaParametro(cmd, "@Id_Sucursal", 0)
+        CreaParametro(cmd, "@Id_Empleado", Id_Usuario)
+        CreaParametro(cmd, "@Clave_Modulo", "25")
+        CreaParametro(cmd, "@Version", "1.0.0.0")
+        CreaParametro(cmd, "@Estacion", EstacionCliente)
+        CreaParametro(cmd, "@EstacionIP", IpCliente)
+        CreaParametro(cmd, "@EstacionMAC", "")
+        CreaParametro(cmd, "@Donde", Ex.StackTrace.ToString())
+        If TypeOf (Ex) Is SqlException Then
+            CreaParametro(cmd, "@Numero_Error", CType(Ex, SqlException).ErrorCode)
+        Else
+            CreaParametro(cmd, "@Numero_Error", 0)
+        End If
+        CreaParametro(cmd, "@Descripcion", Ex.Message)
+
+        Try
+            EjecutaNonQuery(cmd)
+        Finally
+
+        End Try
+
+    End Sub
+
+#End Region
+
+#Region "Master"
+
+    Public Sub fn_LoadMenu(ByRef Mapa As Menu)
+        Mapa.Items.Clear()
+        Dim Sissa As New MenuItem("Sissa")
+
+        Dim cmd As SqlCommand = CreaComando("web_Usuarios_GetMenus")
+        CreaParametro(cmd, "@IdUsuario", Id_Usuario)
+        Dim tbl_Menus As Data.DataTable = EjecutaConsulta(cmd)
+
+        cmd = CreaComando("web_Usuarios_GetOpciones")
+        CreaParametro(cmd, "@IdUsuario", Id_Usuario)
+        Dim tbl_Opciones As Data.DataTable = EjecutaConsulta(cmd)
+
+        For Each r As DataRow In tbl_Menus.Rows
+            Dim i As New MenuItem(r("Descripcion"))
+            i.NavigateUrl = r("Enlace")
+
+            For Each o As DataRow In tbl_Opciones.Select("Id_Menu = " & r("Id_Menu"))
+                Dim ci As New MenuItem(o("Descripcion"))
+                ci.NavigateUrl = o("Enlace")
+                i.ChildItems.Add(ci)
+            Next
+            Sissa.ChildItems.Add(i)
+        Next
+
+        Mapa.Items.Add(Sissa)
+    End Sub
+
+#End Region
+
+#Region "Login"
+
+    Public Function fn_Login_Validar(ByVal Usuario As String) As DataRow
+
+        Try
+            Dim cmd As SqlCommand = CreaComando("web_Login_validar")
+            CreaParametro(cmd, "@Usuario", Usuario)
+
+            Dim tbl As DataTable = EjecutaConsulta(cmd)
+
+            If tbl.Rows.Count = 0 Then
+                Return Nothing
+            Else
+                Return tbl.Rows(0)
+            End If
+
+        Catch ex As Exception
+            TrataEx(ex)
+            Return Nothing
+        End Try
+
+    End Function
+
+#End Region
+
+#Region "ConsultaDepositos"
+
+    Public Function fn_ConsultaDepositos_Dotaciones(ByVal FechaDesde As Date, ByVal FechaHasta As Date, ByVal Status As String, ByVal Todos As Boolean)
+        Try
+            Dim cmd As SqlCommand = CreaComando("web_Servicios_Dotaciones")
+
+            CreaParametro(cmd, "@Id_ClienteP", IdClienteP)
+            CreaParametro(cmd, "@FechaDesde", FechaDesde)
+            CreaParametro(cmd, "@FechaHasta", FechaHasta)
+            If Not Todos Then CreaParametro(cmd, "@Status", Status)
+
+            Return EjecutaConsulta(cmd)
+        Catch ex As Exception
+            TrataEx(ex)
+            Return Nothing
+        End Try
+    End Function
+
+    Public Function fn_ConsultaDepositos_Fichas(ByVal IdServicio As Integer) As DataTable
+        Try
+            Dim cmd As SqlCommand = cn_Datos.CreaComando("web_Servicios_Fichas")
+            CreaParametro(cmd, "@Id_Servicio", IdServicio)
+
+            Return EjecutaConsulta(cmd)
+        Catch ex As Exception
+            TrataEx(ex)
+            Return Nothing
+        End Try
+    End Function
+
+    Public Function fn_ConsultaDepositos_Efectivo(ByVal Id_Ficha As String) As DataTable
+        Try
+            Dim cmd As SqlCommand = CreaComando("web_Servicios_Efectivo")
+            CreaParametro(cmd, "@Id_Ficha", Id_Ficha)
+
+            Return EjecutaConsulta(cmd)
+        Catch ex As Exception
+            TrataEx(ex)
+            Return Nothing
+        End Try
+        
+
+    End Function
+
+    Public Function fn_ConsultaDepositos_Cheques(ByVal Id_Ficha As Integer) As DataTable
+        Try
+            Dim cmd As SqlCommand = CreaComando("web_Sevicios_Cheques")
+            CreaParametro(cmd, "@Id_Ficha", Id_Ficha)
+
+            Return EjecutaConsulta(cmd)
+        Catch ex As Exception
+            TrataEx(ex)
+            Return Nothing
+        End Try
+    End Function
+
+    Public Function fn_ConsultaDepositos_Otros(ByVal Id_Ficha As Integer) As DataTable
+        Try
+            Dim cmd As SqlCommand = CreaComando("web_Servicios_Otros")
+            CreaParametro(cmd, "@Id_Ficha", Id_Ficha)
+
+            Return EjecutaConsulta(cmd)
+        Catch ex As Exception
+            TrataEx(ex)
+            Return Nothing
+        End Try
+
+    End Function
+
+#End Region
+
+<<<<<<< .mine
+#Region "Consulta Dotaciones"
+=======
+#Region "Fotos"
+    Public Function fn_Foto_Get(ByVal Id_Empleado As Integer) As DataRow
+        Try
+            Dim cmd As SqlCommand = CreaComando("Cat_EmpleadosI_Read")
+            CreaParametro(cmd, "@Id_Empleado", Id_Empleado)
+>>>>>>> .r243
+
+<<<<<<< .mine
+    Public Function fn_ConsulaDotacion_Dotaciones(ByVal FechaDesde As DateTime, ByVal FechaHasta As DateTime, ByVal Id_Moneda As Integer, ByVal Status As String) As DataTable
+        Try
+            Dim cmd As SqlCommand = CreaComando("web_Dotaciones_Dotaciones")
+            CreaParametro(cmd, "@FechaDesde", FechaDesde)
+            CreaParametro(cmd, "@FechaHasta", FechaHasta)
+            CreaParametro(cmd, "@Id_Moneda", Id_Moneda)
+            CreaParametro(cmd, "@Status", Status)
+
+            Return EjecutaConsulta(cmd)
+        Catch ex As Exception
+            TrataEx(ex)
+            Return Nothing
+        End Try
+    End Function
+
+#End Region
+
+
+=======
+            Dim tbl As DataTable = EjecutaConsulta(cmd)
+
+            If tbl.Rows.Count = 0 Then Return Nothing
+            Return tbl.Rows(0)
+        Catch ex As Exception
+            TrataEx(ex)
+            Return Nothing
+        End Try
+    End Function
+#End Region
+
+#Region "Firma"
+    Public Function fn_Firma_Get(ByVal Id_Empleado As Integer) As DataRow
+        Try
+            Dim cmd As SqlCommand = CreaComando("Cat_EmpleadosI_Read")
+            CreaParametro(cmd, "@Id_Empleado", Id_Empleado)
+
+            Dim tbl As DataTable = EjecutaConsulta(cmd)
+
+            If tbl.Rows.Count = 0 Then Return Nothing
+            Return tbl.Rows(0)
+        Catch ex As Exception
+            TrataEx(ex)
+            Return Nothing
+        End Try
+    End Function
+#End Region
+
+>>>>>>> .r243
+End Class

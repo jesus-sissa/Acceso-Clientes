@@ -1,0 +1,43 @@
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.Master" CodeBehind="Descargas.aspx.vb" Inherits="SissaPortal.Descargas" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table width="100%">
+        <tr>
+            <td>
+                <fieldset class="fieldsetFijo">
+                    <legend>Documentos Disponibles</legend>
+                    <asp:GridView ID="gv_Lista" runat="server" DataKeyNames="Id_Doc" CellPadding="10"
+                        ForeColor="#333333" GridLines="Horizontal" BorderWidth="3px" AutoGenerateColumns="False"
+                        CssClass="gridSISSA" CellSpacing="1" Width="100%" AllowPaging="True" 
+                        PageSize="15">
+                        <RowStyle BackColor="White" ForeColor="#333333" />
+                        <Columns>
+
+                            <asp:ButtonField DataTextField="Nombre_Doc" HeaderText="Nombre" >
+                            <HeaderStyle HorizontalAlign="Left" Width="30%" />
+                            <ItemStyle HorizontalAlign="Left" Width="30%" />
+                            </asp:ButtonField>
+                            <asp:BoundField DataField="Descripcion_Doc" HeaderText="Descripcion" >
+                            <HeaderStyle HorizontalAlign="Left" Width="60%" />
+                            <ItemStyle HorizontalAlign="Left" Width="60%" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="FechaActualizacion" 
+                                HeaderText="Fecha de Actualizacion" >
+
+                            <HeaderStyle HorizontalAlign="Center" Width="10%" />
+                            <ItemStyle HorizontalAlign="Center" Width="10%" />
+                            </asp:BoundField>
+
+                        </Columns>
+                        <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                        <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                            Font-Underline="False" />
+                        <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                    </asp:GridView>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+</asp:Content>

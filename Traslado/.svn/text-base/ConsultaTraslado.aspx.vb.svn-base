@@ -1,0 +1,164 @@
+﻿Partial Public Class ConsultaTraslado
+    Inherits BasePage
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If IsPostBack Then Exit Sub
+
+        gv_Lista.DataSource = fn_MostrarSiempre(New dsConsultaTraslado.tablaPuntosDataTable)
+        gv_Lista.DataBind()
+
+        gv_Remisiones.DataSource = fn_MostrarSiempre(New dsConsultaTraslado.tablaRemisionesDataTable)
+        gv_Remisiones.DataBind()
+
+        gvMonedas.DataSource = fn_MostrarSiempre(New dsConsultaTraslado.TablaMonedasDataTable)
+        gvMonedas.DataBind()
+
+        gvEnvases.DataSource = fn_MostrarSiempre(New dsConsultaTraslado.TablaEnvasesDataTable)
+        gvEnvases.DataBind()
+
+        Dim tablaClientes As DataTable = cn.fn_AutorizarDotaciones_GetClientes()
+
+        If tablaClientes Is Nothing Then
+            fn_Alerta("No se puede continuar debido a un error.")
+            Exit Sub
+        End If
+
+        fn_LlenarDropDown(ddl_Clientes, tablaClientes)
+    End Sub
+
+    Protected Sub gv_Lista_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles gv_Lista.SelectedIndexChanged
+        ViewState("RutaIndice") = gv_Lista.SelectedIndex
+        ViewState("RutaPagina") = gv_Lista.PageIndex
+        ActualizarDetalles()
+    End Sub
+
+    Protected Sub ActualizarDetalles()
+        pnl_Tripulacion.Visible = True
+
+        If gv_Lista.SelectedIndex = -1 Then
+            gv_Remisiones.DataSource = fn_MostrarSiempre(New dsConsultaTraslado.tablaRemisionesDataTable)
+            gv_Remisiones.DataBind()
+
+            pnl_Tripulacion.Visible = False
+            Exit Sub
+        End If
+
+        Dim IdPunto As Integer = gv_Lista.SelectedDataKey.Value
+        
+        Dim tbl As DataTable = cn.fn_ValidacionTripulacion_GetNombres(IdPunto)
+
+        If tbl.Rows.Count = 0 Then
+            fn_Alerta("No se puede mostrar la tripulación")
+            pnl_Tripulacion.Visible = False
+            Exit Sub
+        End If
+
+        lbl_Operador.Text = tbl.Rows(0)("Operador")
+        lbl_OperadorClave.Text = tbl.Rows(0)("ClaveOperador")
+        lbl_Cajero.Text = tbl.Rows(0)("Cajero")
+        lbl_CajeroClave.Text = tbl.Rows(0)("ClaveCajero")
+
+        img_Operador.ImageUrl = "~/Traslado/Foto.aspx?Id=" & tbl.Rows(0)("Id_Operador")
+        img_OperadorFirma.ImageUrl = "~/Traslado/Firma.aspx?Id=" & tbl.Rows(0)("Id_Operador")
+        img_Cajero.ImageUrl = "~/Traslado/Foto.aspx?Id=" & tbl.Rows(0)("Id_Cajero")
+        img_CajeroFirma.ImageUrl = "~/Traslado/Firma.aspx?Id=" & tbl.Rows(0)("Id_Cajero")
+
+        dl_Custodios.DataSource = cn.fn_ValidacionTripulacion_GetCustodios(IdPunto)
+        dl_Custodios.DataBind()
+
+        Dim tblRemisiones As DataTable = cn.fn_ConsultaTraslado_GetRemisiones(IdPunto)
+
+        Tabla("Remisiones") = tblRemisiones
+        gv_Remisiones.DataSource = fn_MostrarSiempre(tblRemisiones)
+        gv_Remisiones.DataBind()
+    End Sub
+
+    Protected Sub btn_Mostrar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Mostrar.Click
+        Dim FechaInicial As Date
+        Dim FechaFinal As Date
+
+        If (Not Date.TryParse(txt_FechaInicial.Text, FechaInicial)) Then
+            fn_Alerta("Debe seleccionar una fecha inicial valida.")
+            Exit Sub
+        End If
+
+        If (Not Date.TryParse(txt_FechaFinal.Text, FechaFinal)) Then
+            fn_Alerta("Debe seleccionar una fecha final valida.")
+            Exit Sub
+        End If
+
+        If FechaInicial > Today() Or FechaFinal > Today() Then
+            fn_Alerta("Debe seleccionar una fecha menor o igual que hoy.")
+            Exit Sub
+        End If
+
+        If FechaInicial > FechaFinal Then
+            fn_Alerta("La fecha final no puede exceder la fecha inicial.")
+            Exit Sub
+        End If
+
+        If ddl_Clientes.SelectedValue = 0 Then
+            fn_Alerta("Debe seleccionar un cliente.")
+            Exit Sub
+        End If
+
+        Dim Tbl As DataTable = cn.fn_ConsultaTraslado_GetPuntos(FechaInicial, FechaFinal, ddl_Clientes.SelectedValue)
+        Tabla("Lista") = Tbl
+        gv_Lista.SelectedIndex = -1
+
+        pnl_Tripulacion.Visible = False
+
+        gv_Lista.DataSource = fn_MostrarSiempre(Tbl)
+        gv_Lista.DataBind()
+    End Sub
+
+    Protected Sub gv_Lista_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Lista.PageIndexChanging
+        Dim Tbl As DataTable = Tabla("Lista")
+        Dim RutaIndice As Integer = ViewState("RutaIndice")
+        Dim RutaPagina As Integer = ViewState("RutaPagina")
+
+        If RutaPagina = e.NewPageIndex Then
+            gv_Lista.SelectedIndex = RutaIndice
+        Else
+            gv_Lista.SelectedIndex = -1
+        End If
+
+        gv_Lista.PageIndex = e.NewPageIndex
+        gv_Lista.DataSource = fn_MostrarSiempre(Tbl)
+        gv_Lista.DataBind()
+
+        ActualizarDetalles()
+    End Sub
+
+    Protected Sub gv_Remisiones_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles gv_Remisiones.RowCommand
+        If e.CommandName = "Remision" Then
+
+            Dim Indice As Integer = e.CommandArgument
+            Dim Id_Remision As Integer = gv_Remisiones.DataKeys(Indice).Value
+            gv_Remisiones.SelectedIndex = Indice
+
+            Dim TablaMonedas As DataTable = cn.fn_ConsultaTraslado_GetMonedas(Id_Remision)
+            Tabla("TablaMonedas") = TablaMonedas
+
+            gvMonedas.DataSource = fn_MostrarSiempre(TablaMonedas)
+            gvMonedas.DataBind()
+
+            Dim TablaEnvases As DataTable = cn.fn_ConsultaTraslado_GetEnvases(Id_Remision)
+            Tabla("TablaEnvases") = TablaEnvases
+
+            gvEnvases.DataSource = fn_MostrarSiempre(TablaEnvases)
+            gvEnvases.DataBind()
+
+        End If
+    End Sub
+
+    Protected Sub gv_Remisiones_DataBinding(ByVal sender As Object, ByVal e As EventArgs) Handles gv_Remisiones.DataBinding
+        gv_Remisiones.SelectedIndex = -1
+
+        gvEnvases.DataSource = fn_MostrarSiempre(New dsConsultaTraslado.TablaEnvasesDataTable)
+        gvEnvases.DataBind()
+
+        gvMonedas.DataSource = fn_MostrarSiempre(New dsConsultaTraslado.TablaMonedasDataTable)
+        gvMonedas.DataBind()
+    End Sub
+End Class

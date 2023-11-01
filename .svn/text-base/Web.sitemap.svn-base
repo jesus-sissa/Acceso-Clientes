@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url=""  title="Sissa"  description="Panel de Navegacion" roles="*">
+      <siteMapNode url="" title="Proceso"  description="Conjunto de Opciones de Proceso" >
+          <siteMapNode url="~/Proceso/ConsultaDepositos.aspx" title="Consulta de Depositos" description="Consulta de Depositos" />
+		  <siteMapNode url="~/Proceso/SolicitudDotaciones.aspx" title="Solicitud de Dotaciones" description="Solicitud de Dotaciones" />
+          <siteMapNode url="~/Proceso/ConsultaDiferencias.aspx" title="Consulta de Diferencias" description="Consulta de Diferencias" />
+		  <siteMapNode url="~/Proceso/AutorizarDotaciones.aspx" title="Autorizar Dotaciones" description="Autorizar Dotaciones" />
+          <siteMapNode url="~/Proceso/ConsultaDotaciones.aspx" title="Consulta de Dotaciones" description="Consulta de Dotaciones" />
+          <siteMapNode url="~/Proceso/RastreoRemisiones.aspx" title="Rastreo de Remisiones" description="Rastreo de Remisiones" />
+        </siteMapNode>
+      <siteMapNode url="" title="Traslado"  description="Conjunto de Opciones de Traslado de Valores" roles="Administrador;ClienteTraslado" >
+		  <siteMapNode url="~/Traslado/RastreoRemisiones.aspx" title="Rastreo de Remisiones" description="Rastreo de Remisiones" />
+		  <siteMapNode url="~/Traslado/ReportarAnomalias.aspx" title="Reportar Anomalias" description="Reportar Anomalias con el Servicio" />
+		  <siteMapNode url="~/Traslado/SolicitudMateriales.aspx" title="Solicitud de Materiales" description="Solicitud de Materiales" />
+		  <siteMapNode url="~/Traslado/SolicitudServicios.aspx" title="Solicitud de Servicios" description="Solicitud de Servicios" />
+		  <siteMapNode url="~/Traslado/ValidacionTripulacion.aspx" title="Validación de Tripulación" description="Validación de Tripulación" />
+		  <siteMapNode url="~/Traslado/ConsultaMateriales.aspx" title="Consulta de Materiales" description="Consulta de Materiales" />
+		  <siteMapNode url="~/Traslado/ConsultaTraslado.aspx" title="Consulta de Traslados" description="Consulta de Traslados" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

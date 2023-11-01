@@ -1,0 +1,112 @@
+<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.Master"
+    CodeBehind="ConsultaMateriales.aspx.vb" Inherits="SissaPortal.ConsultaMateriales" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table width="100%">
+        <tr>
+            <td colspan="2">
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td>
+                                Fecha Inicial:
+                            </td>
+                            <td>
+                                <asp:TextBox ID="txt_FInicial" runat="server" CssClass="txt_Fecha" />
+                                <asp:CalendarExtender ID="txt_FInicial_CalendarExtender" runat="server" Enabled="True"
+                                    TargetControlID="txt_FInicial" Format="dd/MM/yyyy">
+                                </asp:CalendarExtender>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Fecha Final:
+                            </td>
+                            <td>
+                                <asp:TextBox ID="txt_FFinal" runat="server" CssClass="txt_Fecha" />
+                                <asp:CalendarExtender ID="txt_FFinal_CalendarExtender" runat="server" Enabled="True"
+                                    TargetControlID="txt_FFinal" Format="dd/MM/yyyy">
+                                </asp:CalendarExtender>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td>
+                                <asp:Button ID="btn_Mostar" runat="server" Text="Mostrar" />
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <fieldset class="medioFieldset">
+                    <legend>Consulta Materiales</legend>
+                    <asp:GridView ID="gv_Consulta" runat="server" AutoGenerateColumns="False" CellPadding="4"
+                        ForeColor="#333333" Width="100%" GridLines="Horizontal" BorderWidth="3px" CssClass="gridSISSA"
+                        AllowPaging="True" PageSize="15" DataKeyNames="Folio,Status">
+                        <Columns>
+                            <asp:ButtonField CommandName="Cancelar" 
+                                AccessibleHeaderText="Cancelar" ButtonType="Image" 
+                                ImageUrl="~/Imagenes/Eliminar16x16.png" Text="Cancelar" >
+                            <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                            <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                            </asp:ButtonField>
+                            <asp:ButtonField CommandName="Folio" DataTextField="Folio" HeaderText="Folio" >
+                            <HeaderStyle HorizontalAlign="Right" VerticalAlign="Middle" Width="50px" />
+                            <ItemStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                            </asp:ButtonField>
+                            <asp:BoundField DataField="FechaSolicita" HeaderText="Fecha Solicita" >
+                            <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" Width="100px" />
+                            <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="HoraSolicita" HeaderText="Hora Solicita" />
+                            <asp:BoundField DataField="FechaEntrega" HeaderText="Fecha de Entrega" />
+                            <asp:BoundField DataField="Cliente" HeaderText="Cliente" />
+                            <asp:BoundField DataField="UsuarioCaptura" HeaderText="Usuario Captura" />
+                            <asp:BoundField DataField="Status" HeaderText="Status" />
+                        </Columns>
+                        <RowStyle BackColor="White" ForeColor="#333333" />
+                        <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                        <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                            Font-Underline="False" />
+                        <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                    </asp:GridView>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <fieldset class="medioFieldset">
+                    <legend>Detalle</legend>
+                    <asp:GridView ID="gv_Detalle" runat="server" AutoGenerateColumns="False" CellPadding="4"
+                        ForeColor="#333333" GridLines="Horizontal" BorderWidth="3px" CssClass="gridSISSAPequeño"
+                        AllowPaging="True" PageSize="15">
+                        <RowStyle BackColor="White" ForeColor="#333333" />
+                        <Columns>
+                            <asp:BoundField DataField="Material" HeaderText="Material" >
+                            <HeaderStyle Width="300px" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="Cantidad" HeaderText="Cantidad" >
+                            <HeaderStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                            <ItemStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                            </asp:BoundField>
+                        </Columns>
+                        <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                        <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                            Font-Underline="False" />
+                        <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                    </asp:GridView>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+</asp:Content>

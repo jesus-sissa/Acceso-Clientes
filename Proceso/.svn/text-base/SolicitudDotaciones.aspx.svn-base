@@ -1,0 +1,150 @@
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.Master"
+    CodeBehind="SolicitudDotaciones.aspx.vb" Inherits="SissaPortal.SolicitudDotaciones" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <fieldset>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    Fecha de Entrega:
+                </td>
+                <td>
+                    <asp:TextBox ID="txt_FechaEntrega" runat="server" CssClass="txt_Fecha" MaxLength="10" />
+                    <asp:CalendarExtender ID="txt_FechaEntrega_CalendarExtender" runat="server" Enabled="True"
+                        TargetControlID="txt_FechaEntrega" Format="dd/MM/yyyy">
+                    </asp:CalendarExtender>
+                </td>
+                <td>
+                    Moneda:
+                </td>
+                <td>
+                    <asp:DropDownList ID="ddl_Moneda" runat="server" DataTextField="Nombre" 
+                        DataValueField="Id_Moneda" AutoPostBack="True" Width="100px">
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Caja Bancaria
+                </td>
+                <td colspan="3">
+                    <asp:DropDownList ID="ddl_CajaBancaria" runat="server" 
+                        DataTextField="Nombre_Comercial" DataValueField="Id_CajaBancaria" 
+                        AutoPostBack="True" Width="400px">
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Cliente
+                </td>
+                <td colspan="3">
+                    <asp:DropDownList ID="ddl_Cliente" runat="server" 
+                        DataTextField="Nombre_Comercial" DataValueField="Id_Cliente" Width="400px">
+                    </asp:DropDownList>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Denominaciones</legend>
+        <table width="100%">
+            <tr>
+                <td colspan="2">
+                    
+        Importe Teorico&nbsp;<asp:TextBox ID="txt_Total" runat="server"></asp:TextBox>
+        <asp:FilteredTextBoxExtender ID="txt_Total_FilteredTextBoxExtender" 
+            runat="server" Enabled="True" TargetControlID="txt_Total" 
+            ValidChars="1234567890.">
+        </asp:FilteredTextBoxExtender>
+        <asp:Image ID="ImgValidado" runat="server" 
+            ImageUrl="~/Imagenes/Eliminar16x16.png" />
+                    
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                <b>Billetes</b>
+                    <asp:GridView ID="gv_Billetes" runat="server" CellPadding="10" ForeColor="#333333"
+                        GridLines="Horizontal" BorderWidth="3px" AutoGenerateColumns="False" 
+                        CssClass="gridSISSA" CellSpacing="1" Width="200px"
+                        DataKeyNames="Id_Denominacion">
+                        <Columns>
+                            <asp:BoundField DataField="Denominacion" HeaderText="Denominacion" 
+                                ReadOnly="True" >
+                                <ItemStyle Width="30" />
+                            </asp:BoundField>
+                            <asp:TemplateField>
+                                <ItemTemplate>
+                                    <asp:TextBox ID="txt_Cantidad" Width="50" runat="server" ></asp:TextBox>
+                                    <asp:FilteredTextBoxExtender ID="txt_Cantidad_FilteredTextBoxExtender" 
+                                        runat="server" Enabled="True" TargetControlID="txt_Cantidad" 
+                                        ValidChars="1234567890">
+                                    </asp:FilteredTextBoxExtender>
+                                </ItemTemplate>
+                            </asp:TemplateField>
+                            <asp:BoundField DataField="Total" HeaderText="Total" ReadOnly="True" 
+                                DataFormatString="{0:n2}" >
+                            <ItemStyle HorizontalAlign="Right" Width="40" />
+                            </asp:BoundField>
+                        </Columns>
+                        <RowStyle BackColor="White" ForeColor="#333333" />
+                        <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                        <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                            Font-Underline="False" />
+                        <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                    </asp:GridView>
+                </td>
+                <td valign="top">
+                <b>Monedas</b>
+                    <asp:GridView ID="gv_Monedas" runat="server" CellPadding="10" ForeColor="#333333"
+                        GridLines="Horizontal" BorderWidth="3px" AutoGenerateColumns="False" 
+                        CssClass="gridSISSA" CellSpacing="1" Width="200px"
+                        DataKeyNames="Id_Denominacion">
+                        <Columns>
+                            <asp:BoundField DataField="Denominacion" HeaderText="Denominacion" ReadOnly="True" >
+                            <ItemStyle Width="30" />
+                            </asp:BoundField>
+                            <asp:TemplateField>
+                                <ItemTemplate>
+                                    <asp:TextBox ID="txt_Cantidad" Width="50" runat="server" ></asp:TextBox>
+                                    <asp:FilteredTextBoxExtender ID="txt_Cantidad_FilteredTextBoxExtender" 
+                                        runat="server" Enabled="True" TargetControlID="txt_Cantidad" 
+                                        ValidChars="1234567890">
+                                    </asp:FilteredTextBoxExtender>
+                                </ItemTemplate>
+                            </asp:TemplateField>
+                            <asp:BoundField DataField="Total" HeaderText="Total" ReadOnly="True" 
+                                DataFormatString="{0:n2}" >
+                            <ItemStyle HorizontalAlign="Right" Width="40" />
+                            </asp:BoundField>
+                        </Columns>
+                        <RowStyle BackColor="White" ForeColor="#333333" />
+                        <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                        <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                            Font-Underline="False" />
+                        <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                    </asp:GridView>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <asp:Label ID="lbl_Total" runat="server" Text="Importe Real: $0.00 "></asp:Label>
+        <br />
+        <asp:Button ID="btn_Actualizar" runat="server" Text="Comprobar" />
+        <br />
+        <br />
+        Comentarios Adicionales:
+        <br />
+        <asp:TextBox ID="txt_Comentarios" TextMode="MultiLine" Width="100%" Height="50px" runat="server"></asp:TextBox>
+        <br />
+        <asp:Button ID="btn_Guardar" runat="server" Text="Guardar" Enabled="False" />
+    </fieldset>
+    
+    
+</asp:Content>

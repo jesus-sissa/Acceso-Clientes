@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsConsultaTraslado" targetNamespace="http://tempuri.org/dsConsultaTraslado.xsd" xmlns:mstns="http://tempuri.org/dsConsultaTraslado.xsd" xmlns="http://tempuri.org/dsConsultaTraslado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Sissa" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Sissa (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SissaPortal.My.MySettings.GlobalReference.Default.Sissa" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsConsultaTraslado" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsConsultaTraslado" msprop:Generator_DataSetName="dsConsultaTraslado" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tablaPuntos" msprop:Generator_UserTableName="tablaPuntos" msprop:Generator_RowDeletedName="tablaPuntosRowDeleted" msprop:Generator_RowChangedName="tablaPuntosRowChanged" msprop:Generator_RowClassName="tablaPuntosRow" msprop:Generator_RowChangingName="tablaPuntosRowChanging" msprop:Generator_RowEvArgName="tablaPuntosRowChangeEvent" msprop:Generator_RowEvHandlerName="tablaPuntosRowChangeEventHandler" msprop:Generator_TableClassName="tablaPuntosDataTable" msprop:Generator_TableVarName="tabletablaPuntos" msprop:Generator_RowDeletingName="tablaPuntosRowDeleting" msprop:Generator_TablePropName="tablaPuntos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_Punto" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Id_Punto" msprop:Generator_ColumnVarNameInTable="columnId_Punto" msprop:Generator_ColumnPropNameInRow="Id_Punto" msprop:Generator_ColumnPropNameInTable="Id_PuntoColumn" type="xs:decimal" />
+              <xs:element name="Fecha" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unidad" msprop:Generator_UserColumnName="Unidad" msprop:Generator_ColumnVarNameInTable="columnUnidad" msprop:Generator_ColumnPropNameInRow="Unidad" msprop:Generator_ColumnPropNameInTable="UnidadColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Origen" msprop:Generator_UserColumnName="Origen" msprop:Generator_ColumnVarNameInTable="columnOrigen" msprop:Generator_ColumnPropNameInRow="Origen" msprop:Generator_ColumnPropNameInTable="OrigenColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Destino" msprop:Generator_UserColumnName="Destino" msprop:Generator_ColumnVarNameInTable="columnDestino" msprop:Generator_ColumnPropNameInRow="Destino" msprop:Generator_ColumnPropNameInTable="DestinoColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tablaRemisiones" msprop:Generator_UserTableName="tablaRemisiones" msprop:Generator_RowDeletedName="tablaRemisionesRowDeleted" msprop:Generator_RowChangedName="tablaRemisionesRowChanged" msprop:Generator_RowClassName="tablaRemisionesRow" msprop:Generator_RowChangingName="tablaRemisionesRowChanging" msprop:Generator_RowEvArgName="tablaRemisionesRowChangeEvent" msprop:Generator_RowEvHandlerName="tablaRemisionesRowChangeEventHandler" msprop:Generator_TableClassName="tablaRemisionesDataTable" msprop:Generator_TableVarName="tabletablaRemisiones" msprop:Generator_RowDeletingName="tablaRemisionesRowDeleting" msprop:Generator_TablePropName="tablaRemisiones">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Remision" msprop:Generator_UserColumnName="Remision" msprop:Generator_ColumnPropNameInRow="Remision" msprop:Generator_ColumnVarNameInTable="columnRemision" msprop:Generator_ColumnPropNameInTable="RemisionColumn" type="xs:decimal" />
+              <xs:element name="Hora" msprop:Generator_UserColumnName="Hora" msprop:Generator_ColumnPropNameInRow="Hora" msprop:Generator_ColumnVarNameInTable="columnHora" msprop:Generator_ColumnPropNameInTable="HoraColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Importe" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Importe" msprop:Generator_ColumnPropNameInRow="Importe" msprop:Generator_ColumnVarNameInTable="columnImporte" msprop:Generator_ColumnPropNameInTable="ImporteColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Envases" msprop:Generator_UserColumnName="Envases" msprop:Generator_ColumnPropNameInRow="Envases" msprop:Generator_ColumnVarNameInTable="columnEnvases" msprop:Generator_ColumnPropNameInTable="EnvasesColumn" type="xs:decimal" />
+              <xs:element name="EnvasesSN" msprop:Generator_UserColumnName="EnvasesSN" msprop:Generator_ColumnPropNameInRow="EnvasesSN" msprop:Generator_ColumnVarNameInTable="columnEnvasesSN" msprop:Generator_ColumnPropNameInTable="EnvasesSNColumn" type="xs:decimal" />
+              <xs:element name="Id_Remision" msprop:Generator_UserColumnName="Id_Remision" msprop:Generator_ColumnVarNameInTable="columnId_Remision" msprop:Generator_ColumnPropNameInRow="Id_Remision" msprop:Generator_ColumnPropNameInTable="Id_RemisionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TablaMonedas" msprop:Generator_UserTableName="TablaMonedas" msprop:Generator_RowDeletedName="TablaMonedasRowDeleted" msprop:Generator_TableClassName="TablaMonedasDataTable" msprop:Generator_RowChangedName="TablaMonedasRowChanged" msprop:Generator_RowClassName="TablaMonedasRow" msprop:Generator_RowChangingName="TablaMonedasRowChanging" msprop:Generator_RowEvArgName="TablaMonedasRowChangeEvent" msprop:Generator_RowEvHandlerName="TablaMonedasRowChangeEventHandler" msprop:Generator_TablePropName="TablaMonedas" msprop:Generator_TableVarName="tableTablaMonedas" msprop:Generator_RowDeletingName="TablaMonedasRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_Moneda" msprop:Generator_UserColumnName="Id_Moneda" msprop:Generator_ColumnPropNameInRow="Id_Moneda" msprop:Generator_ColumnVarNameInTable="columnId_Moneda" msprop:Generator_ColumnPropNameInTable="Id_MonedaColumn" type="xs:decimal" />
+              <xs:element name="Moneda" msprop:Generator_UserColumnName="Moneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Efectivo" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Efectivo" msprop:Generator_ColumnPropNameInRow="Efectivo" msprop:Generator_ColumnVarNameInTable="columnEfectivo" msprop:Generator_ColumnPropNameInTable="EfectivoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Documentos" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Documentos" msprop:Generator_ColumnPropNameInRow="Documentos" msprop:Generator_ColumnVarNameInTable="columnDocumentos" msprop:Generator_ColumnPropNameInTable="DocumentosColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tipo_x0020_Cambio" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Tipo Cambio" msprop:Generator_ColumnPropNameInRow="Tipo_Cambio" msprop:Generator_ColumnVarNameInTable="columnTipo_Cambio" msprop:Generator_ColumnPropNameInTable="Tipo_CambioColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TablaEnvases" msprop:Generator_UserTableName="TablaEnvases" msprop:Generator_RowDeletedName="TablaEnvasesRowDeleted" msprop:Generator_TableClassName="TablaEnvasesDataTable" msprop:Generator_RowChangedName="TablaEnvasesRowChanged" msprop:Generator_RowClassName="TablaEnvasesRow" msprop:Generator_RowChangingName="TablaEnvasesRowChanging" msprop:Generator_RowEvArgName="TablaEnvasesRowChangeEvent" msprop:Generator_RowEvHandlerName="TablaEnvasesRowChangeEventHandler" msprop:Generator_TablePropName="TablaEnvases" msprop:Generator_TableVarName="tableTablaEnvases" msprop:Generator_RowDeletingName="TablaEnvasesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_Envase" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Id_Envase" msprop:Generator_ColumnPropNameInRow="Id_Envase" msprop:Generator_ColumnVarNameInTable="columnId_Envase" msprop:Generator_ColumnPropNameInTable="Id_EnvaseColumn" type="xs:decimal" />
+              <xs:element name="Tipo_x0020_Envase" msprop:Generator_UserColumnName="Tipo Envase" msprop:Generator_ColumnPropNameInRow="Tipo_Envase" msprop:Generator_ColumnVarNameInTable="columnTipo_Envase" msprop:Generator_ColumnPropNameInTable="Tipo_EnvaseColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Numero" msprop:Generator_UserColumnName="Numero" msprop:Generator_ColumnPropNameInRow="Numero" msprop:Generator_ColumnVarNameInTable="columnNumero" msprop:Generator_ColumnPropNameInTable="NumeroColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDTE" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="IDTE" msprop:Generator_ColumnPropNameInRow="IDTE" msprop:Generator_ColumnVarNameInTable="columnIDTE" msprop:Generator_ColumnPropNameInTable="IDTEColumn" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tablaPuntos" />
+      <xs:field xpath="mstns:Id_Punto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

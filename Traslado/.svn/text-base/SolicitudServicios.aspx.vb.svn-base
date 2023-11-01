@@ -1,0 +1,153 @@
+﻿Public Partial Class SolicitudServicios
+    Inherits BasePage
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        If IsPostBack Then Exit Sub
+
+        Dim tbl As DataTable = cn.fn_SolicitudServicios_GetServicios()
+
+        If tbl Is Nothing Then
+            fn_Alerta("No se pudieron obtener los servicios")
+            Exit Sub
+        End If
+
+        If tbl.Rows.Count = 0 Then
+            fn_Alerta("No se pudieron obtener los servicios")
+            Exit Sub
+        End If
+
+        fn_LlenarDropDown(ddl_Servicio, tbl.Copy())
+
+        Dim Horas As DataTable = cn.GetHoras()
+
+        fn_LlenarDropDown(ddl_A, Horas.Copy())
+
+        fn_LlenarDropDown(ddl_De, Horas.Copy())
+
+        fn_LlenarDropDown(ddl_AD, Horas.Copy())
+
+        fn_LlenarDropDown(ddl_DeD, Horas.Copy())
+
+        Dim DsTablas As DataSet = cn.fn_SolicitudServicios_GetOrigenDestino()
+
+        If DsTablas Is Nothing Then
+            fn_Alerta("No se pudieron obtener los Clientes")
+            Exit Sub
+        End If
+
+        If DsTablas.Tables.Count = 0 Then
+            fn_Alerta("No se pudieron obtener los Clientes")
+            Exit Sub
+        End If
+
+        If DsTablas.Tables("TblOrigen") Is Nothing Then
+            fn_Alerta("No se pudieron obtener los Clientes")
+            Exit Sub
+        End If
+
+        If DsTablas.Tables("TblOrigen") Is Nothing Then
+            fn_Alerta("No se pudieron obtener los Clientes")
+            Exit Sub
+        End If
+
+        fn_LlenarDropDown(ddl_Origen, DsTablas.Tables("TblOrigen").Copy())
+
+        fn_LlenarDropDown(ddl_Destino, DsTablas.Tables("TblDestino").Copy())
+
+    End Sub
+
+    Protected Function fn_Validar() As Boolean
+        If ddl_Servicio.SelectedValue = 0 Then
+            fn_Alerta("Debe seleccionar un servicio")
+            Return False
+        End If
+
+        If txt_Fecha.Text = "" Then
+            fn_Alerta("Debe seleccionar una fecha.")
+            Return False
+        End If
+
+        Dim Fecha As Date
+
+        If Not Date.TryParse(txt_Fecha.Text, Fecha) Then
+            fn_Alerta("Debe Seleccionar Una Fecha Valida.")
+            Exit Function
+        End If
+
+        If Fecha.Date < Today.Date Then
+            fn_Alerta("Debe Seleccionar Una Fecha Valida.")
+            Exit Function
+        End If
+
+        If ddl_Origen.SelectedValue = 0 Then
+            fn_Alerta("Debe seleccionar un origen.")
+            Return False
+        End If
+
+        If ddl_De.SelectedItem.Text = "" Then
+            fn_Alerta("Debe seleccionar una hora de recoleccion mínima.")
+            Return False
+        End If
+
+        If ddl_A.SelectedItem.Text = "" Then
+            fn_Alerta("Debe seleccionar una hora de recoleccion máxima.")
+            Return False
+        End If
+
+        If CDate(ddl_De.Text) >= CDate(ddl_A.Text) Then
+            fn_Alerta("Debe Capturar una hora de recoleccion valida")
+            Exit Function
+        End If
+
+        If ddl_Destino.SelectedValue = 0 Then
+            fn_Alerta("Debe seleccionar un destino.")
+            Return False
+        End If
+
+        If ddl_DeD.SelectedItem.Text = "" Then
+            fn_Alerta("Debe seleccionar una hora de entrega mínima.")
+            Return False
+        End If
+
+        If ddl_AD.SelectedItem.Text = "" Then
+            fn_Alerta("Debe seleccionar una hora de entrega máxima.")
+            Return False
+        End If
+
+        If ddl_Origen.SelectedValue = ddl_Destino.SelectedValue Then
+            fn_Alerta("El origen y el destino deben ser diferentes.")
+            Return False
+        End If
+
+        If CDate(ddl_DeD.Text) >= CDate(ddl_AD.Text) Then
+            fn_Alerta("Debe Capturar una hora de entrega valida")
+            Exit Function
+        End If
+
+        Return True
+
+    End Function
+
+    Protected Sub btn_Solicitar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Solicitar.Click
+
+        If Not fn_Validar() Then Exit Sub
+
+        Dim Fecha As Date = CDate(txt_Fecha.Text)
+
+        Dim HoraRec As String = CDate(ddl_De.Text).ToString("HH:mm") & "/" & CDate(ddl_A.Text).ToString("HH:mm")
+
+        Dim HoraEnt As String = CDate(ddl_DeD.Text).ToString("HH:mm") & "/" & CDate(ddl_AD.Text).ToString("HH:mm")
+
+        Dim resultado As Boolean = cn.fn_SolicitudServicios_Save(Fecha, ddl_Servicio.SelectedValue, _
+                                                                 ddl_Origen.SelectedValue, HoraRec, _
+                                                                 ddl_Destino.SelectedValue, HoraEnt)
+
+        If resultado Then
+            fn_Alerta("La solicitud se ha realizado correctamente")
+        Else
+            fn_Alerta("Ha ocurrido un error al intentar guardar su solicitud")
+        End If
+
+    End Sub
+End Class

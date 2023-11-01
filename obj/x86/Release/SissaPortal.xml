@@ -1,0 +1,1879 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SissaPortal
+</name>
+</assembly>
+<members>
+<member name="F:SissaPortal.RastreoRemisiones.txt_Remision">
+	<summary>
+Control txt_Remision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.txt_Remision_TextBoxWatermarkExtender">
+	<summary>
+Control txt_Remision_TextBoxWatermarkExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.btn_Buscar">
+	<summary>
+Control btn_Buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.tc_Resultados">
+	<summary>
+Control tc_Resultados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.tp_Remisiones">
+	<summary>
+Control tp_Remisiones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.txt_NumeroRemision">
+	<summary>
+Control txt_NumeroRemision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.txt_FechaCaptura">
+	<summary>
+Control txt_FechaCaptura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.txt_HoraCaptura">
+	<summary>
+Control txt_HoraCaptura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.txt_Importe">
+	<summary>
+Control txt_Importe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.txt_EnvasesSN">
+	<summary>
+Control txt_EnvasesSN.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.gv_Importes">
+	<summary>
+Control gv_Importes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.gv_Envases">
+	<summary>
+Control gv_Envases.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.tp_Traslado">
+	<summary>
+Control tp_Traslado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones.gv_Log">
+	<summary>
+Control gv_Log.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.txt_FechaEntrega">
+	<summary>
+Control txt_FechaEntrega.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.txt_FechaEntrega_CalendarExtender">
+	<summary>
+Control txt_FechaEntrega_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.ddl_Moneda">
+	<summary>
+Control ddl_Moneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.ddl_CajaBancaria">
+	<summary>
+Control ddl_CajaBancaria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.ddl_Cliente">
+	<summary>
+Control ddl_Cliente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.txt_Total">
+	<summary>
+Control txt_Total.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.txt_Total_FilteredTextBoxExtender">
+	<summary>
+Control txt_Total_FilteredTextBoxExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.ImgValidado">
+	<summary>
+Control ImgValidado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.gv_Billetes">
+	<summary>
+Control gv_Billetes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.gv_Monedas">
+	<summary>
+Control gv_Monedas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.lbl_Total">
+	<summary>
+Control lbl_Total.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.btn_Actualizar">
+	<summary>
+Control btn_Actualizar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudDotaciones.btn_Guardar">
+	<summary>
+Control btn_Guardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaMateriales.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaMateriales.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaMateriales.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaMateriales.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaMateriales.btn_Mostar">
+	<summary>
+Control btn_Mostar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaMateriales.gv_Consulta">
+	<summary>
+Control gv_Consulta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaMateriales.gv_Detalle">
+	<summary>
+Control gv_Detalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Foto.form1">
+	<summary>
+control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudMateriales.txt_Fecha">
+	<summary>
+Control txt_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudMateriales.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudMateriales.ddl_Material">
+	<summary>
+Control ddl_Material.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudMateriales.txt_Cantidad">
+	<summary>
+Control txt_Cantidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudMateriales.btn_Agregar">
+	<summary>
+Control btn_Agregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudMateriales.gv_Materiales">
+	<summary>
+Control gv_Materiales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudMateriales.btn_Guardar">
+	<summary>
+Control btn_Guardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:SissaPortal.DsRastreoRemisiones.tbl_RastreoImporteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsRastreoRemisiones.tbl_RastreoEnvasesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsRastreoRemisiones.tbl_RastreoImporteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsRastreoRemisiones.tbl_RastreoEnvasesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsRastreoRemisiones.tbl_RastreoImporteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsRastreoRemisiones.tbl_RastreoEnvasesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsRastreoRemisiones">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SissaPortal.DsSolicitudDotaciones.Tbl_BilletesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsSolicitudDotaciones.Tbl_MonedasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsSolicitudDotaciones.Tbl_BilletesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsSolicitudDotaciones.Tbl_MonedasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsSolicitudDotaciones.Tbl_BilletesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsSolicitudDotaciones.Tbl_MonedasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsSolicitudDotaciones">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:SissaPortal.ConsultaAnomalias.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.ddl_Tipo">
+	<summary>
+Control ddl_Tipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.cbx_Todos">
+	<summary>
+Control cbx_Todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.btn_Mostar">
+	<summary>
+Control btn_Mostar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.gv_Anomalias">
+	<summary>
+Control gv_Anomalias.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.dl_Detalle">
+	<summary>
+Control dl_Detalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.txt_Descripcion">
+	<summary>
+Control txt_Descripcion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.pnl_AgregarImagen">
+	<summary>
+Control pnl_AgregarImagen.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.fu_Adjunto">
+	<summary>
+Control fu_Adjunto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaAnomalias.btn_Guardar">
+	<summary>
+Control btn_Guardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Alerta.pnl_Alerta">
+	<summary>
+Control pnl_Alerta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Alerta.Logo">
+	<summary>
+Control Logo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Alerta.btn_Cerrar">
+	<summary>
+Control btn_Cerrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Alerta.lbl_Mensaje">
+	<summary>
+Control lbl_Mensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Alerta.pnl_Alerta_ModalPopupExtender">
+	<summary>
+Control pnl_Alerta_ModalPopupExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:SissaPortal.DsAutorizarDotaciones.ActivasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsAutorizarDotaciones.DetalleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsAutorizarDotaciones.ActivasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsAutorizarDotaciones.DetalleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsAutorizarDotaciones.ActivasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsAutorizarDotaciones.DetalleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsAutorizarDotaciones">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDotaciones.Tbl_ResultadosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDotaciones.Tbl_DotacionesDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDotaciones.Tbl_ResultadosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDotaciones.Tbl_DotacionesDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDotaciones.Tbl_ResultadosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDotaciones.Tbl_DotacionesDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDotaciones">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:SissaPortal.Reverso.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Frente.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:SissaPortal.dsConsultaTraslado.tablaPuntosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.tablaRemisionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.TablaMonedasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.TablaEnvasesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.tablaPuntosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.tablaRemisionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.TablaMonedasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.TablaEnvasesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.tablaPuntosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.tablaRemisionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.TablaMonedasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado.TablaEnvasesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.dsConsultaTraslado">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:SissaPortal.ConsultaDotaciones.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDotaciones.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDotaciones.ddl_Moneda">
+	<summary>
+Control ddl_Moneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDotaciones.cbx_Moneda">
+	<summary>
+Control cbx_Moneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDotaciones.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDotaciones.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDotaciones.ddl_Status">
+	<summary>
+Control ddl_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDotaciones.cbx_Status">
+	<summary>
+Control cbx_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDotaciones.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDotaciones.gv_Resultado">
+	<summary>
+Control gv_Resultado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDotaciones.gv_Desglose">
+	<summary>
+Control gv_Desglose.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Cheques.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Cheques.img_Frente">
+	<summary>
+Control img_Frente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Cheques.img_Reverso">
+	<summary>
+Control img_Reverso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.ddl_Status">
+	<summary>
+Control ddl_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.cbx_Todos">
+	<summary>
+Control cbx_Todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.gv_Dotaciones">
+	<summary>
+Control gv_Dotaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.gv_Fichas">
+	<summary>
+Control gv_Fichas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.tc_Desglose">
+	<summary>
+Control tc_Desglose.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.tp_Efectivo">
+	<summary>
+Control tp_Efectivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.gv_Efectivo">
+	<summary>
+Control gv_Efectivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.tp_Cheques">
+	<summary>
+Control tp_Cheques.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.gv_Cheques">
+	<summary>
+Control gv_Cheques.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.tp_Otros">
+	<summary>
+Control tp_Otros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDepositos.gv_Otros">
+	<summary>
+Control gv_Otros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Descargas.gv_Lista">
+	<summary>
+Control gv_Lista.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.txt_Remision">
+	<summary>
+Control txt_Remision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.txt_Remision_TextBoxWatermarkExtender">
+	<summary>
+Control txt_Remision_TextBoxWatermarkExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.btn_Buscar">
+	<summary>
+Control btn_Buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.tc_Resultados">
+	<summary>
+Control tc_Resultados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.tp_Remisiones">
+	<summary>
+Control tp_Remisiones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.txt_NumeroRemision">
+	<summary>
+Control txt_NumeroRemision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.txt_FechaCaptura">
+	<summary>
+Control txt_FechaCaptura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.txt_HoraCaptura">
+	<summary>
+Control txt_HoraCaptura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.txt_Importe">
+	<summary>
+Control txt_Importe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.txt_EnvasesSN">
+	<summary>
+Control txt_EnvasesSN.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.gv_Importes">
+	<summary>
+Control gv_Importes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.gv_Envases">
+	<summary>
+Control gv_Envases.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.tp_Traslado">
+	<summary>
+Control tp_Traslado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.RastreoRemisiones1.gv_Log">
+	<summary>
+Control gv_Log.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ReportarAnomalias.txt_Fecha">
+	<summary>
+Control txt_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ReportarAnomalias.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ReportarAnomalias.ddl_Horas">
+	<summary>
+Control ddl_Horas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ReportarAnomalias.ddl_Minutos">
+	<summary>
+Control ddl_Minutos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ReportarAnomalias.txt_Descripcion">
+	<summary>
+Control txt_Descripcion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ReportarAnomalias.txt_Notas">
+	<summary>
+Control txt_Notas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ReportarAnomalias.btn_Enviar">
+	<summary>
+Control btn_Enviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ReportarAnomalias.RequiredFieldValidator2">
+	<summary>
+Control RequiredFieldValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ReportarAnomalias.RequiredFieldValidator3">
+	<summary>
+Control RequiredFieldValidator3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Firma.form1">
+	<summary>
+control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.AutorizarDotaciones.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.AutorizarDotaciones.pnl_Dotaciones">
+	<summary>
+Control pnl_Dotaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.AutorizarDotaciones.gv_DotacionesActivas">
+	<summary>
+Control gv_DotacionesActivas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.AutorizarDotaciones.gv_Detalle">
+	<summary>
+Control gv_Detalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.CambiarContrasena.txt_Contraseña">
+	<summary>
+Control txt_Contraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.CambiarContrasena.rfv_Contraseña">
+	<summary>
+Control rfv_Contraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.CambiarContrasena.txt_Nueva">
+	<summary>
+Control txt_Nueva.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.CambiarContrasena.rfv_Nueva">
+	<summary>
+Control rfv_Nueva.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.CambiarContrasena.txt_Confirmar">
+	<summary>
+Control txt_Confirmar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.CambiarContrasena.rfv_Confirmar">
+	<summary>
+Control rfv_Confirmar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.CambiarContrasena.btn_Cambiar">
+	<summary>
+Control btn_Cambiar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.CambiarContrasena.vs_Cambiar">
+	<summary>
+Control vs_Cambiar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDiferencias.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDiferencias.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDiferencias.ddl_Tipo">
+	<summary>
+Control ddl_Tipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDiferencias.cbx_Tipo">
+	<summary>
+Control cbx_Tipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDiferencias.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDiferencias.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDiferencias.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaDiferencias.gv_Resultados">
+	<summary>
+Control gv_Resultados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.txt_FechaInicial">
+	<summary>
+Control txt_FechaInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.txt_FechaFinal">
+	<summary>
+Control txt_FechaFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.gv_Lista">
+	<summary>
+Control gv_Lista.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.gv_Remisiones">
+	<summary>
+Control gv_Remisiones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.gvMonedas">
+	<summary>
+Control gvMonedas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.gvEnvases">
+	<summary>
+Control gvEnvases.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.pnl_Tripulacion">
+	<summary>
+Control pnl_Tripulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.img_Operador">
+	<summary>
+Control img_Operador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.img_OperadorFirma">
+	<summary>
+Control img_OperadorFirma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.lbl_Operador">
+	<summary>
+Control lbl_Operador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.lbl_OperadorClave">
+	<summary>
+Control lbl_OperadorClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.img_Cajero">
+	<summary>
+Control img_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.img_CajeroFirma">
+	<summary>
+Control img_CajeroFirma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.lbl_Cajero">
+	<summary>
+Control lbl_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.lbl_CajeroClave">
+	<summary>
+Control lbl_CajeroClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ConsultaTraslado.dl_Custodios">
+	<summary>
+Control dl_Custodios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_DotacionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_FichasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_EfectivoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_ChequesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_OtrosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_DotacionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_FichasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_EfectivoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_ChequesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_OtrosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_DotacionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_FichasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_EfectivoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_ChequesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos.tbl_OtrosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsConsultaDepositos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaMateriales.tablaVentasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaMateriales.tablaDetalleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaMateriales.tablaVentasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaMateriales.tablaDetalleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.dsConsultaMateriales.tablaVentasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.dsConsultaMateriales.tablaDetalleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.dsConsultaMateriales">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:SissaPortal.SolicitudServicios.ddl_Servicio">
+	<summary>
+Control ddl_Servicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudServicios.txt_Fecha">
+	<summary>
+Control txt_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudServicios.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudServicios.ddl_Origen">
+	<summary>
+Control ddl_Origen.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudServicios.ddl_De">
+	<summary>
+Control ddl_De.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudServicios.ddl_A">
+	<summary>
+Control ddl_A.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudServicios.ddl_Destino">
+	<summary>
+Control ddl_Destino.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudServicios.ddl_DeD">
+	<summary>
+Control ddl_DeD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudServicios.ddl_AD">
+	<summary>
+Control ddl_AD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.SolicitudServicios.btn_Solicitar">
+	<summary>
+Control btn_Solicitar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:SissaPortal.DsConsultaAnomalias.tblReporteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaAnomalias.tblAnomaliasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaAnomalias.tblReporteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaAnomalias.tblAnomaliasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SissaPortal.DsConsultaAnomalias.tblReporteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsConsultaAnomalias.tblAnomaliasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SissaPortal.DsConsultaAnomalias">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:SissaPortal.Login.txt_Usuario">
+	<summary>
+Control txt_Usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Login.txt_Contraseña">
+	<summary>
+Control txt_Contraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Login.btn_IniciarSesion">
+	<summary>
+Control btn_IniciarSesion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.Image1">
+	<summary>
+Control Image1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.smp_Path">
+	<summary>
+Control smp_Path.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.ls_login">
+	<summary>
+Control ls_login.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.lv_CambiarPassword">
+	<summary>
+Control lv_CambiarPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.img_logo">
+	<summary>
+Control img_logo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.img_25">
+	<summary>
+Control img_25.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.LoginName1">
+	<summary>
+Control LoginName1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.mnu_Navegacion">
+	<summary>
+Control mnu_Navegacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.MasterPage.ContentPlaceHolder1">
+	<summary>
+Control ContentPlaceHolder1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.Download.form1">
+	<summary>
+control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.txt_Fecha">
+	<summary>
+Control txt_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.gv_Lista">
+	<summary>
+Control gv_Lista.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.pnl_Tripulacion">
+	<summary>
+Control pnl_Tripulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.img_Operador">
+	<summary>
+Control img_Operador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.img_OperadorFirma">
+	<summary>
+Control img_OperadorFirma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.lbl_Operador">
+	<summary>
+Control lbl_Operador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.lbl_OperadorClave">
+	<summary>
+Control lbl_OperadorClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.img_Cajero">
+	<summary>
+Control img_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.img_CajeroFirma">
+	<summary>
+Control img_CajeroFirma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.lbl_Cajero">
+	<summary>
+Control lbl_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.lbl_CajeroClave">
+	<summary>
+Control lbl_CajeroClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:SissaPortal.ValidacionTripulacion.dl_Custodios">
+	<summary>
+Control dl_Custodios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsConsultaMateriales" targetNamespace="http://tempuri.org/dsConsultaMateriales.xsd" xmlns:mstns="http://tempuri.org/dsConsultaMateriales.xsd" xmlns="http://tempuri.org/dsConsultaMateriales.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Sissa" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Sissa (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SissaPortal.My.MySettings.GlobalReference.Default.Sissa" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsConsultaMateriales" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsConsultaMateriales" msprop:Generator_DataSetName="dsConsultaMateriales" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tablaVentas" msprop:Generator_UserTableName="tablaVentas" msprop:Generator_RowDeletedName="tablaVentasRowDeleted" msprop:Generator_RowChangedName="tablaVentasRowChanged" msprop:Generator_RowClassName="tablaVentasRow" msprop:Generator_RowChangingName="tablaVentasRowChanging" msprop:Generator_RowEvArgName="tablaVentasRowChangeEvent" msprop:Generator_RowEvHandlerName="tablaVentasRowChangeEventHandler" msprop:Generator_TableClassName="tablaVentasDataTable" msprop:Generator_TableVarName="tabletablaVentas" msprop:Generator_RowDeletingName="tablaVentasRowDeleting" msprop:Generator_TablePropName="tablaVentas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Folio" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Folio" msprop:Generator_ColumnVarNameInTable="columnFolio" msprop:Generator_ColumnPropNameInRow="Folio" msprop:Generator_ColumnPropNameInTable="FolioColumn" type="xs:decimal" />
+              <xs:element name="FechaSolicita" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FechaSolicita" msprop:Generator_ColumnVarNameInTable="columnFechaSolicita" msprop:Generator_ColumnPropNameInRow="FechaSolicita" msprop:Generator_ColumnPropNameInTable="FechaSolicitaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HoraSolicita" msdata:ReadOnly="true" msprop:Generator_UserColumnName="HoraSolicita" msprop:Generator_ColumnVarNameInTable="columnHoraSolicita" msprop:Generator_ColumnPropNameInRow="HoraSolicita" msprop:Generator_ColumnPropNameInTable="HoraSolicitaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaEntrega" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FechaEntrega" msprop:Generator_ColumnVarNameInTable="columnFechaEntrega" msprop:Generator_ColumnPropNameInRow="FechaEntrega" msprop:Generator_ColumnPropNameInTable="FechaEntregaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cliente" msprop:Generator_UserColumnName="Cliente" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UsuarioCaptura" msprop:Generator_UserColumnName="UsuarioCaptura" msprop:Generator_ColumnVarNameInTable="columnUsuarioCaptura" msprop:Generator_ColumnPropNameInRow="UsuarioCaptura" msprop:Generator_ColumnPropNameInTable="UsuarioCapturaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tablaDetalle" msprop:Generator_UserTableName="tablaDetalle" msprop:Generator_RowDeletedName="tablaDetalleRowDeleted" msprop:Generator_TableClassName="tablaDetalleDataTable" msprop:Generator_RowChangedName="tablaDetalleRowChanged" msprop:Generator_RowClassName="tablaDetalleRow" msprop:Generator_RowChangingName="tablaDetalleRowChanging" msprop:Generator_RowEvArgName="tablaDetalleRowChangeEvent" msprop:Generator_RowEvHandlerName="tablaDetalleRowChangeEventHandler" msprop:Generator_TablePropName="tablaDetalle" msprop:Generator_TableVarName="tabletablaDetalle" msprop:Generator_RowDeletingName="tablaDetalleRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Material" msprop:Generator_UserColumnName="Material" msprop:Generator_ColumnPropNameInRow="Material" msprop:Generator_ColumnVarNameInTable="columnMaterial" msprop:Generator_ColumnPropNameInTable="MaterialColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad" msprop:Generator_UserColumnName="Cantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tablaVentas" />
+      <xs:field xpath="mstns:Folio" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

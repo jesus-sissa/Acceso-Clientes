@@ -1,0 +1,100 @@
+﻿Public Partial Class ConsultaMateriales
+    Inherits BasePage
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If IsPostBack Then Exit Sub
+
+        gv_Consulta.DataSource = fn_MostrarSiempre(New dsConsultaMateriales.tablaVentasDataTable)
+        gv_Consulta.DataBind()
+
+        gv_Detalle.DataSource = fn_MostrarSiempre(New dsConsultaMateriales.tablaDetalleDataTable)
+        gv_Detalle.DataBind()
+    End Sub
+
+    Protected Sub btn_Mostar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Mostar.Click
+        ActualizarVentas()
+    End Sub
+
+    Protected Sub ActualizarVentas()
+        Dim FechaDesde As Date
+        Dim FechaHasta As Date
+
+        If Not IsDate(txt_FInicial.Text) OrElse Not DateTime.TryParse(txt_FInicial.Text, FechaDesde) Then
+            fn_Alerta("Debe capturar una fecha inicial valida.")
+            Exit Sub
+        End If
+
+        If Not IsDate(txt_FFinal.Text) OrElse Not DateTime.TryParse(txt_FFinal.Text, FechaHasta) Then
+            fn_Alerta("Debe capturar una fecha final valida.")
+            Exit Sub
+        End If
+
+        Dim tablaVentas As DataTable = cn.fn_ConsultaMateriales_GetVentas(FechaDesde, FechaHasta)
+        Tabla("tablaVentas") = tablaVentas
+
+        gv_Consulta.DataSource = fn_MostrarSiempre(tablaVentas)
+        gv_Consulta.DataBind()
+    End Sub
+
+    Protected Sub gv_Consulta_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Consulta.PageIndexChanging
+        Dim tablaVentas As DataTable = Tabla("tablaVentas")
+
+        gv_Consulta.PageIndex = e.NewPageIndex
+
+        gv_Consulta.DataSource = tablaVentas
+        gv_Consulta.DataBind()
+    End Sub
+
+    Protected Sub gv_Consulta_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles gv_Consulta.RowCommand
+        If e.CommandName = "Folio" Then
+            Dim Indice As Integer = e.CommandArgument
+            gv_Consulta.SelectedIndex = Indice
+            Dim Folio As Integer = gv_Consulta.DataKeys(Indice).Value
+
+            Dim tablaDetalle As DataTable = fn_MostrarSiempre(cn.fn_ConsultaMateriales_GetDetalle(Folio))
+            gv_Detalle.DataSource = tablaDetalle
+            gv_Detalle.DataBind()
+
+            Tabla("tablaDetalle") = tablaDetalle
+        ElseIf e.CommandName = "Cancelar" Then
+            Dim Indice As Integer = e.CommandArgument
+            Dim Folio As Integer = gv_Consulta.DataKeys(Indice).Value
+
+            If cn.fn_ConsultaMateriales_Cancelar(Folio) Then
+                ActualizarVentas()
+            Else
+                fn_Alerta("No se puede cancelar la Solicitud debido a un Error.")
+                Exit Sub
+            End If
+        End If
+    End Sub
+
+    Protected Sub gv_Consulta_DataBound(ByVal sender As Object, ByVal e As EventArgs) Handles gv_Consulta.DataBound
+        gv_Detalle.DataSource = fn_MostrarSiempre(New dsConsultaMateriales.tablaDetalleDataTable)
+        gv_Detalle.DataBind()
+    End Sub
+
+    Protected Sub gv_Detalle_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Detalle.PageIndexChanging
+        Dim tablaDetalle As DataTable = Tabla("tablaDetalle")
+        gv_Detalle.PageIndex = e.NewPageIndex
+        gv_Detalle.DataSource = tablaDetalle
+        gv_Detalle.DataBind()
+    End Sub
+
+    Protected Sub gv_Consulta_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Consulta.RowCreated
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            Dim Indice As Integer = e.Row.RowIndex
+            Dim Status As String = If(IsDBNull(gv_Consulta.DataKeys(Indice).Values(1)), String.Empty, gv_Consulta.DataKeys(Indice).Values(1))
+
+            If Status <> "SOLICITADA" Then
+                e.Row.Cells(0).Controls.Clear()
+            End If
+        End If
+    End Sub
+
+    Protected Sub gv_Consulta_RowDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Consulta.RowDataBound
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            If CType(e.Row.Cells(1).Controls(0), LinkButton).Text <= 0 Then e.Row.Cells(1).Controls.Clear()
+        End If
+    End Sub
+End Class

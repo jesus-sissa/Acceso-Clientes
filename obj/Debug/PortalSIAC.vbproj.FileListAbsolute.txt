@@ -1,0 +1,359 @@
+C:\SIAC\Web\PortalSIAC\PortalSIAC\bin\PortalSIAC.dll
+C:\SIAC\Web\PortalSIAC\PortalSIAC\bin\PortalSIAC.pdb
+C:\SIAC\Web\PortalSIAC\PortalSIAC\bin\PortalSIAC.xml
+C:\SIAC\Web\PortalSIAC\PortalSIAC\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\Web\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\SIAC\Web\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\Web\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\SIAC\Web\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\SIAC\Web\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\SIAC\Siac\Modulos para Generar Instaladores\Web\PortalSIAC\PortalSIAC\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\Siac\Modulos para Generar Instaladores\Web\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\SIAC\Siac\Modulos para Generar Instaladores\Web\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\Siac\Modulos para Generar Instaladores\Web\PortalSIAC\PortalSIAC\bin\PortalSIAC.dll
+C:\SIAC\Siac\Modulos para Generar Instaladores\Web\PortalSIAC\PortalSIAC\bin\PortalSIAC.pdb
+C:\SIAC\Siac\Modulos para Generar Instaladores\Web\PortalSIAC\PortalSIAC\bin\PortalSIAC.xml
+C:\SIAC\Siac\Modulos para Generar Instaladores\Web\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\SIAC\Siac\Modulos para Generar Instaladores\Web\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\SIAC\Siac\Modulos para Generar Instaladores\Web\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\SIAC\Proyectos WEB\PortalSIAC\PortalSIAC\bin\PortalSIAC.dll
+C:\SIAC\Proyectos WEB\PortalSIAC\PortalSIAC\bin\PortalSIAC.pdb
+C:\SIAC\Proyectos WEB\PortalSIAC\PortalSIAC\bin\PortalSIAC.xml
+C:\SIAC\Proyectos WEB\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\SIAC\Proyectos WEB\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\Proyectos WEB\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\SIAC\Proyectos WEB\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\SIAC\Proyectos WEB\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\SIAC\Proyectos WEB\PortalSIAC\PortalSIAC\obj\Debug\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\SIAC\Proyectos WEB\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll
+C:\SIAC\Proyectos WEB\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.pdb
+C:\SIAC\Proyectos WEB\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.xml
+C:\SIAC\Proyectos WEB\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\SIAC\Proyectos WEB\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\Proyectos WEB\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\SIAC\Proyectos WEB\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\SIAC\Proyectos WEB\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\SIAC\Siac\Modulos SIAC Respaldos\Octubre\PortalSIAC2012 -17-Oct-14\PortalSIAC\bin\PortalSIAC.dll
+C:\SIAC\Siac\Modulos SIAC Respaldos\Octubre\PortalSIAC2012 -17-Oct-14\PortalSIAC\bin\PortalSIAC.pdb
+C:\SIAC\Siac\Modulos SIAC Respaldos\Octubre\PortalSIAC2012 -17-Oct-14\PortalSIAC\bin\PortalSIAC.xml
+C:\SIAC\Siac\Modulos SIAC Respaldos\Octubre\PortalSIAC2012 -17-Oct-14\PortalSIAC\obj\Debug\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\SIAC\Siac\Modulos SIAC Respaldos\Octubre\PortalSIAC2012 -17-Oct-14\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\SIAC\Siac\Modulos SIAC Respaldos\Octubre\PortalSIAC2012 -17-Oct-14\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\Siac\Modulos SIAC Respaldos\Octubre\PortalSIAC2012 -17-Oct-14\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\SIAC\Siac\Modulos SIAC Respaldos\Octubre\PortalSIAC2012 -17-Oct-14\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\SIAC\Siac\Modulos SIAC Respaldos\Octubre\PortalSIAC2012 -17-Oct-14\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\SIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll
+C:\SIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.pdb
+C:\SIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.xml
+C:\SIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\SIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.pdb
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.xml
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\SIAC\PORTALSIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\bin\PortalSIAC.dll
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\bin\PortalSIAC.pdb
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\bin\PortalSIAC.xml
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\Users\Programador2\Desktop\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\SIAC\PORTALSIAC\PortalSIAC\bin\PortalSIAC.dll
+C:\SIAC\PORTALSIAC\PortalSIAC\bin\PortalSIAC.pdb
+C:\SIAC\PORTALSIAC\PortalSIAC\bin\PortalSIAC.xml
+C:\SIAC\PORTALSIAC\PortalSIAC\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\SIAC\PORTALSIAC\PortalSIAC\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Debug\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\Portal\PortalSIAC\bin\PortalSIAC.dll
+C:\Portal\PortalSIAC\bin\PortalSIAC.pdb
+C:\Portal\PortalSIAC\bin\PortalSIAC.xml
+C:\Portal\PortalSIAC\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Portal\PortalSIAC\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Portal\PortalSIAC\obj\Debug\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\Portal\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\Portal\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\Portal\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\Portal\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\Portal\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\bin\PortalSIAC.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\bin\PortalSIAC.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\bin\PortalSIAC.dll
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\bin\PortalSIAC.pdb
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\bin\PortalSIAC.xml
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\obj\Debug\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\Users\Salvador\Documents\PROGRAMAS\SCI\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\bin\PortalSIAC.dll
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\bin\PortalSIAC.pdb
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\bin\PortalSIAC.xml
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\obj\Debug\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\obj\Debug\PortalSIAC.Resources.resources
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\obj\Debug\PortalSIAC.dll
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\obj\Debug\PortalSIAC.xml
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC\obj\Debug\PortalSIAC.pdb
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\bin\PortalSIAC.dll
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\bin\PortalSIAC.pdb
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\bin\PortalSIAC.xml
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Debug\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Debug\PortalSIAC.Resources.resources
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Debug\PortalSIAC.vbproj.GenerateResource.Cache
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Debug\PortalSIAC.dll
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Debug\PortalSIAC.xml
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Debug\PortalSIAC.pdb
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\PortalSIAC.dll.config
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\PortalSIAC.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\PortalSIAC.pdb
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\PortalSIAC.xml
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\CrystalDecisions.ReportSource.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\CrystalDecisions.Shared.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Debug\PortalSIAC.vbprojAssemblyReference.cache
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Debug\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Debug\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Debug\PortalSIAC.vbproj.CopyComplete
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Debug\PortalSIAC.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Debug\PortalSIAC.xml
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Debug\PortalSIAC.pdb
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\PortalSIAC.dll.config
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\PortalSIAC.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\PortalSIAC.pdb
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\PortalSIAC.xml
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\CrystalDecisions.ReportSource.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\CrystalDecisions.Shared.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Debug\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Debug\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Debug\PortalSIAC.vbproj.CopyComplete
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Debug\PortalSIAC.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Debug\PortalSIAC.xml
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Debug\PortalSIAC.pdb
+C:\Users\programador3\Desktop\PortalCliente\bin\PortalSIAC.dll.config
+C:\Users\programador3\Desktop\PortalCliente\bin\PortalSIAC.dll
+C:\Users\programador3\Desktop\PortalCliente\bin\PortalSIAC.pdb
+C:\Users\programador3\Desktop\PortalCliente\bin\PortalSIAC.xml
+C:\Users\programador3\Desktop\PortalCliente\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\programador3\Desktop\PortalCliente\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\programador3\Desktop\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\programador3\Desktop\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+C:\Users\programador3\Desktop\PortalCliente\bin\CrystalDecisions.Shared.dll
+C:\Users\programador3\Desktop\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\programador3\Desktop\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\programador3\Desktop\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\programador3\Desktop\PortalCliente\obj\Debug\PortalSIAC.vbproj.AssemblyReference.cache
+C:\Users\programador3\Desktop\PortalCliente\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\programador3\Desktop\PortalCliente\obj\Debug\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\programador3\Desktop\PortalCliente\obj\Debug\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\programador3\Desktop\PortalCliente\obj\Debug\PortalSIAC.vbproj.CopyComplete
+C:\Users\programador3\Desktop\PortalCliente\obj\Debug\PortalSIAC.dll
+C:\Users\programador3\Desktop\PortalCliente\obj\Debug\PortalSIAC.xml
+C:\Users\programador3\Desktop\PortalCliente\obj\Debug\PortalSIAC.pdb
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\PortalSIAC.dll.config
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\PortalSIAC.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\PortalSIAC.pdb
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\PortalSIAC.xml
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\CrystalDecisions.Shared.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Debug\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Debug\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Debug\PortalSIAC.vbproj.CopyComplete
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Debug\PortalSIAC.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Debug\PortalSIAC.xml
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Debug\PortalSIAC.pdb
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Debug\PortalSIAC.vbproj.AssemblyReference.cache
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\PortalSIAC.dll.config
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\PortalSIAC.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\PortalSIAC.pdb
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\PortalSIAC.xml
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\BouncyCastle.Crypto.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\CrystalDecisions.Shared.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\itextsharp.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\itextsharp.xml
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Debug\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Debug\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Debug\PortalSIAC.vbproj.CopyComplete
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Debug\PortalSIAC.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Debug\PortalSIAC.xml
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Debug\PortalSIAC.pdb
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Debug\PortalSIAC.vbproj.AssemblyReference.cache
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.config
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\PortalSIAC.dll
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\PortalSIAC.pdb
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\PortalSIAC.xml
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\BouncyCastle.Crypto.dll
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\CrystalDecisions.Shared.dll
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\itextsharp.dll
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\bin\itextsharp.xml
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.Resources.resources
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.GenerateResource.cache
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.CoreCompileInputs.cache
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.CopyComplete
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.dll
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.xml
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.pdb
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.config
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\PortalSIAC.dll
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\PortalSIAC.pdb
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\PortalSIAC.xml
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\BouncyCastle.Crypto.dll
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\CrystalDecisions.Shared.dll
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\itextsharp.dll
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\bin\itextsharp.xml
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.AssemblyReference.cache
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.CopyComplete
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.dll
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.xml
+C:\Users\juan.mora\Documents\ver13_02_23\Clientes\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.pdb
+D:\REPOSITORY\SOURCE CODE\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.AssemblyReference.cache
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.config
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\PortalSIAC.dll
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\PortalSIAC.pdb
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\PortalSIAC.xml
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\BouncyCastle.Crypto.dll
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\CrystalDecisions.Shared.dll
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\itextsharp.dll
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\bin\itextsharp.xml
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.AssemblyReference.cache
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.CopyComplete
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.dll
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.xml
+C:\Users\juan.mora\Documents\Mayo\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.pdb
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.config
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.dll
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.pdb
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.xml
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\BouncyCastle.Crypto.dll
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\CrystalDecisions.Shared.dll
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\itextsharp.dll
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\bin\itextsharp.xml
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.AssemblyReference.cache
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.CopyComplete
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.dll
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.xml
+C:\Users\brandon.ibarra\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.pdb
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.config
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.pdb
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.xml
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.CodeAnalysisLog.xml
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.lastcodeanalysissucceeded
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\BouncyCastle.Crypto.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\CrystalDecisions.Shared.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\itextsharp.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\itextsharp.xml
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.AssemblyReference.cache
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.Resources.resources
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.vbproj.CopyComplete
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.xml
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Debug\PortalSIAC.pdb

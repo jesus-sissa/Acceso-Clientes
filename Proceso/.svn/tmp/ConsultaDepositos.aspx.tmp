@@ -1,0 +1,307 @@
+<%@ Page Language="vb" AutoEventWireup="false" Theme="NegroAmarillo" MasterPageFile="~/MasterPage.Master"
+    CodeBehind="ConsultaDepositos.aspx.vb" Inherits="SissaPortal.ConsultaDepositos"
+    Title="Página sin título" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+            <fieldset>
+                <legend>Consulta de Depositos</legend>
+                <br />
+                <table>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label class="label">
+                                Fecha Inicial</label>
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txt_FInicial" runat="server" />
+                            <asp:CalendarExtender ID="txt_FInicial_CalendarExtender" runat="server" Enabled="True"
+                                TargetControlID="txt_FInicial" Format="dd/MM/yyyy">
+                            </asp:CalendarExtender>
+                        </td>
+                        <td style="text-align: right;">
+                            <label class="label">
+                                Status</label>
+                        </td>
+                        <td>
+                            <asp:DropDownList ID="ddl_Status" runat="server">
+                                <asp:ListItem Value="RC" Text="RECIBIDO" />
+                                <asp:ListItem Value="AS" Text="ASIGNADO" />
+                                <asp:ListItem Value="AC" Text="ACEPTADO POR CAJERO" />
+                                <asp:ListItem Value="IN" Text="INICIADO" />
+                                <asp:ListItem Value="BL" Text="BLOQUEADO" />
+                                <asp:ListItem Value="VE" Text="VERIFICADO" />
+                                <asp:ListItem Value="CO" Text="CONTABILIZADO" />
+                                <asp:ListItem Value="DB" Text="DEVUELTO A BOVEDA" />
+                                <asp:ListItem Value="DV" Text="EN BOVEDA" />
+                                <asp:ListItem Value="RE" Text="RETENIDO" />
+                                <asp:ListItem Value="RB" Text="RETENIDO A BOVEDA" />
+                                <asp:ListItem Value="RR" Text="RETENIDO EN BOVEDA" />
+                                <asp:ListItem Value="DC" Text="DEVUELTO AL CLIENTE" />
+                            </asp:DropDownList>
+                            <asp:CheckBox ID="cbx_Todos" runat="server" Text="Todos" AutoPostBack="True" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            <label class="label">
+                                Fecha Final</label>
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txt_FFinal" runat="server" />
+                            <asp:CalendarExtender ID="txt_FFinal_CalendarExtender" runat="server" Enabled="True"
+                                TargetControlID="txt_FFinal" Format="dd/MM/yyyy">
+                            </asp:CalendarExtender>
+                        </td>
+                        <td colspan="2" align="right">
+                            <asp:Button ID="btn_Mostrar" runat="server" Text="Mostrar" /><br />
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Dotaciones</legend>
+                <br />
+                <asp:UpdateProgress ID="UpdateProgress1" runat="server" 
+                            AssociatedUpdatePanelID="up_Dotaciones">
+                            <ProgressTemplate>
+                                Espere...
+                            </ProgressTemplate>
+                        </asp:UpdateProgress>
+                <asp:UpdatePanel ID="up_Dotaciones" runat="server">
+                    <Triggers>
+                        <asp:AsyncPostBackTrigger ControlID="btn_Mostrar" EventName="Click" />
+                        <asp:AsyncPostBackTrigger ControlID="gv_Dotaciones" EventName="PageIndexChanging" />
+                    </Triggers>
+                    <ContentTemplate>
+<<<<<<< .mine
+=======
+                    <asp:Button ID="btn_Mostrar" runat="server" Text="Mostrar" />
+                        <br />
+>>>>>>> .r243
+                        <asp:GridView ID="gv_Dotaciones" runat="server" CellPadding="10" ForeColor="#333333"
+                            GridLines="None" AutoGenerateColumns="False" DataKeyNames="Id_Servicio" AllowPaging="True">
+                            <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                            <Columns>
+                                <asp:ButtonField DataTextField="Remision" Text="Remision" 
+                                    HeaderText="Remisión" CommandName="Fichas" >
+                                    <ItemStyle CssClass="gv_Item" Width="100px" />
+                                </asp:ButtonField>
+                                <asp:BoundField DataField="Cia" HeaderText="Cia" >
+                                    <ItemStyle CssClass="gv_Item" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Fecha" HeaderText="Fecha" >
+                                    <ItemStyle CssClass="gv_Item" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Fichas" HeaderText="Fichas" >
+                                    <ItemStyle CssClass="gv_Item" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Importe" HeaderText="Importe" DataFormatString="{0:n2}">
+                                    <ItemStyle HorizontalAlign="Right" CssClass="gv_Item" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Envases" HeaderText="Envases">
+                                    <ItemStyle HorizontalAlign="Right" CssClass="gv_Item" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Envases SN" HeaderText="Envases SN">
+                                    <ItemStyle HorizontalAlign="Right" CssClass="gv_Item" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Status" HeaderText="Status" >
+                                    <ItemStyle CssClass="gv_Item" />
+                                </asp:BoundField>
+                            </Columns>
+                            <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                            <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                            <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                            <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                            <EditRowStyle BackColor="#999999" />
+                            <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                        </asp:GridView>                          
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                <asp:UpdatePanelAnimationExtender ID="upae_Dotaciones" BehaviorID="anm_Dotaciones" runat="server"
+                targetcontrolid="up_Dotaciones">
+                    <Animations>
+                            <OnUpdating>
+                                <Sequence>
+                                    <StyleAction Attribute="overflow" Value="hidden" />                     
+                                    <Parallel duration="1" Fps="30">
+                                        <FadeOut AnimationTarget="up_container" minimumOpacity="0" />
+                                    </Parallel>
+                                </Sequence>
+                            </OnUpdating>
+                            <OnUpdated>
+                                <Sequence>
+                                    <%-- Do each of the selected effects --%>
+                                    
+                                    
+                                    <Parallel duration="1" Fps="30">
+                                        <FadeIn AnimationTarget="up_container" minimumOpacity="0" />
+                                    </Parallel>
+                                </Sequence>
+                            </OnUpdated>
+                    </Animations>
+                </asp:UpdatePanelAnimationExtender>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Fichas</legend>
+                <br />
+                <asp:UpdatePanel ID="up_Fichas" runat="server">
+                    <Triggers>
+                        <asp:AsyncPostBackTrigger ControlID="gv_Dotaciones" EventName="RowCommand" />
+                        <asp:AsyncPostBackTrigger ControlID="gv_Fichas" EventName="PageIndexChanging" />
+                    </Triggers>
+                    <ContentTemplate>
+                    <asp:GridView ID="gv_Fichas" runat="server" AllowPaging="True" 
+                            AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Id_Ficha" 
+                            ForeColor="#333333" GridLines="None">
+                            <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                            <Columns>
+                                <asp:ButtonField DataTextField="Ficha" HeaderText="Ficha" 
+                                    CommandName="Desglose" />
+                                <asp:BoundField DataField="Moneda" HeaderText="Moneda" />
+                                <asp:BoundField DataField="Tipo" HeaderText="Tipo" />
+                                <asp:BoundField DataField="Efectivo" DataFormatString="{0:n2}" 
+                                    HeaderText="Efectivo" />
+                                <asp:BoundField DataField="Cheques" DataFormatString="{0:n2}" 
+                                    HeaderText="Cheques" />
+                                <asp:BoundField DataField="Otros" DataFormatString="{0:n2}" HeaderText="Otros" />
+                                <asp:BoundField DataField="Dif. Efectivo" DataFormatString="{0:n2}" 
+                                    HeaderText="Dif. Efectivo" />
+                                <asp:BoundField DataField="Dif. Cheques" DataFormatString="{0:n2}" 
+                                    HeaderText="Dif. Cheques" />
+                                <asp:BoundField DataField="Dif. Otros" DataFormatString="{0:n2}" 
+                                    HeaderText="Dif. Otros" />
+                            </Columns>
+                            <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                            <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                            <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                            <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                            <EditRowStyle BackColor="#999999" />
+                            <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                        </asp:GridView>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                <asp:UpdatePanelAnimationExtender ID="upae_Fichas" BehaviorID="anm_Fichas" runat="server"
+                targetcontrolid="up_Fichas">
+                    <Animations>
+                            <OnUpdating>
+                                <Sequence>
+                                    <StyleAction Attribute="overflow" Value="hidden" />                     
+                                    <Parallel duration="1" Fps="30">
+                                        <FadeOut AnimationTarget="up_Fichas" minimumOpacity="0" />
+                                    </Parallel>
+                                </Sequence>
+                            </OnUpdating>
+                            <OnUpdated>
+                                <Sequence>
+                                    <%-- Do each of the selected effects --%>
+                                    
+                                    <Parallel duration="1" Fps="30">
+                                        <FadeIn AnimationTarget="up_Fichas" minimumOpacity="0" />
+                                    </Parallel>
+                                </Sequence>
+                            </OnUpdated>
+                    </Animations>
+                </asp:UpdatePanelAnimationExtender>
+            </fieldset>
+            <br />
+                <asp:UpdatePanel ID="up_Desglose" runat="server">
+                <Triggers>
+                    <asp:AsyncPostBackTrigger ControlID="gv_Fichas" EventName="RowCommand" />
+                </Triggers>
+                <ContentTemplate>
+                    <asp:TabContainer ID="tc_Desglose" runat="server" ActiveTabIndex="1">
+                        <asp:TabPanel runat="server" HeaderText="Efectivo" ID="tp_Efectivo">
+                        <ContentTemplate>
+                            <asp:GridView ID="gv_Efectivo" runat="server" AllowPaging="True" 
+                                AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" 
+                                GridLines="None">
+                                <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                                <Columns>
+                                    <asp:BoundField DataField="Denominacion" HeaderText="Denominacion" />
+                                    <asp:BoundField DataField="Cantidad" HeaderText="Cantidad" />
+                                    <asp:BoundField DataField="Importe" HeaderText="Importe" 
+                                        DataFormatString="{0:n2}" />
+                                    <asp:BoundField DataField="Presentacion" HeaderText="Presentacion" />
+                                </Columns>
+                                <EditRowStyle BackColor="#999999" />
+                                <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                                <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                                <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                                <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                                <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                            </asp:GridView>
+                        </ContentTemplate>
+                        </asp:TabPanel>
+                        <asp:TabPanel ID="tp_Cheques" runat="server" HeaderText="Cheques">
+                            <HeaderTemplate>
+                                Cheques
+                            </HeaderTemplate>
+                            <ContentTemplate>
+                                <asp:GridView ID="gv_Cheques" runat="server" AllowPaging="True" CellPadding="4" 
+                                    ForeColor="#333333" GridLines="None" AutoGenerateColumns="False">
+                                    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                                    <Columns>
+                                        <asp:BoundField DataField="Banco" HeaderText="Banco" />
+                                        <asp:BoundField DataField="Cuenta" HeaderText="Cuenta" />
+                                        <asp:BoundField DataField="Importe" HeaderText="Importe" />
+                                        <asp:BoundField DataField="Numero" DataFormatString="{0:n2}" 
+                                            HeaderText="Numero" />
+                                    </Columns>
+                                    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                                    <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                                    <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                                    <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                                    <EditRowStyle BackColor="#999999" />
+                                    <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                                </asp:GridView>
+                            </ContentTemplate>
+                        </asp:TabPanel>
+                        <asp:TabPanel ID="tp_Otros" runat="server" HeaderText="Otros">
+                            <ContentTemplate>
+                                <asp:GridView ID="gv_Otros" runat="server" AllowPaging="True" CellPadding="4" 
+                                    ForeColor="#333333" GridLines="None" AutoGenerateColumns="true">
+                                    <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                                    <Columns>
+                                    </Columns>
+                                    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                                    <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                                    <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                                    <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                                    <EditRowStyle BackColor="#999999" />
+                                    <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                                </asp:GridView>
+                            </ContentTemplate>
+                        </asp:TabPanel>
+                    </asp:TabContainer>            
+                </ContentTemplate>
+                </asp:UpdatePanel>
+                <asp:UpdatePanelAnimationExtender ID="upae_Desglose" BehaviorID="anm_Desglose" runat="server"
+                targetcontrolid="up_Desglose">
+                    <Animations>
+                            <OnUpdating>
+                                <Sequence>
+                                    <StyleAction Attribute="overflow" Value="hidden" />                     
+                                    <Parallel duration="1" Fps="30">
+                                        <FadeOut AnimationTarget="up_Desglose" minimumOpacity="0" />
+                                    </Parallel>
+                                </Sequence>
+                            </OnUpdating>
+                            <OnUpdated>
+                                <Sequence>
+                                    <%-- Do each of the selected effects --%>
+                                    
+                                    <Parallel duration="1" Fps="30">
+                                        <FadeIn AnimationTarget="up_Desglose" minimumOpacity="0" />
+                                    </Parallel>
+                                </Sequence>
+                            </OnUpdated>
+                    </Animations>
+                </asp:UpdatePanelAnimationExtender>
+</asp:Content>

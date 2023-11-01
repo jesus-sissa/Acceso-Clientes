@@ -1,0 +1,107 @@
+﻿Public Partial Class ConsultaDotaciones
+    Inherits BasePage
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If IsPostBack Then Exit Sub
+        fn_LlenarDropDown(ddl_Moneda, cn.fn_ConsultaDotacion_Monedas())
+
+        Dim tbl As New DsConsultaDotaciones.Tbl_ResultadosDataTable
+        gv_Resultado.DataSource = fn_MostrarSiempre(tbl)
+        gv_Resultado.DataBind()
+
+        Dim tbl2 As New DsConsultaDotaciones.Tbl_DotacionesDDataTable
+        gv_Desglose.DataSource = fn_MostrarSiempre(tbl2)
+        gv_Desglose.DataBind()
+    End Sub
+
+    Protected Sub cbx_Moneda_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs) Handles cbx_Moneda.CheckedChanged
+        ddl_Moneda.Enabled = Not cbx_Moneda.Checked
+        Limpiar()
+    End Sub
+
+    Protected Sub cbx_Status_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs) Handles cbx_Status.CheckedChanged
+        ddl_Status.Enabled = Not cbx_Status.Checked
+        Limpiar()
+    End Sub
+
+    Protected Sub btn_Mostrar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Mostrar.Click
+
+        Dim Serial As String() = Split(txt_FInicial.Text, "/")
+        Dim FechaInicial As Date = DateSerial(Serial(2), Serial(1), Serial(0))
+
+        Serial = Split(txt_FFinal.Text, "/")
+        Dim FechaFinal As Date = DateSerial(Serial(2), Serial(1), Serial(0))
+
+        If DateDiff(DateInterval.Day, FechaInicial, FechaFinal) > 60 Then
+            fn_Alerta("No se permiten consultas de periodos mayores a 60 dias.")
+            Exit Sub
+        End If
+
+        If DateDiff(DateInterval.Day, FechaFinal, FechaInicial) > 0 Then
+            fn_Alerta("La fecha final debe ser mayor a la fecha inicial.")
+            Exit Sub
+        End If
+
+        Dim Id_Moneda As Integer = If(cbx_Moneda.Checked, "0", ddl_Moneda.SelectedValue)
+        Dim Status As String = If(cbx_Status.Checked, "", ddl_Status.SelectedValue)
+
+        Dim tbl As DataTable = cn.fn_ConsulaDotacion_Dotaciones(FechaInicial, FechaFinal, Id_Moneda, Status)
+
+        Tabla("Resultado") = tbl
+
+        gv_Resultado.DataSource = fn_MostrarSiempre(tbl)
+        gv_Resultado.DataBind()
+    End Sub
+
+    Protected Sub gv_Resultado_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Resultado.PageIndexChanging
+        Dim tbl As DataTable = Tabla("Resultado")
+        Dim tbl_Tipada As New DsConsultaDotaciones.Tbl_ResultadosDataTable
+
+        For Each r As DataRow In tbl.Rows
+            tbl_Tipada.ImportRow(r)
+        Next
+
+        gv_Resultado.PageIndex = e.NewPageIndex
+        gv_Resultado.DataSource = fn_MostrarSiempre(tbl_Tipada)
+        gv_Resultado.DataBind()
+    End Sub
+
+    Protected Sub gv_Resultado_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Resultado.RowCreated
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            e.Row.Attributes.Add("onmouseover", "this.originalstyle=this.style.backgroundColor;this.style.backgroundColor='#D8A42C'")  '#D0A540'")
+            e.Row.Attributes.Add("onmouseout", "this.style.backgroundColor=this.originalstyle;")
+        End If
+    End Sub
+
+    Protected Sub gv_Resultado_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles gv_Resultado.RowCommand
+        If e.CommandName = "Remision" Then
+            Dim Id_Dotacion As Integer = gv_Resultado.DataKeys(e.CommandArgument).Value
+            gv_Resultado.SelectedIndex = e.CommandArgument
+
+            Dim tbl As DataTable = cn.fn_ConsultaDotacion_Detalle(Id_Dotacion)
+
+            gv_Desglose.DataSource = tbl
+            gv_Desglose.DataBind()
+        End If
+    End Sub
+
+    Protected Sub ddl_Moneda_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles ddl_Moneda.SelectedIndexChanged
+        Limpiar()
+    End Sub
+
+    Sub Limpiar()
+        gv_Resultado.DataSource = fn_MostrarSiempre(New DsConsultaDotaciones.Tbl_ResultadosDataTable)
+        gv_Resultado.DataBind()
+    End Sub
+
+    Protected Sub ddl_Status_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles ddl_Status.SelectedIndexChanged
+        Limpiar()
+    End Sub
+
+    Protected Sub gv_Resultado_DataBound(ByVal sender As Object, ByVal e As EventArgs) Handles gv_Resultado.DataBound
+        gv_Resultado.SelectedIndex = -1
+
+        gv_Desglose.DataSource = fn_MostrarSiempre(New DsConsultaDotaciones.Tbl_DotacionesDDataTable)
+        gv_Desglose.DataBind()
+    End Sub
+End Class

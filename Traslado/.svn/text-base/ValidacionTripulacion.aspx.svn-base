@@ -1,0 +1,156 @@
+<%@ Page Language="vb" AutoEventWireup="false" Theme="NegroAmarillo" MasterPageFile="~/MasterPage.Master"
+    CodeBehind="ValidacionTripulacion.aspx.vb" Inherits="SissaPortal.ValidacionTripulacion" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <fieldset class="medioFieldset">
+        <table>
+            <tr>
+                <td>
+                    <b>Fecha: </b>
+                </td>
+                <td>
+                    <asp:TextBox ID="txt_Fecha" runat="server" CssClass="txt_Fecha" />
+                    <asp:CalendarExtender ID="txt_Fecha_CalendarExtender" runat="server" Enabled="True"
+                        TargetControlID="txt_Fecha" Format="dd/MM/yyyy">
+                    </asp:CalendarExtender>
+                </td>
+                <td>
+                    <asp:Button ID="btn_Mostrar" runat="server" Text="Mostrar" />
+                </td>
+            </tr>
+        </table>
+        <table width="100%">
+            <tr>
+                <td colspan="3">
+                    <asp:GridView ID="gv_Lista" runat="server" DataKeyNames="Id_Punto" CellPadding="10"
+                        ForeColor="#333333" GridLines="Horizontal" BorderWidth="3px" AutoGenerateColumns="False"
+                        CssClass="gridSISSA" CellSpacing="1" Width="100%">
+                        <RowStyle BackColor="White" ForeColor="#333333" />
+                        <Columns>
+                            <asp:CommandField ButtonType="Image" SelectImageUrl="~/Imagenes/1rightarrow.png"
+                                ShowSelectButton="True" />
+                            <asp:BoundField DataField="Fecha" HeaderText="Fecha" />
+                            <asp:BoundField DataField="Unidad" HeaderText="Unidad" />
+                            <asp:BoundField DataField="Origen" HeaderText="Origen" />
+                            <asp:BoundField DataField="Destino" HeaderText="Destino" />
+                        </Columns>
+                        <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                        <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                            Font-Underline="False" />
+                        <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                    </asp:GridView>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>
+            <h4>
+                Tripulación</h4>
+        </legend>
+        <asp:Panel ID="pnl_Tripulacion" runat="server" Visible="False">
+            <table>
+                <tr>
+                    <td style="width: 300px;">
+                        <b>Operador: </b>
+                    </td>
+                    <td rowspan="4">
+                        <asp:Image ID="img_Operador" runat="server" Width="100" Height="100" />
+                    </td>
+                    <td rowspan="4">
+                        <asp:Image ID="img_OperadorFirma" runat="server" Width="100" Height="100" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 300px;">
+                        <asp:Label ID="lbl_Operador" runat="server" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 300px;">
+                        <b>Clave: </b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 300px;">
+                        <asp:Label ID="lbl_OperadorClave" runat="server" />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <table>
+                <tr>
+                    <td style="width: 300px;">
+                        <b>Cajero: </b>
+                    </td>
+                    <td rowspan="4">
+                        <asp:Image ID="img_Cajero" runat="server" Width="100" Height="100" />
+                    </td>
+                    <td rowspan="4">
+                        <asp:Image ID="img_CajeroFirma" runat="server" Width="100" Height="100" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 300px;">
+                        <asp:Label ID="lbl_Cajero" runat="server" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 300px;">
+                        <b>Clave: </b>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 300px;">
+                        <asp:Label ID="lbl_CajeroClave" runat="server" />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <hr />
+            <br />
+            <h4>
+                Custodios</h4>
+            <asp:DataList ID="dl_Custodios" runat="server" Width="100%" RepeatColumns="1">
+                <ItemTemplate>
+                    <table>
+                        <tr>
+                            <td style="width: 300px;">
+                                <b>Nombre: </b>
+                            </td>
+                            <td rowspan="4">
+                                <asp:Image ID="img_Operador" runat="server" Width="100" Height="100" ImageUrl='<%#Eval("Foto")%>' />
+                            </td>
+                            <td rowspan="4">
+                                <asp:Image ID="img_OperadorFirma" runat="server" Width="100" Height="100" ImageUrl='<%#Eval("Firma")%>' />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 300px;">
+                                <asp:Label ID="lbl_Nombre" runat="server">
+                                    <%#Eval("Nombre")%>
+                                </asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 300px;">
+                                <b>Clave: </b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 300px;">
+                                <asp:Label ID="lbl_Clave" runat="server">
+                                    <%#Eval("Clave")%>
+                                </asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+                </ItemTemplate>
+            </asp:DataList>
+        </asp:Panel>
+    </fieldset>
+</asp:Content>

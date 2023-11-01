@@ -1,0 +1,4899 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PortalSIAC
+</name>
+</assembly>
+<members>
+<member name="F:PortalSIAC.DetallesDeposito2.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.ddl_CajaBancaria">
+	<summary>
+Control ddl_CajaBancaria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.ddl_GruposDeposito">
+	<summary>
+Control ddl_GruposDeposito.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.cbx_GruposDeposito">
+	<summary>
+Control cbx_GruposDeposito.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.cbx_Todos_Clientes">
+	<summary>
+Control cbx_Todos_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.ddl_Moneda">
+	<summary>
+Control ddl_Moneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.Btn_Consultar">
+	<summary>
+Control Btn_Consultar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.fst_Depositos">
+	<summary>
+Control fst_Depositos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.gv_Lista">
+	<summary>
+Control gv_Lista.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.Btn_Exp_Ficha">
+	<summary>
+Control Btn_Exp_Ficha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.Btn_Exp_Remision">
+	<summary>
+Control Btn_Exp_Remision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.lbl_Leyenda">
+	<summary>
+Control lbl_Leyenda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.fst_DesgloseDep">
+	<summary>
+Control fst_DesgloseDep.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.div_gvDesglose">
+	<summary>
+Control div_gvDesglose.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.gv_Desglose">
+	<summary>
+Control gv_Desglose.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.div_importes">
+	<summary>
+Control div_importes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.txt_Billetes">
+	<summary>
+Control txt_Billetes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.txt_Monedas">
+	<summary>
+Control txt_Monedas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito2.txt_ImporteTotal">
+	<summary>
+Control txt_ImporteTotal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarFallas.fst_AutorizarFallas">
+	<summary>
+Control fst_AutorizarFallas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarFallas.lbl_server">
+	<summary>
+Control lbl_server.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarFallas.ddl_SucursalPropia">
+	<summary>
+Control ddl_SucursalPropia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarFallas.gv_FallasActivas">
+	<summary>
+Control gv_FallasActivas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarFallas.fst_detalleFalla">
+	<summary>
+Control fst_detalleFalla.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarFallas.lbl_comentarios">
+	<summary>
+Control lbl_comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarFallas.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.txt_FechaInicial">
+	<summary>
+Control txt_FechaInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.txt_FechaFinal">
+	<summary>
+Control txt_FechaFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.cbx_Todos_Clientes">
+	<summary>
+Control cbx_Todos_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.fst_TrasladosG">
+	<summary>
+Control fst_TrasladosG.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.gv_Lista">
+	<summary>
+Control gv_Lista.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.btn_Exportar">
+	<summary>
+Control btn_Exportar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.gvMonedas">
+	<summary>
+Control gvMonedas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTrasladoG.gvEnvases">
+	<summary>
+Control gvEnvases.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Cheques.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Cheques.img_Frente">
+	<summary>
+Control img_Frente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Cheques.img_Reverso">
+	<summary>
+Control img_Reverso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Descargas.fst_documentos">
+	<summary>
+Control fst_documentos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Descargas.gv_Lista">
+	<summary>
+Control gv_Lista.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.cbx_Todos_Clientes">
+	<summary>
+Control cbx_Todos_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.ddl_CajaBancaria">
+	<summary>
+Control ddl_CajaBancaria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.ddl_Status">
+	<summary>
+Control ddl_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.cbx_Todos">
+	<summary>
+Control cbx_Todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.fst_Depositos">
+	<summary>
+Control fst_Depositos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.lbl_Faltantes">
+	<summary>
+Control lbl_Faltantes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.lbl_Sobrantes">
+	<summary>
+Control lbl_Sobrantes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.lbl_MonedaExtranjera">
+	<summary>
+Control lbl_MonedaExtranjera.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.gv_Depositos">
+	<summary>
+Control gv_Depositos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.btn_Exportar">
+	<summary>
+Control btn_Exportar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.gv_Fichas">
+	<summary>
+Control gv_Fichas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tc_Desglose">
+	<summary>
+Control tc_Desglose.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tp_Efectivo">
+	<summary>
+Control tp_Efectivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.fst_Efectivo">
+	<summary>
+Control fst_Efectivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.div_gvEfectivo">
+	<summary>
+Control div_gvEfectivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.gv_Efectivo">
+	<summary>
+Control gv_Efectivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.div_ImporteEfectivo">
+	<summary>
+Control div_ImporteEfectivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tbx_TotalBilletes">
+	<summary>
+Control tbx_TotalBilletes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tbx_TotalMonedas">
+	<summary>
+Control tbx_TotalMonedas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tbx_ImporteTotal">
+	<summary>
+Control tbx_ImporteTotal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tp_Parciales">
+	<summary>
+Control tp_Parciales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.fst_Parciales">
+	<summary>
+Control fst_Parciales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.gv_Parciales">
+	<summary>
+Control gv_Parciales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.fst_ParcialesD">
+	<summary>
+Control fst_ParcialesD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.div_ParcialD">
+	<summary>
+Control div_ParcialD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.gv_ParcialD">
+	<summary>
+Control gv_ParcialD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.div_ImporteParcialD">
+	<summary>
+Control div_ImporteParcialD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tbx_TotalBilletesP">
+	<summary>
+Control tbx_TotalBilletesP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.Label6">
+	<summary>
+Control Label6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tbx_TotalMonedasP">
+	<summary>
+Control tbx_TotalMonedasP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.Label7">
+	<summary>
+Control Label7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tbx_ImporteTotalP">
+	<summary>
+Control tbx_ImporteTotalP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tp_Cheques">
+	<summary>
+Control tp_Cheques.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.fst_cheques">
+	<summary>
+Control fst_cheques.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.gv_Cheques">
+	<summary>
+Control gv_Cheques.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tp_Otros">
+	<summary>
+Control tp_Otros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.fst_otros">
+	<summary>
+Control fst_otros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.gv_Otros">
+	<summary>
+Control gv_Otros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.tp_BilletesFalsos">
+	<summary>
+Control tp_BilletesFalsos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.fst_BilletesFalsos">
+	<summary>
+Control fst_BilletesFalsos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDepositos.gv_Falsos">
+	<summary>
+Control gv_Falsos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.lbl_Cajero">
+	<summary>
+Control lbl_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.ddl_Cajero">
+	<summary>
+Control ddl_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.lbl_tipoCajero">
+	<summary>
+Control lbl_tipoCajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.tbx_tipoCajero">
+	<summary>
+Control tbx_tipoCajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.lbl_tiempoRespuesta">
+	<summary>
+Control lbl_tiempoRespuesta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.tbx_TiempoRespuesta">
+	<summary>
+Control tbx_TiempoRespuesta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.tbc_CapturaFallasCustodias">
+	<summary>
+Control tbc_CapturaFallasCustodias.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.tab_Fallas">
+	<summary>
+Control tab_Fallas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.rdb_Falla">
+	<summary>
+Control rdb_Falla.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.rdb_Custodia">
+	<summary>
+Control rdb_Custodia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.tbx_NumReporte">
+	<summary>
+Control tbx_NumReporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.tbx_Fecha">
+	<summary>
+Control tbx_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.tbx_Fecha_CalendarExtender">
+	<summary>
+Control tbx_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label8">
+	<summary>
+Control Label8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.tbx_FechaAlarma">
+	<summary>
+Control tbx_FechaAlarma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label9">
+	<summary>
+Control Label9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.ddl_HoraAlarma">
+	<summary>
+Control ddl_HoraAlarma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.ddl_MinutosAlarma">
+	<summary>
+Control ddl_MinutosAlarma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label6">
+	<summary>
+Control Label6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.ddl_MinutosSolBanco">
+	<summary>
+Control ddl_MinutosSolBanco.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.ddl_MinutosSolg">
+	<summary>
+Control ddl_MinutosSolg.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label10">
+	<summary>
+Control Label10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.ddl_ParteFalla">
+	<summary>
+Control ddl_ParteFalla.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label11">
+	<summary>
+Control Label11.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.ddl_TipoFalla">
+	<summary>
+Control ddl_TipoFalla.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.lbl_comentariosAd">
+	<summary>
+Control lbl_comentariosAd.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.btn_GuardarFalla">
+	<summary>
+Control btn_GuardarFalla.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.TabPanel1">
+	<summary>
+Control TabPanel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.tbx_NumReporteCorte">
+	<summary>
+Control tbx_NumReporteCorte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label12">
+	<summary>
+Control Label12.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.tbx_FechaCorte">
+	<summary>
+Control tbx_FechaCorte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.CalendarExtender2">
+	<summary>
+Control CalendarExtender2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label13">
+	<summary>
+Control Label13.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.ddl_De">
+	<summary>
+Control ddl_De.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.ddl_A">
+	<summary>
+Control ddl_A.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Fallas.btn_GuardarCorte">
+	<summary>
+Control btn_GuardarCorte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.TextboxCaptura">
+	<summary>
+Control TextboxCaptura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.tbx_NoReporte">
+	<summary>
+Control tbx_NoReporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.ddl_Cajero">
+	<summary>
+Control ddl_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.Label5">
+	<summary>
+Control Label5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.ddl_Moneda">
+	<summary>
+Control ddl_Moneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.Label6">
+	<summary>
+Control Label6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.ddl_HorasSol">
+	<summary>
+Control ddl_HorasSol.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.ddl_MinutosSol">
+	<summary>
+Control ddl_MinutosSol.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.Label7">
+	<summary>
+Control Label7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.rdb_Siprioridad">
+	<summary>
+Control rdb_Siprioridad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.rdb_Noprioridad">
+	<summary>
+Control rdb_Noprioridad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.tbx_Fecha">
+	<summary>
+Control tbx_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.tbx_Fecha_CalendarExtender">
+	<summary>
+Control tbx_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.Label9">
+	<summary>
+Control Label9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.ddl_HorasInicio">
+	<summary>
+Control ddl_HorasInicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.ddl_MinutosInicio">
+	<summary>
+Control ddl_MinutosInicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.Label14">
+	<summary>
+Control Label14.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.ddl_HorasFin">
+	<summary>
+Control ddl_HorasFin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.ddl_MinutosFin">
+	<summary>
+Control ddl_MinutosFin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.Label11">
+	<summary>
+Control Label11.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.rdb_Sicorte">
+	<summary>
+Control rdb_Sicorte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.rdb_NoCorte">
+	<summary>
+Control rdb_NoCorte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.lbl_msjPrioridad">
+	<summary>
+Control lbl_msjPrioridad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.gv_Dotaciones">
+	<summary>
+Control gv_Dotaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.lbl_Total">
+	<summary>
+Control lbl_Total.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.btn_Comprobar">
+	<summary>
+Control btn_Comprobar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.lbl_comentariosAd">
+	<summary>
+Control lbl_comentariosAd.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Dotaciones.btn_Guardar">
+	<summary>
+Control btn_Guardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Notificaciones.PlaceHolderNotifica">
+	<summary>
+Control PlaceHolderNotifica.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaCV.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaCV.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaCV.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaCV.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaCV.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaCV.cbx_Todos_Clientes">
+	<summary>
+Control cbx_Todos_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaCV.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaCV.fst_CV">
+	<summary>
+Control fst_CV.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaCV.gv_CV">
+	<summary>
+Control gv_CV.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Login.tbx_ClaveUnica">
+	<summary>
+Control tbx_ClaveUnica.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Login.txt_Usuario">
+	<summary>
+Control txt_Usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Login.txt_Contraseña">
+	<summary>
+Control txt_Contraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Login.btn_IniciarSesion">
+	<summary>
+Control btn_IniciarSesion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarServicios.fst_AutorizarServicios">
+	<summary>
+Control fst_AutorizarServicios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarServicios.lbl_server">
+	<summary>
+Control lbl_server.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarServicios.ddl_SucursalPropia">
+	<summary>
+Control ddl_SucursalPropia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarServicios.gv_Solicitudes">
+	<summary>
+Control gv_Solicitudes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarServicios.fst_detalleServicio">
+	<summary>
+Control fst_detalleServicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarServicios.lbl_comentarios">
+	<summary>
+Control lbl_comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarServicios.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarServicios.gv_Detalle">
+	<summary>
+Control gv_Detalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.cbx_Todos_Clientes">
+	<summary>
+Control cbx_Todos_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.ddl_CajaBancaria">
+	<summary>
+Control ddl_CajaBancaria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.ddl_Moneda">
+	<summary>
+Control ddl_Moneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.Btn_Consultar">
+	<summary>
+Control Btn_Consultar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.fst_Depositos">
+	<summary>
+Control fst_Depositos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.gv_Lista">
+	<summary>
+Control gv_Lista.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.Btn_Exp_Ficha">
+	<summary>
+Control Btn_Exp_Ficha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.Btn_Exp_Remision">
+	<summary>
+Control Btn_Exp_Remision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.lbl_Leyenda">
+	<summary>
+Control lbl_Leyenda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.fst_DesgloseDep">
+	<summary>
+Control fst_DesgloseDep.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.div_gvDesglose">
+	<summary>
+Control div_gvDesglose.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.gv_Desglose">
+	<summary>
+Control gv_Desglose.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.div_importes">
+	<summary>
+Control div_importes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.txt_Billetes">
+	<summary>
+Control txt_Billetes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.txt_Monedas">
+	<summary>
+Control txt_Monedas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.DetallesDeposito.txt_ImporteTotal">
+	<summary>
+Control txt_ImporteTotal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.cbx_Todos_Clientes">
+	<summary>
+Control cbx_Todos_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.ddl_Moneda">
+	<summary>
+Control ddl_Moneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.cbx_Moneda">
+	<summary>
+Control cbx_Moneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.ddl_Status">
+	<summary>
+Control ddl_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.cbx_Status">
+	<summary>
+Control cbx_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.fst_Dotaciones">
+	<summary>
+Control fst_Dotaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.gv_Resultado">
+	<summary>
+Control gv_Resultado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.btn_Exportar">
+	<summary>
+Control btn_Exportar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.fst_DesgloseDot">
+	<summary>
+Control fst_DesgloseDot.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotaciones.gv_Desglose">
+	<summary>
+Control gv_Desglose.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Firma.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.NotaSolicitud">
+	<summary>
+Control NotaSolicitud.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.txt_Fecha">
+	<summary>
+Control txt_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.txt_Cantidad">
+	<summary>
+Control txt_Cantidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.txt_Cantidad_TextBoxWatermarkExtender">
+	<summary>
+Control txt_Cantidad_TextBoxWatermarkExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.txt_Cantidad_FilteredTextBoxExtender">
+	<summary>
+Control txt_Cantidad_FilteredTextBoxExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.ddl_Material">
+	<summary>
+Control ddl_Material.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.btn_Agregar">
+	<summary>
+Control btn_Agregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.fst_detalleMaterial">
+	<summary>
+Control fst_detalleMaterial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.gv_Materiales">
+	<summary>
+Control gv_Materiales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.lbl_comentariosAd">
+	<summary>
+Control lbl_comentariosAd.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudMateriales.btn_Guardar">
+	<summary>
+Control btn_Guardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.txt_FechaInicial">
+	<summary>
+Control txt_FechaInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.txt_FechaFinal">
+	<summary>
+Control txt_FechaFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.cbx_Todos_Clientes">
+	<summary>
+Control cbx_Todos_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.fst_Traslados">
+	<summary>
+Control fst_Traslados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.gv_Lista">
+	<summary>
+Control gv_Lista.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.btn_Exportar">
+	<summary>
+Control btn_Exportar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.fst_Remisiones">
+	<summary>
+Control fst_Remisiones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.gv_Remisiones">
+	<summary>
+Control gv_Remisiones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.fst_detalleRemisiones">
+	<summary>
+Control fst_detalleRemisiones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.gvMonedas">
+	<summary>
+Control gvMonedas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.gvEnvases">
+	<summary>
+Control gvEnvases.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.pnl_Tripulacion">
+	<summary>
+Control pnl_Tripulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.img_Frente">
+	<summary>
+Control img_Frente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.lbl_Unidad">
+	<summary>
+Control lbl_Unidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.lbl_Placas">
+	<summary>
+Control lbl_Placas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.img_Operador">
+	<summary>
+Control img_Operador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.img_OperadorFirma">
+	<summary>
+Control img_OperadorFirma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.lbl_Operador">
+	<summary>
+Control lbl_Operador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.lbl_OperadorClave">
+	<summary>
+Control lbl_OperadorClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.img_Cajero">
+	<summary>
+Control img_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.img_CajeroFirma">
+	<summary>
+Control img_CajeroFirma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.lbl_Cajero">
+	<summary>
+Control lbl_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.lbl_CajeroClave">
+	<summary>
+Control lbl_CajeroClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTraslado.dl_Custodios">
+	<summary>
+Control dl_Custodios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotaciones.fst_AutorizarDotaciones">
+	<summary>
+Control fst_AutorizarDotaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotaciones.lbl_server">
+	<summary>
+Control lbl_server.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotaciones.ddl_SucursalPropia">
+	<summary>
+Control ddl_SucursalPropia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotaciones.gv_DotacionesActivas">
+	<summary>
+Control gv_DotacionesActivas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotaciones.fst_detalleDotacion">
+	<summary>
+Control fst_detalleDotacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotaciones.lbl_comentarios">
+	<summary>
+Control lbl_comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotaciones.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotaciones.gv_Detalle">
+	<summary>
+Control gv_Detalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.ddl_Tipo">
+	<summary>
+Control ddl_Tipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.cbx_Todos">
+	<summary>
+Control cbx_Todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.fst_Anomalias">
+	<summary>
+Control fst_Anomalias.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.gv_Anomalias">
+	<summary>
+Control gv_Anomalias.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.div_DetalleAnomalias">
+	<summary>
+Control div_DetalleAnomalias.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.dl_Detalle">
+	<summary>
+Control dl_Detalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.txt_Descripcion">
+	<summary>
+Control txt_Descripcion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.pnl_AgregarImagen">
+	<summary>
+Control pnl_AgregarImagen.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.fu_Adjunto">
+	<summary>
+Control fu_Adjunto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaAnomalias.btn_Guardar">
+	<summary>
+Control btn_Guardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Foto.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.FotoUnidad.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.txt_Remision">
+	<summary>
+Control txt_Remision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.txt_Remision_TextBoxWatermarkExtender">
+	<summary>
+Control txt_Remision_TextBoxWatermarkExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.txt_Remision_FilteredTextBoxExtender">
+	<summary>
+Control txt_Remision_FilteredTextBoxExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.btn_Buscar">
+	<summary>
+Control btn_Buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.txt_NumeroRemision">
+	<summary>
+Control txt_NumeroRemision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.txt_FechaCaptura">
+	<summary>
+Control txt_FechaCaptura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.txt_HoraCaptura">
+	<summary>
+Control txt_HoraCaptura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.txt_Importe">
+	<summary>
+Control txt_Importe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.txt_EnvasesSN">
+	<summary>
+Control txt_EnvasesSN.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.gv_Importes">
+	<summary>
+Control gv_Importes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.gv_Envases">
+	<summary>
+Control gv_Envases.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.RastreoRemisiones1.gv_Log">
+	<summary>
+Control gv_Log.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotacionesCajeros.fst_AutorizarDotaciones">
+	<summary>
+Control fst_AutorizarDotaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotacionesCajeros.lbl_server">
+	<summary>
+Control lbl_server.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotacionesCajeros.ddl_SucursalPropia">
+	<summary>
+Control ddl_SucursalPropia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotacionesCajeros.gv_DotacionesActivas">
+	<summary>
+Control gv_DotacionesActivas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotacionesCajeros.fst_detalleDotacion">
+	<summary>
+Control fst_detalleDotacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotacionesCajeros.lbl_comentarios">
+	<summary>
+Control lbl_comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotacionesCajeros.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarDotacionesCajeros.gv_Detalle">
+	<summary>
+Control gv_Detalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CatalogoCajeros.div_cajeros">
+	<summary>
+Control div_cajeros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CatalogoCajeros.lbl_Status">
+	<summary>
+Control lbl_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CatalogoCajeros.ddl_Status">
+	<summary>
+Control ddl_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CatalogoCajeros.cbx_Todos">
+	<summary>
+Control cbx_Todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CatalogoCajeros.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CatalogoCajeros.gv_Lista">
+	<summary>
+Control gv_Lista.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CatalogoCajeros.btn_Exportar">
+	<summary>
+Control btn_Exportar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CatalogoCajeros.fst_DetalleCaj">
+	<summary>
+Control fst_DetalleCaj.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CatalogoCajeros.gv_Config">
+	<summary>
+Control gv_Config.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="M:PortalSIAC.CreateCaptcha.CreateCaptchaImage">
+	<summary>
+ method for create captcha image
+ </summary>
+</member><member name="M:PortalSIAC.CreateCaptcha.DrawRandomLines(System.Drawing.Graphics)">
+	<summary>
+ Method for drawing lines
+ </summary>
+	<param name="g"></param>
+</member><member name="M:PortalSIAC.CreateCaptcha.GetRandomPoints">
+	<summary>
+ method for gettting random point position
+ </summary>
+	<returns></returns>
+</member><member name="M:PortalSIAC.CreateCaptcha.GetRandomText">
+	<summary>
+ Method for generating random text of 5 cahrecters as captcha code
+ </summary>
+	<returns></returns>
+</member><member name="F:PortalSIAC.CambiarContrasena.lbl_Password">
+	<summary>
+Control lbl_Password.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CambiarContrasena.txt_Contraseña">
+	<summary>
+Control txt_Contraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CambiarContrasena.txt_Nueva">
+	<summary>
+Control txt_Nueva.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CambiarContrasena.txt_Confirmar">
+	<summary>
+Control txt_Confirmar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CambiarContrasena.btn_Cambiar">
+	<summary>
+Control btn_Cambiar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDiferencias.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDiferencias.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDiferencias.ddl_Tipo">
+	<summary>
+Control ddl_Tipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDiferencias.cbx_Tipo">
+	<summary>
+Control cbx_Tipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDiferencias.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDiferencias.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDiferencias.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDiferencias.gv_Resultados">
+	<summary>
+Control gv_Resultados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Download.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.NotaSolicitud">
+	<summary>
+Control NotaSolicitud.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.txt_Fecha">
+	<summary>
+Control txt_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.ddl_Servicio">
+	<summary>
+Control ddl_Servicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.ddl_Origen">
+	<summary>
+Control ddl_Origen.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.ddl_De">
+	<summary>
+Control ddl_De.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.ddl_A">
+	<summary>
+Control ddl_A.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.ddl_Destino">
+	<summary>
+Control ddl_Destino.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.ddl_DeD">
+	<summary>
+Control ddl_DeD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.ddl_AD">
+	<summary>
+Control ddl_AD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.lbl_comentariosAd">
+	<summary>
+Control lbl_comentariosAd.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudServicios.btn_Solicitar">
+	<summary>
+Control btn_Solicitar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.ddl_Status">
+	<summary>
+Control ddl_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.chk_Todos">
+	<summary>
+Control chk_Todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.fst_Remanentes">
+	<summary>
+Control fst_Remanentes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.gv_Remanentes">
+	<summary>
+Control gv_Remanentes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.fst_detalleRemanente">
+	<summary>
+Control fst_detalleRemanente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.lbl_ImporteRem">
+	<summary>
+Control lbl_ImporteRem.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.lbl_ImporteVerif">
+	<summary>
+Control lbl_ImporteVerif.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.gv_ImporteRemision">
+	<summary>
+Control gv_ImporteRemision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaRemanentes.gv_ImporteVerificado">
+	<summary>
+Control gv_ImporteVerificado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaActasDiferencia.txt_FInicial">
+	<summary>
+Control txt_FInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaActasDiferencia.txt_FInicial_CalendarExtender">
+	<summary>
+Control txt_FInicial_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaActasDiferencia.txt_FFinal">
+	<summary>
+Control txt_FFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaActasDiferencia.txt_FFinal_CalendarExtender">
+	<summary>
+Control txt_FFinal_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaActasDiferencia.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaActasDiferencia.cbx_Todos_Clientes">
+	<summary>
+Control cbx_Todos_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaActasDiferencia.ddl_CajaBancaria">
+	<summary>
+Control ddl_CajaBancaria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaActasDiferencia.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaActasDiferencia.fst_ActasDiferencia">
+	<summary>
+Control fst_ActasDiferencia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaActasDiferencia.gv_CV">
+	<summary>
+Control gv_CV.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CreateCaptcha.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.PrivilegiosUsuarios.fst_Usuarios">
+	<summary>
+Control fst_Usuarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.PrivilegiosUsuarios.gv_Usuarios">
+	<summary>
+Control gv_Usuarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.PrivilegiosUsuarios.gv_Opciones">
+	<summary>
+Control gv_Opciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.PrivilegiosUsuarios.btn_Agregar">
+	<summary>
+Control btn_Agregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.PrivilegiosUsuarios.btn_Eliminar">
+	<summary>
+Control btn_Eliminar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.PrivilegiosUsuarios.gv_PrivilegiosOtorgados">
+	<summary>
+Control gv_PrivilegiosOtorgados.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_fechainicio">
+	<summary>
+Control lbl_fechainicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Fechainicio">
+	<summary>
+Control tbx_Fechainicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Fechainicio_CalendarExtender">
+	<summary>
+Control tbx_Fechainicio_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Fechainicio_FilteredTextBoxExtender">
+	<summary>
+Control tbx_Fechainicio_FilteredTextBoxExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_fechafin">
+	<summary>
+Control lbl_fechafin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Fechafin">
+	<summary>
+Control tbx_Fechafin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Fechafin_CalendarExtender">
+	<summary>
+Control tbx_Fechafin_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Fechafin_FilteredTextBoxExtender">
+	<summary>
+Control tbx_Fechafin_FilteredTextBoxExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_cajero">
+	<summary>
+Control lbl_cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.ddl_Cajero">
+	<summary>
+Control ddl_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.chk_Cajeros">
+	<summary>
+Control chk_Cajeros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_Status">
+	<summary>
+Control lbl_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.ddl_Status">
+	<summary>
+Control ddl_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.chk_Status">
+	<summary>
+Control chk_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.fst_dotaciones">
+	<summary>
+Control fst_dotaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.gv_Dotaciones">
+	<summary>
+Control gv_Dotaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.gv_DetalleD">
+	<summary>
+Control gv_DetalleD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_cambiopapel">
+	<summary>
+Control lbl_cambiopapel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.rdb_cambiopapelSI">
+	<summary>
+Control rdb_cambiopapelSI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.rdb_cambiopapelNO">
+	<summary>
+Control rdb_cambiopapelNO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_Observaciones">
+	<summary>
+Control lbl_Observaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_descargoinfo">
+	<summary>
+Control lbl_descargoinfo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.rdb_descargoinfoSI">
+	<summary>
+Control rdb_descargoinfoSI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.rdb_descargoinfoNO">
+	<summary>
+Control rdb_descargoinfoNO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Observaciones">
+	<summary>
+Control tbx_Observaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_huboretiro">
+	<summary>
+Control lbl_huboretiro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.rdb_huboretiroSI">
+	<summary>
+Control rdb_huboretiroSI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.rdb_huboretiroNO">
+	<summary>
+Control rdb_huboretiroNO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_remision">
+	<summary>
+Control lbl_remision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Remision">
+	<summary>
+Control tbx_Remision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_importe">
+	<summary>
+Control lbl_importe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Importe">
+	<summary>
+Control tbx_Importe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_tarjetasretenidas">
+	<summary>
+Control lbl_tarjetasretenidas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_Teoricas">
+	<summary>
+Control lbl_Teoricas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.lbl_Reales">
+	<summary>
+Control lbl_Reales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Teoricas">
+	<summary>
+Control tbx_Teoricas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.tbx_Reales">
+	<summary>
+Control tbx_Reales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaDotacionesCajeros.gv_TarjetasFallas">
+	<summary>
+Control gv_TarjetasFallas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ReportarAnomalias.txt_Fecha">
+	<summary>
+Control txt_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ReportarAnomalias.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ReportarAnomalias.ddl_Horas">
+	<summary>
+Control ddl_Horas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ReportarAnomalias.ddl_Minutos">
+	<summary>
+Control ddl_Minutos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ReportarAnomalias.txt_Descripcion">
+	<summary>
+Control txt_Descripcion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ReportarAnomalias.txt_Notas">
+	<summary>
+Control txt_Notas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ReportarAnomalias.btn_Enviar">
+	<summary>
+Control btn_Enviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ReportarAnomalias.RequiredFieldValidator2">
+	<summary>
+Control RequiredFieldValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ReportarAnomalias.RequiredFieldValidator3">
+	<summary>
+Control RequiredFieldValidator3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.NotaSolicitud">
+	<summary>
+Control NotaSolicitud.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.txt_FechaEntrega">
+	<summary>
+Control txt_FechaEntrega.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.txt_FechaEntrega_CalendarExtender">
+	<summary>
+Control txt_FechaEntrega_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.ddl_De">
+	<summary>
+Control ddl_De.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.ddl_A">
+	<summary>
+Control ddl_A.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.ddl_Moneda">
+	<summary>
+Control ddl_Moneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.ddl_CajaBancaria">
+	<summary>
+Control ddl_CajaBancaria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.ddl_Cliente">
+	<summary>
+Control ddl_Cliente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.txt_Total">
+	<summary>
+Control txt_Total.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.txt_Total_FilteredTextBoxExtender">
+	<summary>
+Control txt_Total_FilteredTextBoxExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.ImgValidado">
+	<summary>
+Control ImgValidado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.gv_Billetes">
+	<summary>
+Control gv_Billetes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.gv_Monedas">
+	<summary>
+Control gv_Monedas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.lbl_Total">
+	<summary>
+Control lbl_Total.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.btn_Actualizar">
+	<summary>
+Control btn_Actualizar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.lbl_comentariosAd">
+	<summary>
+Control lbl_comentariosAd.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.SolicitudDotaciones.btn_Guardar">
+	<summary>
+Control btn_Guardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.Fieldset1">
+	<summary>
+Control Fieldset1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.lbl_Sucursales">
+	<summary>
+Control lbl_Sucursales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.ddl_Sucursales">
+	<summary>
+Control ddl_Sucursales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.lbl_Nivel">
+	<summary>
+Control lbl_Nivel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.ddl_Nivel">
+	<summary>
+Control ddl_Nivel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.lbl_Cliente">
+	<summary>
+Control lbl_Cliente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.lbl_Nombre">
+	<summary>
+Control lbl_Nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.tbx_Nombre">
+	<summary>
+Control tbx_Nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.lbl_NombreSesion">
+	<summary>
+Control lbl_NombreSesion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.tbx_Sesion">
+	<summary>
+Control tbx_Sesion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.btn_Guardar">
+	<summary>
+Control btn_Guardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.fst_CrearUsuario">
+	<summary>
+Control fst_CrearUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.Image1">
+	<summary>
+Control Image1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.Image2">
+	<summary>
+Control Image2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.Image3">
+	<summary>
+Control Image3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.imgBaja">
+	<summary>
+Control imgBaja.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CrearUsuario.gv_CrearUsuarios">
+	<summary>
+Control gv_CrearUsuarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.txt_FechaInicial">
+	<summary>
+Control txt_FechaInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.txt_FechaFinal">
+	<summary>
+Control txt_FechaFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.cbx_Todos_Clientes">
+	<summary>
+Control cbx_Todos_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.fst_Materiales">
+	<summary>
+Control fst_Materiales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.gv_ConsultaMat">
+	<summary>
+Control gv_ConsultaMat.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.fst_DetalleMateriales">
+	<summary>
+Control fst_DetalleMateriales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaMateriales.gv_Detalle">
+	<summary>
+Control gv_Detalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:PortalSIAC.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:PortalSIAC.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="T:PortalSIAC.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="F:PortalSIAC.Alerta.HiddenField1">
+	<summary>
+Control HiddenField1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.pnl_Alerta">
+	<summary>
+Control pnl_Alerta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.udp_Mensaje">
+	<summary>
+Control udp_Mensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.div_contenedorAlerta">
+	<summary>
+Control div_contenedorAlerta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.div_logoSIAC">
+	<summary>
+Control div_logoSIAC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.lbl_SIAC">
+	<summary>
+Control lbl_SIAC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.div_tituloAlerta">
+	<summary>
+Control div_tituloAlerta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.lblTituloAlerta">
+	<summary>
+Control lblTituloAlerta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.div_btnCerrar">
+	<summary>
+Control div_btnCerrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.btn_Cerrar">
+	<summary>
+Control btn_Cerrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.div_mensaje">
+	<summary>
+Control div_mensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.lbl_Mensaje">
+	<summary>
+Control lbl_Mensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Alerta.pnl_Alerta_ModalPopupExtender">
+	<summary>
+Control pnl_Alerta_ModalPopupExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CambioSucursal.ddl_Sucursales">
+	<summary>
+Control ddl_Sucursales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.CambioSucursal.btn_CmabiarConexion">
+	<summary>
+Control btn_CmabiarConexion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Reverso.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.txt_FechaInicial">
+	<summary>
+Control txt_FechaInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.ddl_Clientes">
+	<summary>
+Control ddl_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.cbx_Todos_Clientes">
+	<summary>
+Control cbx_Todos_Clientes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.fst_Unidades">
+	<summary>
+Control fst_Unidades.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.gv_Lista">
+	<summary>
+Control gv_Lista.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.fst_Tripulacion">
+	<summary>
+Control fst_Tripulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.pnl_Tripulacion">
+	<summary>
+Control pnl_Tripulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.img_UnidadTV">
+	<summary>
+Control img_UnidadTV.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.lbl_Unidad">
+	<summary>
+Control lbl_Unidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.lbl_Placas">
+	<summary>
+Control lbl_Placas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.img_Operador">
+	<summary>
+Control img_Operador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.img_OperadorFirma">
+	<summary>
+Control img_OperadorFirma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.lbl_Operador">
+	<summary>
+Control lbl_Operador.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.lbl_OperadorClave">
+	<summary>
+Control lbl_OperadorClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.img_Cajero">
+	<summary>
+Control img_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.img_CajeroFirma">
+	<summary>
+Control img_CajeroFirma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.lbl_Cajero">
+	<summary>
+Control lbl_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.lbl_CajeroClave">
+	<summary>
+Control lbl_CajeroClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ValidacionTripulacion.dl_Custodios">
+	<summary>
+Control dl_Custodios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.txt_FechaInicial">
+	<summary>
+Control txt_FechaInicial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.txt_Fecha_CalendarExtender">
+	<summary>
+Control txt_Fecha_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.txt_FechaFinal">
+	<summary>
+Control txt_FechaFinal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.CalendarExtender1">
+	<summary>
+Control CalendarExtender1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.ddl_TipoTarjetas">
+	<summary>
+Control ddl_TipoTarjetas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.chk_TodosTarjetas">
+	<summary>
+Control chk_TodosTarjetas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.fst_TarjetasRetenidas">
+	<summary>
+Control fst_TarjetasRetenidas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.gv_tarjetasRetenidas">
+	<summary>
+Control gv_tarjetasRetenidas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.lbl_Observaciones">
+	<summary>
+Control lbl_Observaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaTarjetasRetenidas.txt_Observaciones">
+	<summary>
+Control txt_Observaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.ToolkitScriptManager1">
+	<summary>
+Control ToolkitScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.smp_Path">
+	<summary>
+Control smp_Path.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.ls_login">
+	<summary>
+Control ls_login.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.lv_CambiarPassword">
+	<summary>
+Control lv_CambiarPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.lbl_Conexion">
+	<summary>
+Control lbl_Conexion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.imgBtn_Notifica">
+	<summary>
+Control imgBtn_Notifica.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.lbl_NumeroNotif">
+	<summary>
+Control lbl_NumeroNotif.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.lbl_SIAC">
+	<summary>
+Control lbl_SIAC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.div_Usuario">
+	<summary>
+Control div_Usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.lbl_bienvenido">
+	<summary>
+Control lbl_bienvenido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.LoginName1">
+	<summary>
+Control LoginName1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.mnu_Navegacion">
+	<summary>
+Control mnu_Navegacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.lbl_Sissa">
+	<summary>
+Control lbl_Sissa.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.lbl_Info">
+	<summary>
+Control lbl_Info.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Masterpage.ContentPlaceHolder1">
+	<summary>
+Control ContentPlaceHolder1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_fechainicio">
+	<summary>
+Control lbl_fechainicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Fechainicio">
+	<summary>
+Control tbx_Fechainicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Fechainicio_CalendarExtender">
+	<summary>
+Control tbx_Fechainicio_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Fechainicio_FilteredTextBoxExtender">
+	<summary>
+Control tbx_Fechainicio_FilteredTextBoxExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_fechafin">
+	<summary>
+Control lbl_fechafin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Fechafin">
+	<summary>
+Control tbx_Fechafin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Fechafin_CalendarExtender">
+	<summary>
+Control tbx_Fechafin_CalendarExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Fechafin_FilteredTextBoxExtender">
+	<summary>
+Control tbx_Fechafin_FilteredTextBoxExtender.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_cajero">
+	<summary>
+Control lbl_cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.ddl_Cajero">
+	<summary>
+Control ddl_Cajero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.chk_Cajeros">
+	<summary>
+Control chk_Cajeros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.ddl_Status">
+	<summary>
+Control ddl_Status.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.chk_Todos">
+	<summary>
+Control chk_Todos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.btn_Mostrar">
+	<summary>
+Control btn_Mostrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.fst_fallas">
+	<summary>
+Control fst_fallas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.gv_Fallas">
+	<summary>
+Control gv_Fallas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_quedofuncionando">
+	<summary>
+Control lbl_quedofuncionando.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.rdb_funcionaSI">
+	<summary>
+Control rdb_funcionaSI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.rdb_funcionaNO">
+	<summary>
+Control rdb_funcionaNO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_Observaciones">
+	<summary>
+Control lbl_Observaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_cambiopapel">
+	<summary>
+Control lbl_cambiopapel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.rdb_cambiopapelSI">
+	<summary>
+Control rdb_cambiopapelSI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.rdb_cambiopapelNO">
+	<summary>
+Control rdb_cambiopapelNO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Observaciones">
+	<summary>
+Control tbx_Observaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_descargoinfo">
+	<summary>
+Control lbl_descargoinfo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.rdb_descargoinfoSI">
+	<summary>
+Control rdb_descargoinfoSI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.rdb_descargoinfoNO">
+	<summary>
+Control rdb_descargoinfoNO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_huboretiro">
+	<summary>
+Control lbl_huboretiro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.rdb_huboretiroSI">
+	<summary>
+Control rdb_huboretiroSI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.rdb_huboretiroNO">
+	<summary>
+Control rdb_huboretiroNO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_remision">
+	<summary>
+Control lbl_remision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Remision">
+	<summary>
+Control tbx_Remision.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_importe">
+	<summary>
+Control lbl_importe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Importe">
+	<summary>
+Control tbx_Importe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_tarjetasretenidas">
+	<summary>
+Control lbl_tarjetasretenidas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_Teoricas">
+	<summary>
+Control lbl_Teoricas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.lbl_Reales">
+	<summary>
+Control lbl_Reales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Teoricas">
+	<summary>
+Control tbx_Teoricas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.tbx_Reales">
+	<summary>
+Control tbx_Reales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.ConsultaFallas.gv_TarjetasFallas">
+	<summary>
+Control gv_TarjetasFallas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarMateriales.fst_AutorizarMateriales">
+	<summary>
+Control fst_AutorizarMateriales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarMateriales.lbl_server">
+	<summary>
+Control lbl_server.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarMateriales.ddl_SucursalPropia">
+	<summary>
+Control ddl_SucursalPropia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarMateriales.gv_Solicitudes">
+	<summary>
+Control gv_Solicitudes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarMateriales.fst_detalleMaterial">
+	<summary>
+Control fst_detalleMaterial.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarMateriales.lbl_comentarios">
+	<summary>
+Control lbl_comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarMateriales.txt_Comentarios">
+	<summary>
+Control txt_Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.AutorizarMateriales.gv_Detalle">
+	<summary>
+Control gv_Detalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PortalSIAC.Frente.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

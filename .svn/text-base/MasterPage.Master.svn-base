@@ -1,0 +1,77 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb"
+    Inherits="SissaPortal.MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Servicio Integral de Seguridad, S.A. de C.V.</title>
+    <link rel="Stylesheet" type="text/css" href="App_Themes/NegroAmarillo/style.css"
+        media="screen" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </asp:ToolkitScriptManager>
+    <div id="wrap">
+        <div id="header">
+            <!--<asp:Image ID="Image1" runat="server" ImageUrl="~/Imagenes/logo.gif" />-->
+            <div id="menu">
+                <span style="float: left;">
+                    <asp:SiteMapPath ID="smp_Path" runat="server" ForeColor="#C0A062">
+                        <NodeStyle ForeColor="#C0A062" />
+                    </asp:SiteMapPath>
+                </span><span style="float: right;">
+                    <asp:LoginStatus ID="ls_login" runat="server" ForeColor="White" />
+                    <asp:LoginView ID="lv_CambiarPassword" runat="server">
+                        <LoggedInTemplate>
+                            |&nbsp
+                            <asp:HyperLink ID="lnkCambiarContraseña" runat="server" NavigateUrl="~/Login/CambiarContrasena.aspx" >Cambiar Contraseña</asp:HyperLink>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </span>
+            </div>
+        </div>
+        <div class="left">
+            <table>
+            <tr>
+                <td>
+                    <asp:Image ID="img_logo" runat="server" ImageUrl="~/Imagenes/LogoSISSA.jpg" 
+                        Width="90px" />
+                </td>
+                <td valign="bottom" align="left">
+                    <asp:Image ID="img_25" runat="server" ImageUrl="~/Imagenes/Logo25_Little.jpg" 
+                        Height="55px" />    
+                </td>
+            </tr>
+            </table>
+            <br />
+            <h3>
+                <asp:LoginName ID="LoginName1" runat="server" FormatString="Bienvenido: {0}" />
+            </h3>
+            <br />
+            <asp:Menu ID="mnu_Navegacion" runat="server" StaticSubMenuIndent="0px" StaticDisplayLevels="3">
+                <LevelSelectedStyles>
+                    <asp:MenuItemStyle Font-Underline="False" />
+                    <asp:MenuItemStyle Font-Underline="False" />
+                    <asp:MenuItemStyle CssClass="MenuSelected" Font-Underline="False" />
+                </LevelSelectedStyles>
+                <StaticMenuStyle CssClass="StaticMenuItem" />
+                <LevelMenuItemStyles>
+                    <asp:MenuItemStyle CssClass="MenuRaiz" Font-Underline="False" />
+                    <asp:MenuItemStyle CssClass="MenuNivel1" Font-Underline="False" />
+                    <asp:MenuItemStyle CssClass="MenuNivel2" Font-Underline="False" />
+                </LevelMenuItemStyles>
+                <StaticMenuItemStyle CssClass="StaticMenuItem" />
+            </asp:Menu>
+        </div>
+        <div class="right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

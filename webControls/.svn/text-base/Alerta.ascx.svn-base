@@ -1,0 +1,43 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="Alerta.ascx.vb" Inherits="SissaPortal.Alerta" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<style type="text/css">
+</style>
+
+<script type="text/javascript">
+    function onOK(ev) {
+        modalpopup = $find("ctl00_ctl04_pnl_Alerta_ModalPopupExtender");
+        if (modalpopup == null)
+            modalpopup = $find("ctl00_pnl_Alerta_ModalPopupExtender");
+        if (modalpopup == null)
+            modalpopup = $find("ctl00_ctl03_pnl_Alerta_ModalPopupExtender");
+        modalpopup.hide();
+    }
+</script>
+
+<asp:Panel ID="pnl_Alerta" runat="server" Width="400px" CssClass="ModalWindow">
+    <table height="100%" cellspacing="0" cellpadding="0" style="width: 100%">
+        <tr align="center" valign="middle">
+            <td style="border: 1px solid #000000; width: 40px;">
+                <asp:Image ID="Logo" runat="server" ImageUrl="~/Imagenes/LogoSISSALittle.jpg" />
+            </td>
+            <td align="center" style="background-color: Black;">
+                <label style="color: White; font-weight: bold; font-size: large;">
+                    SISSA
+                </label>
+            </td>
+            <td align="center" colspan="2" style="border: 1px solid #000000; width: 40px;">
+                <asp:ImageButton ID="btn_Cerrar" runat="server" Text="Cerrar" ImageUrl="~/Imagenes/Cerrar.png" />
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="3" style="height: 100px" >
+                <asp:Label ID="lbl_Mensaje" runat="server" Font-Bold="True" Font-Size="12pt" />
+            </td>
+        </tr>
+    </table>
+</asp:Panel>
+<asp:ModalPopupExtender ID="pnl_Alerta_ModalPopupExtender" runat="server" BackgroundCssClass="modalBackground"
+    OkControlID="btn_Cerrar" TargetControlID="pnl_Alerta" PopupControlID="pnl_Alerta"
+    OnOkScript="onOK()">
+</asp:ModalPopupExtender>

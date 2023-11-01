@@ -1,0 +1,360 @@
+﻿Public Partial Class SolicitudDotaciones
+    Inherits BasePage
+
+    Private Const ImagenValidado As String = "~/Imagenes/HoraSi.png"
+    Private Const ImagenNoValidado As String = "~/Imagenes/Eliminar16x16.png"
+    Private Const TextoImporte As String = "Importe Real: "
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If IsPostBack Then Exit Sub
+        fn_LlenarDropDown(ddl_Moneda, cn.fn_SolicitudDotaciones_GetMonedas())
+
+        Dim tbl_CajasBancarias As DataTable = cn.fn_SolicitudDotaciones_GetCajasBancarias()
+        Tabla("tbl_CajasBancarias") = tbl_CajasBancarias
+
+        fn_LlenarDropDown(ddl_CajaBancaria, tbl_CajasBancarias)
+
+        If ddl_CajaBancaria.Items.Count.Equals(2) Then
+            ddl_CajaBancaria.SelectedIndex = 1
+        End If
+
+        ActualizarClientes()
+        ActualizarGrids()
+    End Sub
+
+    Protected Sub ddl_Moneda_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles ddl_Moneda.SelectedIndexChanged
+        ActualizarGrids()
+    End Sub
+
+    Private Sub ActualizarGrids()
+        If (ddl_Moneda.SelectedValue > 0) Then
+
+            Dim Id_Moneda As Integer = ddl_Moneda.SelectedValue
+            Dim Tbl_Billetes As DataTable = cn.fn_SolicitudDotaciones_GetDenominaciones(Id_Moneda, "B")
+            Dim Tbl_Monedas As DataTable = cn.fn_SolicitudDotaciones_GetDenominaciones(Id_Moneda, "M")
+
+            Tabla("Tbl_Billetes") = Tbl_Billetes
+            If Tbl_Billetes.Rows.Count.Equals(0) Then
+                gv_Billetes.DataSource = Nothing
+                gv_Billetes.DataBind()
+            Else
+                gv_Billetes.DataSource = fn_MostrarSiempre(Tbl_Billetes)
+                gv_Billetes.DataBind()
+            End If
+
+            Tabla("Tbl_Monedas") = Tbl_Monedas
+            If Tbl_Monedas.Rows.Count.Equals(0) Then
+                gv_Monedas.DataSource = Nothing
+                gv_Monedas.DataBind()
+            Else
+                gv_Monedas.DataSource = fn_MostrarSiempre(Tbl_Monedas)
+                gv_Monedas.DataBind()
+            End If
+            
+        Else
+            Tabla("Tbl_Billetes") = Nothing
+            Tabla("Tbl_Monedas") = Nothing
+
+            Dim TablaBilletes As New DsSolicitudDotaciones.Tbl_BilletesDataTable()
+            Dim TablaMonedas As New DsSolicitudDotaciones.Tbl_MonedasDataTable()
+
+
+            gv_Billetes.DataSource = fn_MostrarSiempre(TablaBilletes)
+            gv_Billetes.DataBind()
+
+            gv_Monedas.DataSource = fn_MostrarSiempre(TablaMonedas)
+            gv_Monedas.DataBind()
+        End If
+    End Sub
+
+    Protected Sub gv_Billetes_RowEditing(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewEditEventArgs) Handles gv_Billetes.RowEditing
+        gv_Billetes.EditIndex = e.NewEditIndex
+
+        Dim Tbl_Billetes As DataTable = Tabla("Tbl_Billetes")
+        gv_Billetes.DataSource = Tbl_Billetes
+        gv_Billetes.DataBind()
+    End Sub
+
+    Protected Sub gv_Monedas_RowEditing(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewEditEventArgs) Handles gv_Monedas.RowEditing
+        gv_Monedas.EditIndex = e.NewEditIndex
+
+        Dim Tbl_Monedas As DataTable = Tabla("Tbl_Monedas")
+        gv_Monedas.DataSource = Tbl_Monedas
+        gv_Monedas.DataBind()
+    End Sub
+
+    Protected Sub gv_Monedas_RowUpdating(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewUpdateEventArgs) Handles gv_Monedas.RowUpdating
+        Try
+
+            Dim Id_Denominacion As Integer = gv_Monedas.DataKeys(e.RowIndex).Value
+            Dim Tbl_Monedas As DataTable = Tabla("Tbl_Monedas")
+
+            Dim Filas = From T As DataRow In Tbl_Monedas Where T("Id_Denominacion") = Id_Denominacion Select T
+
+            If Filas.Count = 0 Then
+                fn_Alerta("No se puede Actualizar la fila debido a un error.")
+                Exit Sub
+            End If
+
+            Dim fila As DataRow = Filas(0)
+            Dim Cantidad As Integer = CInt(CType(gv_Monedas.Rows(e.RowIndex).Cells(2).Controls(0), TextBox).Text)
+
+            fila("Cantidad") = Cantidad
+            fila("Total") = FormatNumber((Cantidad * CDec(fila("Denominacion"))), 2)
+
+            Tbl_Monedas.AcceptChanges()
+
+            gv_Monedas.EditIndex = -1
+            gv_Monedas.DataSource = Tbl_Monedas
+            gv_Monedas.DataBind()
+            Tabla("Tbl_Monedas") = Tbl_Monedas
+        Catch ex As Exception
+            fn_Alerta("No se puede Actualizar la fila debido a un error.")
+            Exit Sub
+        End Try
+    End Sub
+
+    Protected Sub gv_Billetes_RowUpdating(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewUpdateEventArgs) Handles gv_Billetes.RowUpdating
+        Try
+
+            Dim Id_Denominacion As Integer = gv_Billetes.DataKeys(e.RowIndex).Value
+            Dim Tbl_Billetes As DataTable = Tabla("Tbl_Billetes")
+
+            Dim Filas = From T As DataRow In Tbl_Billetes Where T("Id_Denominacion") = Id_Denominacion Select T
+
+            If Filas.Count = 0 Then
+                fn_Alerta("No se puede Actualizar la fila debido a un error.")
+                Exit Sub
+            End If
+
+            Dim fila As DataRow = Filas(0)
+            Dim Cantidad As Integer = CInt(CType(gv_Billetes.Rows(e.RowIndex).Cells(2).Controls(0), TextBox).Text)
+
+            fila("Cantidad") = Cantidad
+            fila("Total") = FormatNumber((Cantidad * CDec(fila("Denominacion"))), 2)
+
+            Tbl_Billetes.AcceptChanges()
+
+            gv_Billetes.EditIndex = -1
+            gv_Billetes.DataSource = Tbl_Billetes
+            gv_Billetes.DataBind()
+            Tabla("Tbl_Billetes") = Tbl_Billetes
+        Catch ex As Exception
+            fn_Alerta("No se puede Actualizar la fila debido a un error.")
+            Exit Sub
+        End Try
+    End Sub
+
+    Protected Sub gv_Billetes_RowCancelingEdit(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCancelEditEventArgs) Handles gv_Billetes.RowCancelingEdit
+        gv_Billetes.EditIndex = -1
+        gv_Billetes.DataSource = Tabla("Tbl_Billetes")
+        gv_Billetes.DataBind()
+    End Sub
+
+    Protected Sub gv_Monedas_RowCancelingEdit(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCancelEditEventArgs) Handles gv_Monedas.RowCancelingEdit
+        gv_Monedas.EditIndex = -1
+        gv_Monedas.DataSource = Tabla("Tbl_Monedas")
+        gv_Monedas.DataBind()
+    End Sub
+
+    Protected Sub btn_Guardar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Guardar.Click
+        Dim tbl_Clientes As DataTable = Tabla("tbl_Clientes")
+        Dim Id_CajaBancaria As Integer = ddl_CajaBancaria.SelectedValue
+        Dim Id_Cliente As Integer = ddl_Cliente.SelectedValue
+
+
+        Dim Filas = From t As DataRow In tbl_Clientes Where t("Id_Cliente") = Id_Cliente Select t
+
+        If Filas.Count = 0 Then
+            fn_Alerta("No se puede guardar debido a un error")
+            Exit Sub
+        End If
+
+        Dim fila As DataRow = Filas(0)
+
+        Dim Id_ClienteP As Integer = fila("Id_ClienteP")
+        Dim Tbl_Billetes As DataTable = If(Tabla("Tbl_Billetes") Is Nothing, New DsSolicitudDotaciones.Tbl_BilletesDataTable, Tabla("Tbl_Billetes"))
+        Dim Tbl_Monedas As DataTable = If(Tabla("Tbl_Monedas") Is Nothing, New DsSolicitudDotaciones.Tbl_MonedasDataTable, Tabla("Tbl_Monedas"))
+        Dim IdMoneda As Integer = ddl_Moneda.SelectedValue
+
+        Dim Importe As Single = 0
+
+        For Each r As DataRow In Tbl_Billetes.Rows
+            Importe += CSng(r("Total"))
+        Next
+
+        For Each r As DataRow In Tbl_Monedas.Rows
+            Importe += CSng(r("Total"))
+        Next
+
+        If Importe.Equals(0) Then
+            fn_Alerta("Debe capturar un importe valido")
+            Exit Sub
+        End If
+
+        Dim fecha As Date
+
+        If Not Date.TryParse(txt_FechaEntrega.Text, fecha) Then
+            fn_Alerta("Debe capturar una fecha valida")
+            Exit Sub
+        End If
+
+        If fecha < Today Then
+            fn_Alerta("Debe seleccionar una fecha mayor o igual a la actual")
+            Exit Sub
+        End If
+
+        Dim Resultado As Boolean = cn.fn_SolicitudDotaciones_Guardar(Id_Cliente, Id_CajaBancaria, Id_ClienteP, Importe, fecha, IdMoneda, Tbl_Monedas, Tbl_Billetes, UCase(txt_Comentarios.Text))
+
+        Limpiar()
+
+        If Resultado Then
+            fn_Alerta("Se ha solicitado su dotación con exito")
+        Else
+            fn_Alerta("No se puede guardar debido a un error")
+        End If
+
+    End Sub
+
+    Protected Sub gv_Billetes_RowDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Billetes.RowDataBound
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            If e.Row.Cells(0).Text = "" Or e.Row.Cells(0).Text = "&nbsp;" Then
+                e.Row.Cells(1).Controls.Clear()
+            Else
+                Dim txt_Cantidad As TextBox = e.Row.Cells(1).FindControl("txt_Cantidad")
+                txt_Cantidad.Text = If(IsDBNull(e.Row.DataItem("Cantidad")), 0, e.Row.DataItem("Cantidad"))
+            End If
+        End If
+    End Sub
+
+    Protected Sub gv_Monedas_RowDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Monedas.RowDataBound
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            If e.Row.Cells(0).Text = "" Or e.Row.Cells(0).Text = "&nbsp;" Then
+                e.Row.Cells(1).Controls.Clear()
+            Else
+                Dim txt_Cantidad As TextBox = e.Row.Cells(1).FindControl("txt_Cantidad")
+                txt_Cantidad.Text = If(IsDBNull(e.Row.DataItem("Cantidad")), 0, e.Row.DataItem("Cantidad"))
+            End If
+        End If
+    End Sub
+
+    Protected Function ActualizarTxtBilletes() As Single
+        Dim Tbl_Billetes As DataTable = Tabla("Tbl_Billetes")
+        Dim Acumulado As Single = 0
+
+        For Each r As GridViewRow In gv_Billetes.Rows
+            Dim txt_Cantidad As TextBox = r.Cells(1).FindControl("txt_Cantidad")
+            Dim IdDenominacion As Integer = gv_Billetes.DataKeys(r.RowIndex).Value
+            Dim row As DataRow = Tbl_Billetes.Select("Id_Denominacion = '" & IdDenominacion & "'")(0)
+
+            Dim Cantidad As Integer
+            If Not Integer.TryParse(txt_Cantidad.Text, Cantidad) Then Cantidad = 0
+            row("Cantidad") = Cantidad
+            row("Total") = FormatNumber(CSng(row("Denominacion") * Cantidad), 2)
+            Acumulado += row("Total")
+        Next
+
+        Tabla("Tbl_Billetes") = Tbl_Billetes
+
+        gv_Billetes.DataSource = Tbl_Billetes
+        gv_Billetes.DataBind()
+
+        Return Acumulado
+
+    End Function
+
+    Protected Function ActualizarTxtMonedas() As Single
+        Dim Tbl_Monedas As DataTable = Tabla("Tbl_Monedas")
+        Dim Acumulado As Single = 0
+
+        For Each r As GridViewRow In gv_Monedas.Rows
+            Dim txt_Cantidad As TextBox = r.Cells(1).FindControl("txt_Cantidad")
+            Dim IdDenominacion As Integer = gv_Monedas.DataKeys(r.RowIndex).Value
+            Dim row As DataRow = Tbl_Monedas.Select("Id_Denominacion = '" & IdDenominacion & "'")(0)
+
+            Dim Cantidad As Integer
+            If Not Integer.TryParse(txt_Cantidad.Text, Cantidad) Then Cantidad = 0
+            row("Cantidad") = Cantidad
+            row("Total") = FormatNumber(CSng(row("Denominacion") * Cantidad), 2)
+            Acumulado += row("Total")
+        Next
+
+        Tabla("Tbl_Monedas") = Tbl_Monedas
+
+        gv_Monedas.DataSource = Tbl_Monedas
+        gv_Monedas.DataBind()
+
+        Return Acumulado
+
+    End Function
+
+    Protected Sub gv_Monedas_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Monedas.PageIndexChanging
+        Dim Tbl_Monedas As DataTable = Tabla("Tbl_Monedas")
+        gv_Monedas.PageIndex = e.NewPageIndex
+        gv_Monedas.DataSource = Tbl_Monedas
+        gv_Monedas.DataBind()
+    End Sub
+
+    Protected Sub gv_Billetes_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Billetes.PageIndexChanging
+        Dim Tbl_Billetes As DataTable = Tabla("Tbl_Billetes")
+        gv_Billetes.PageIndex = e.NewPageIndex
+        gv_Billetes.DataSource = Tbl_Billetes
+        gv_Billetes.DataBind()
+    End Sub
+
+    Protected Sub btn_Actualizar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Actualizar.Click
+        Dim TotalReal As Single = 0
+        Dim TotalUsuario As Single = 0
+
+        If (Not Single.TryParse(txt_Total.Text, TotalUsuario)) Then
+            fn_Alerta("Debe capturar un total valido.")
+            Exit Sub
+        End If
+
+        If gv_Billetes.Visible Then TotalReal += ActualizarTxtBilletes()
+        If gv_Monedas.Visible Then TotalReal += ActualizarTxtMonedas()
+
+        lbl_Total.Text = TextoImporte & FormatCurrency(TotalReal)
+        If TotalReal = TotalUsuario Then
+            ImgValidado.ImageUrl = ImagenValidado
+            btn_Guardar.Enabled = (TotalReal > 0)
+        Else
+            ImgValidado.ImageUrl = ImagenNoValidado
+            btn_Guardar.Enabled = False
+        End If
+
+    End Sub
+
+    Protected Sub ddl_CajaBancaria_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles ddl_CajaBancaria.SelectedIndexChanged
+        ActualizarClientes()
+    End Sub
+
+    Protected Sub ActualizarClientes()
+        Dim IdCajaBancaria As Integer = ddl_CajaBancaria.SelectedValue
+
+        'If IdCajaBancaria.Equals(0) Then
+        '    Exit Sub
+        'End If
+
+        Dim tbl_Clientes As DataTable = cn.fn_SolicitudDotaciones_GetClientes(IdCliente, IdCajaBancaria)
+        Tabla("tbl_Clientes") = tbl_Clientes
+
+        fn_LlenarDropDown(ddl_Cliente, tbl_Clientes)
+
+        If ddl_Cliente.Items.Count > 1 Then
+            ddl_Cliente.SelectedValue = IdCliente
+        End If
+
+        ddl_Cliente.Enabled = Nivel.Equals(2)
+    End Sub
+
+    Protected Sub Limpiar()
+        ActualizarGrids()
+        txt_Total.Text = String.Empty
+        ImgValidado.ImageUrl = ImagenNoValidado
+        txt_Comentarios.Text = String.Empty
+        btn_Guardar.Enabled = False
+        lbl_Total.Text = TextoImporte & FormatCurrency(0)
+    End Sub
+
+End Class

@@ -1,0 +1,161 @@
+﻿Public Partial Class SolicitudMateriales
+    Inherits BasePage
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If IsPostBack Then Exit Sub
+        fn_LlenarDropDown(ddl_Material, cn.fn_SolicitudMateriales_GetMateriales())
+
+        Dim tbl_Materiales As New DataTable
+        tbl_Materiales.Columns.Add("IdCliente", GetType(Integer))
+        tbl_Materiales.Columns.Add("Fecha", GetType(DateTime))
+        tbl_Materiales.Columns.Add("Id_Inventario", GetType(Integer))
+        tbl_Materiales.Columns.Add("Material", GetType(String))
+        tbl_Materiales.Columns.Add("Cantidad", GetType(Integer))
+
+        gv_Materiales.DataSource = fn_MostrarSiempre(tbl_Materiales)
+        gv_Materiales.DataBind()
+    End Sub
+
+    Protected Sub btn_Agregar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Agregar.Click
+        Dim tbl_Materiales As DataTable = Tabla("tbl_Materiales")
+
+        If Not fn_Validar() Then Exit Sub
+
+        If tbl_Materiales Is Nothing Then
+            tbl_Materiales = New Data.DataTable
+            tbl_Materiales.Columns.Add("IdCliente", GetType(Integer))
+            tbl_Materiales.Columns.Add("Fecha", GetType(DateTime))
+            tbl_Materiales.Columns.Add("Id_Inventario", GetType(Integer))
+            tbl_Materiales.Columns.Add("Material", GetType(String))
+            tbl_Materiales.Columns.Add("Cantidad", GetType(Integer))
+        End If
+
+        For Each row As DataRow In tbl_Materiales.Rows
+            If row("Id_Inventario") = ddl_Material.SelectedValue Then
+                fn_Alerta("No se puede agragar el material porque ya ha sido agregado.")
+                Exit Sub
+            End If
+        Next
+
+        Dim r As DataRow = tbl_Materiales.NewRow()
+        r("IdCliente") = IdCliente
+        r("Fecha") = Date.Parse(txt_Fecha.Text)
+        r("Id_Inventario") = ddl_Material.SelectedValue
+        r("Material") = ddl_Material.SelectedItem.Text
+
+        Dim Cantidad As Integer
+        If Not Integer.TryParse(txt_Cantidad.Text, Cantidad) Then
+            fn_Alerta("Debe escribir una cantidad valida.")
+            Exit Sub
+        End If
+        If Cantidad <= 0 Then
+            fn_Alerta("Debe escribir una cantidad valida.")
+            Exit Sub
+        End If
+        r("Cantidad") = Cantidad
+
+        tbl_Materiales.Rows.Add(r)
+
+        Tabla("tbl_Materiales") = tbl_Materiales
+
+        gv_Materiales.DataSource = tbl_Materiales
+        gv_Materiales.DataBind()
+    End Sub
+
+    Protected Function fn_Validar() As Boolean
+        Dim Fecha As Date
+
+        If Not Date.TryParse(txt_Fecha.Text, Fecha) Then
+            fn_Alerta("Debe capturar una fecha valida")
+            Return False
+        End If
+
+        If Fecha < Today Then
+            fn_Alerta("Debe capturar una fecha mayor a la actual")
+            Return False
+        End If
+
+        If ddl_Material.SelectedValue = "0" Then
+            fn_Alerta("Debe Seleccionar un material")
+            Return False
+        End If
+
+        If Not IsNumeric(txt_Cantidad.Text) Then
+            fn_Alerta("Debe capturar una cantidad valida")
+            Return False
+        End If
+
+
+        Return True
+    End Function
+
+    Protected Sub btn_Guardar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Guardar.Click
+        Dim tbl_Materiales As DataTable = Tabla("tbl_Materiales")
+        If tbl_Materiales Is Nothing OrElse tbl_Materiales.Rows.Count = 0 Then
+            fn_Alerta("Debe seleccionar al menos un Material")
+            Exit Sub
+        End If
+
+        If Not fn_Validar() Then Exit Sub
+
+        Dim fecha As Date = Date.Parse(txt_Fecha.Text)
+
+        If Not cn.fn_SolicitudMateriales_Guardar(fecha, tbl_Materiales) Then
+            fn_Alerta("No se pudo crear la solicitud")
+            Exit Sub
+        End If
+
+        fn_Alerta("La solicitud se ha creado exitosamente")
+        Limpiar()
+    End Sub
+
+    Private Sub Limpiar()
+        Dim tbl_Materiales As DataTable = Tabla("tbl_Materiales")
+        tbl_Materiales.Clear()
+        Tabla("tbl_Materiales") = tbl_Materiales
+        txt_Fecha.Text = ""
+        txt_Cantidad.Text = ""
+
+        Dim tbl_MaterialesNueva As New DataTable
+        tbl_MaterialesNueva.Columns.Add("IdCliente", GetType(Integer))
+        tbl_MaterialesNueva.Columns.Add("Fecha", GetType(DateTime))
+        tbl_MaterialesNueva.Columns.Add("Id_Inventario", GetType(Integer))
+        tbl_MaterialesNueva.Columns.Add("Material", GetType(String))
+        tbl_MaterialesNueva.Columns.Add("Cantidad", GetType(Integer))
+
+        gv_Materiales.DataSource = fn_MostrarSiempre(tbl_MaterialesNueva)
+        gv_Materiales.DataBind()
+
+    End Sub
+
+    Protected Sub gv_Materiales_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Materiales.PageIndexChanging
+        gv_Materiales.PageIndex = e.NewPageIndex
+        gv_Materiales.DataSource = Tabla("tbl_Materiales")
+        gv_Materiales.DataBind()
+    End Sub
+
+    Protected Sub gv_Materiales_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Materiales.RowCreated
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            e.Row.Attributes.Add("onmouseover", "this.originalstyle=this.style.backgroundColor;this.style.backgroundColor='#D8A42C'")  '#D0A540'")
+            e.Row.Attributes.Add("onmouseout", "this.style.backgroundColor=this.originalstyle;")
+        End If
+    End Sub
+
+    Protected Sub gv_Materiales_RowDeleting(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewDeleteEventArgs) Handles gv_Materiales.RowDeleting
+        Dim tbl_Materiales As DataTable = Tabla("tbl_Materiales")
+        If tbl_Materiales Is Nothing Then Return
+        Dim id As Integer = gv_Materiales.DataKeys(e.RowIndex).Value
+        Dim filas As DataRow() = tbl_Materiales.Select("Id_Inventario = " & id)
+
+        tbl_Materiales.Rows.Remove(filas(0))
+
+        Tabla("tbl_Materiales") = tbl_Materiales
+        gv_Materiales.DataSource = fn_MostrarSiempre(tbl_Materiales)
+        gv_Materiales.DataBind()
+
+    End Sub
+
+    Protected Sub gv_Materiales_RowDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Materiales.RowDataBound
+        gv_Materiales.SelectedIndex = -1
+    End Sub
+End Class

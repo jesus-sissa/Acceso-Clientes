@@ -1,0 +1,41 @@
+﻿Public Partial Class ReportarAnomalias
+    Inherits BasePage
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+    End Sub
+
+    Public Sub limpiar()
+        If ddl_Horas.Items.Count > 0 Then ddl_Horas.SelectedIndex = 0
+        If ddl_Minutos.Items.Count > 0 Then ddl_Minutos.SelectedIndex = 0
+
+        txt_Descripcion.Text = ""
+        txt_Fecha.Text = ""
+        txt_Notas.Text = ""
+    End Sub
+
+    Protected Sub btn_Enviar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Enviar.Click
+        Dim fecha As Date = Date.Parse(txt_Fecha.Text)
+        Dim Treinta_Dias As Date = DateAdd(DateInterval.Day, -30, Today)
+
+        If DateDiff(DateInterval.Day, Today, fecha) > 0 Then
+            fn_Alerta("La fecha no debe ser superior a la fecha actual.")
+            Exit Sub
+        End If
+
+        If DateDiff(DateInterval.Day, fecha, Treinta_Dias) > 0 Then
+            fn_Alerta("La fecha no debe exceder 30 dias de antigüedad.")
+            Exit Sub
+        End If
+
+        Dim ria As String = cn.fn_ReporteAnomalias_Guardar(fecha, ddl_Horas.SelectedValue, ddl_Minutos.SelectedValue, txt_Descripcion.Text, txt_Notas.Text)
+
+        If ria = "" Then
+            fn_Alerta("El reporte no se pudo guardar")
+        Else
+            Dim Mensaje As String = "Le sugerimos tomar nota de la Fecha y el Número de Reporte para dar seguimiento a su caso. Fecha: " & fecha & "   Número de Reporte: " & ria
+            fn_Alerta(Mensaje)
+            limpiar()
+        End If
+    End Sub
+End Class

@@ -1,0 +1,191 @@
+﻿Public Partial Class ConsultaDepositos
+    Inherits BasePage
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If IsPostBack Then Exit Sub
+        Dim tblDotaciones As New DsConsultaDepositos.tbl_DotacionesDataTable
+        gv_Dotaciones.DataSource = fn_MostrarSiempre(tblDotaciones)
+        gv_Dotaciones.DataBind()
+
+        Dim tblFichas As New DsConsultaDepositos.tbl_FichasDataTable
+        gv_Fichas.DataSource = fn_MostrarSiempre(tblFichas)
+        gv_Fichas.DataBind()
+
+    End Sub
+
+    Protected Sub cbx_Todos_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs) Handles cbx_Todos.CheckedChanged
+        ddl_Status.Enabled = Not cbx_Todos.Checked
+    End Sub
+
+    Protected Sub btn_Mostrar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Mostrar.Click
+        If txt_FInicial.Text = "" Or txt_FFinal.Text = "" Then
+            Exit Sub
+        End If
+        Dim Serial As String() = Split(txt_FInicial.Text, "/")
+        Dim FechaInicial As Date = DateSerial(Serial(2), Serial(1), Serial(0))
+
+        Serial = Split(txt_FFinal.Text, "/")
+        Dim FechaFinal As Date = DateSerial(Serial(2), Serial(1), Serial(0))
+
+        If DateDiff(DateInterval.Day, FechaFinal, FechaInicial) > 0 Then
+            fn_Alerta("La fecha final no debe superar a la fecha inicial.")
+            Exit Sub
+        End If
+
+        Dim Tbl As DataTable = cn.fn_ConsultaDepositos_Dotaciones(FechaInicial, FechaFinal, ddl_Status.SelectedValue, cbx_Todos.Checked)
+
+        If Tbl IsNot Nothing Then Tabla("Resultado") = Tbl
+
+        gv_Dotaciones.DataSource = fn_MostrarSiempre(Tbl)
+        gv_Dotaciones.DataBind()
+
+    End Sub
+
+    Protected Sub gv_Dotaciones_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Dotaciones.PageIndexChanging
+        gv_Dotaciones.PageIndex = e.NewPageIndex
+        gv_Dotaciones.DataSource = Tabla("Resultado")
+        gv_Dotaciones.DataBind()
+
+        gv_Dotaciones.SelectedIndex = -1
+
+        Tabla("Fichas") = Nothing
+        gv_Fichas.DataSource = fn_MostrarSiempre(New DsConsultaDepositos.tbl_FichasDataTable)
+        gv_Fichas.DataBind()
+    End Sub
+
+    Protected Sub gv_Dotaciones_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles gv_Dotaciones.RowCommand
+        If e.CommandName = "Fichas" Then
+            gv_Dotaciones.SelectedIndex = e.CommandArgument
+            Dim IdServicio As Integer = gv_Dotaciones.DataKeys(e.CommandArgument).Value
+            Dim tbl As DataTable = cn.fn_ConsultaDepositos_Fichas(IdServicio)
+
+            If tbl IsNot Nothing Then Tabla("Fichas") = tbl
+
+            gv_Fichas.DataSource = tbl
+            gv_Fichas.DataBind()
+        End If
+    End Sub
+
+    Protected Sub gv_Fichas_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Fichas.PageIndexChanging
+        gv_Fichas.PageIndex = e.NewPageIndex
+        gv_Fichas.DataSource = Tabla("Fichas")
+        gv_Fichas.DataBind()
+    End Sub
+
+    Protected Sub gv_Fichas_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles gv_Fichas.RowCommand
+        If e.CommandName = "Desglose" Then
+            gv_Fichas.SelectedIndex = e.CommandArgument
+            Dim Id_Ficha As Integer = gv_Fichas.DataKeys(e.CommandArgument).Value
+
+            Dim tbl As New DsConsultaDepositos.tbl_EfectivoDataTable
+            For Each r As DataRow In cn.fn_ConsultaDepositos_Efectivo(Id_Ficha).Rows
+                tbl.ImportRow(r)
+            Next
+
+            If tbl IsNot Nothing Then Tabla("Efectivo") = tbl
+
+            gv_Efectivo.DataSource = fn_MostrarSiempre(tbl)
+            gv_Efectivo.DataBind()
+
+            Dim tbl1 As New DsConsultaDepositos.tbl_ChequesDataTable
+            For Each r As DataRow In cn.fn_ConsultaDepositos_Cheques(Id_Ficha).Rows
+                tbl1.ImportRow(r)
+            Next
+
+            If tbl1 IsNot Nothing Then Tabla("Cheques") = tbl1
+
+            gv_Cheques.DataSource = fn_MostrarSiempre(tbl1)
+            gv_Cheques.DataBind()
+
+            Dim tbl2 As New DsConsultaDepositos.tbl_OtrosDataTable
+
+            For Each r As DataRow In cn.fn_ConsultaDepositos_Otros(Id_Ficha).Rows
+                tbl2.ImportRow(r)
+            Next
+
+            If tbl2 IsNot Nothing Then Tabla("Otros") = tbl2
+
+            gv_Otros.DataSource = fn_MostrarSiempre(tbl2)
+            gv_Otros.DataBind()
+
+        End If
+    End Sub
+
+    Protected Sub gv_Efectivo_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Efectivo.PageIndexChanging
+        gv_Efectivo.PageIndex = e.NewPageIndex
+        gv_Efectivo.DataSource = Tabla("Efectivo")
+        gv_Efectivo.DataBind()
+    End Sub
+
+    Protected Sub gv_Cheques_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Cheques.PageIndexChanging
+        gv_Efectivo.PageIndex = e.NewPageIndex
+        gv_Efectivo.DataSource = Tabla("Cheques")
+        gv_Efectivo.DataBind()
+    End Sub
+
+    Private Sub gv_Dotaciones_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Dotaciones.RowCreated
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            e.Row.Attributes.Add("onmouseover", "this.originalstyle=this.style.backgroundColor;this.style.backgroundColor='#D8A42C'")  '#D0A540'")
+            e.Row.Attributes.Add("onmouseout", "this.style.backgroundColor=this.originalstyle;")
+        End If
+    End Sub
+
+    Protected Sub gv_Fichas_DataBound(ByVal sender As Object, ByVal e As EventArgs) Handles gv_Fichas.DataBound
+
+        gv_Fichas.SelectedIndex = -1
+
+        Tabla("Efectivo") = Nothing
+        gv_Efectivo.SelectedIndex = -1
+        gv_Efectivo.DataSource = fn_MostrarSiempre(New DsConsultaDepositos.tbl_EfectivoDataTable)
+        gv_Efectivo.DataBind()
+
+        Tabla("Cheques") = Nothing
+        gv_Cheques.SelectedIndex = -1
+        gv_Cheques.DataSource = fn_MostrarSiempre(New DsConsultaDepositos.tbl_ChequesDataTable)
+        gv_Cheques.DataBind()
+
+        Tabla("Otros") = Nothing
+        gv_Otros.SelectedIndex = -1
+        gv_Otros.DataSource = fn_MostrarSiempre(New DsConsultaDepositos.tbl_OtrosDataTable)
+        gv_Otros.DataBind()
+
+    End Sub
+
+    Protected Sub gv_Fichas_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_Fichas.RowCreated
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            e.Row.Attributes.Add("onmouseover", "this.originalstyle=this.style.backgroundColor;this.style.backgroundColor='#D8A42C'")  '#D0A540'")
+            e.Row.Attributes.Add("onmouseout", "this.style.backgroundColor=this.originalstyle;")
+        End If
+    End Sub
+
+    Protected Sub ddl_Status_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles ddl_Status.SelectedIndexChanged
+        Dim tblDotaciones As New DsConsultaDepositos.tbl_DotacionesDataTable
+        gv_Dotaciones.DataSource = fn_MostrarSiempre(tblDotaciones)
+        gv_Dotaciones.DataBind()
+
+        Dim tblFichas As New DsConsultaDepositos.tbl_FichasDataTable
+        gv_Fichas.DataSource = fn_MostrarSiempre(tblFichas)
+        gv_Fichas.DataBind()
+    End Sub
+
+    Protected Sub gv_Cheques_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles gv_Fichas.RowCommand
+        If e.CommandName = "Numero" Then
+            Dim Id_Cheque As Integer = gv_Cheques.DataKeys(e.CommandArgument).Value
+
+            
+
+            Dim str As String = "<script language=javascript> {window.open('Cheques.aspx?Id=" & Id_Cheque & "');}</script>"
+            ClientScript.RegisterStartupScript(GetType(String), "Startup", str)
+        End If
+    End Sub
+
+    Protected Sub gv_Dotaciones_DataBound(ByVal sender As Object, ByVal e As EventArgs) Handles gv_Dotaciones.DataBound
+
+        gv_Dotaciones.SelectedIndex = -1
+
+        Tabla("Fichas") = Nothing
+        gv_Fichas.SelectedIndex = -1
+        gv_Fichas.DataSource = fn_MostrarSiempre(New DsConsultaDepositos.tbl_FichasDataTable)
+        gv_Fichas.DataBind()
+    End Sub
+End Class

@@ -1,0 +1,145 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" Theme="NegroAmarillo" MasterPageFile="~/MasterPage.Master"
+    CodeBehind="RastreoRemisiones.aspx.vb" Inherits="SissaPortal.RastreoRemisiones" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table>
+        <tr>
+            <td align="right">
+                <h4>
+                    Remisión:</h4>
+            </td>
+            <td align="left">
+                <asp:TextBox ID="txt_Remision" runat="server" />
+                <asp:TextBoxWatermarkExtender ID="txt_Remision_TextBoxWatermarkExtender" runat="server"
+                    Enabled="True" TargetControlID="txt_Remision" WatermarkText="Numero de remisión"
+                    WatermarkCssClass="WaterMark">
+                </asp:TextBoxWatermarkExtender>
+                <asp:Button ID="btn_Buscar" runat="server" Text="Buscar" />
+            </td>
+        </tr>
+    </table>
+    <br />
+    <asp:TabContainer ID="tc_Resultados" runat="server" ActiveTabIndex="0">
+        <asp:TabPanel runat="server" HeaderText="Remisiones" ID="tp_Remisiones">
+            <HeaderTemplate>
+                Remisiones
+            </HeaderTemplate>
+            <ContentTemplate>
+                <table>
+                    <tr>
+                        <td>
+                            Numero de Remision
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txt_NumeroRemision" runat="server" ReadOnly="True" 
+                                Width="75px"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Fecha de Captura:
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txt_FechaCaptura" runat="server" ReadOnly="True" Width="75px"></asp:TextBox>
+                        </td>
+                        <td>
+                            Hora Captura:
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txt_HoraCaptura" runat="server" ReadOnly="True" Width="40px"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Importe:
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txt_Importe" runat="server" ReadOnly="True" Width="75px"></asp:TextBox>
+                        </td>
+                        <td>
+                            Envases Sin Numero:
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txt_EnvasesSN" runat="server" ReadOnly="True" Width="30px"></asp:TextBox>
+                        </td>
+                    </tr>
+                </table>
+                <fieldset>
+                    <legend>Importes</legend>
+                    <asp:GridView ID="gv_Importes" runat="server" AllowPaging="True" AutoGenerateColumns="False"
+                        CellPadding="4" ForeColor="#333333" Width="100%" GridLines="Horizontal" BorderWidth="3px"
+                        CssClass="gridSISSA">
+                        <EmptyDataTemplate>
+                            No se Encontraron Importes...
+                        </EmptyDataTemplate>
+                        <RowStyle BackColor="White" ForeColor="#333333" />
+                        <Columns>
+                            <asp:BoundField DataField="Moneda" HeaderText="Moneda" />
+                            <asp:BoundField DataField="Importe" HeaderText="Efectivo" 
+                                DataFormatString="{0:n2}" >
+                                <ItemStyle HorizontalAlign="Right" />
+                                <HeaderStyle HorizontalAlign="Right" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="Documentos" HeaderText="Documentos" 
+                                DataFormatString="{0:n2}" >
+                                <ItemStyle HorizontalAlign="Right" />
+                                <HeaderStyle HorizontalAlign="Right" />
+                            </asp:BoundField>
+                        </Columns>
+                        <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                        <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                            Font-Underline="False" />
+                        <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                    </asp:GridView>
+                </fieldset>
+                <br />
+                <fieldset>
+                    <legend>Envases</legend>
+                    <asp:GridView ID="gv_Envases" runat="server" AllowPaging="True" AutoGenerateColumns="False"
+                        CellPadding="4" ForeColor="#333333" Width="100%" GridLines="Horizontal" BorderWidth="3px"
+                        CssClass="gridSISSA">
+                        <EmptyDataTemplate>
+                            No se Encontraron Envases...
+                        </EmptyDataTemplate>
+                        <Columns>
+                            <asp:BoundField DataField="Tipo" HeaderText="Tipo" />
+                            <asp:BoundField DataField="Numero" HeaderText="Numero" />
+                        </Columns>
+                        <RowStyle BackColor="White" ForeColor="#333333" />
+                        <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                        <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                            Font-Underline="False" />
+                        <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                    </asp:GridView>
+                </fieldset>
+            </ContentTemplate>
+        </asp:TabPanel>
+        <asp:TabPanel ID="tp_Traslado" runat="server" HeaderText="Traslado">
+            <ContentTemplate>
+                <table>
+                    <tr>
+                        <td align="right">
+                            Log
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:GridView ID="gv_Log" runat="server" GridLines="None" CellSpacing="7"  AutoGenerateColumns="false">
+                                <Columns>
+                                    <asp:BoundField DataField="Concepto" />
+                                    <asp:BoundField DataField="Fecha" />
+                                    <asp:BoundField DataField="Hora" />
+                                </Columns>
+                            </asp:GridView>
+                        </td>
+                    </tr>
+                </table>
+            </ContentTemplate>
+        </asp:TabPanel>
+    </asp:TabContainer>
+</asp:Content>

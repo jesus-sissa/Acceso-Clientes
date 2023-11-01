@@ -1,0 +1,27 @@
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Debug\SissaPortal.Resources.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\bin\x86\Debug\SissaPortal.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\bin\x86\Debug\SissaPortal.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\bin\x86\Debug\SissaPortal.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Debug\SissaPortal.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Debug\SissaPortal.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\x86\Debug\SissaPortal.pdb
+C:\SIAC\Web\SissaPortal\bin\x86\Debug\SissaPortal.dll
+C:\SIAC\Web\SissaPortal\bin\x86\Debug\SissaPortal.pdb
+C:\SIAC\Web\SissaPortal\bin\x86\Debug\SissaPortal.xml
+C:\SIAC\Web\SissaPortal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\SIAC\Web\SissaPortal\obj\x86\Debug\SissaPortal.Resources.resources
+C:\SIAC\Web\SissaPortal\obj\x86\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\SIAC\Web\SissaPortal\obj\x86\Debug\SissaPortal.dll
+C:\SIAC\Web\SissaPortal\obj\x86\Debug\SissaPortal.xml
+C:\SIAC\Web\SissaPortal\obj\x86\Debug\SissaPortal.pdb
+C:\SIAC\Web\SissaPortal\SissaPortal\bin\x86\Debug\SissaPortal.dll
+C:\SIAC\Web\SissaPortal\SissaPortal\bin\x86\Debug\SissaPortal.pdb
+C:\SIAC\Web\SissaPortal\SissaPortal\bin\x86\Debug\SissaPortal.xml
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\x86\Debug\SissaPortal.Resources.resources
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\x86\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\x86\Debug\SissaPortal.dll
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\x86\Debug\SissaPortal.xml
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\x86\Debug\SissaPortal.pdb

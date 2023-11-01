@@ -1,0 +1,231 @@
+﻿Imports SissaPortal
+Imports System.Data
+
+Public Class BasePage
+    Inherits Page
+
+#Region "Variables Privadas"
+    Public cn As Cn_Portal
+    Private _Alerta As Alerta
+    Private _Form As Control
+#End Region
+
+#Region "Eventos"
+
+    Private Sub Page_PreLoad(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.PreLoad
+        cn = New Cn_Portal(Session, Request)
+        _Form = Me.Controls(0).FindControl("form1")
+        _Alerta = Page.LoadControl("~\webControls\Alerta.ascx")
+        _Form.Controls.Add(_Alerta)
+
+        If Id_Usuario = 0 Then
+            If Request.Url.AbsolutePath.EndsWith("/Login/Login.aspx") Then
+                Exit Sub
+            Else
+                System.Web.Security.FormsAuthentication.SignOut()
+                System.Web.Security.FormsAuthentication.RedirectToLoginPage()
+            End If
+        End If
+
+        If Request.Url.AbsolutePath.Contains("/CambiarContrasena.aspx") Then
+            Exit Sub
+        End If
+
+        If Not cn.fn_ValidaPermisos() Then
+            System.Web.Security.FormsAuthentication.SignOut()
+            Session.Clear()
+            Response.Redirect("~\Login\Login.aspx")
+        End If
+
+    End Sub
+
+#End Region
+
+#Region "Propiedades"
+
+    Public Property Id_Usuario() As Integer
+        Get
+            Dim res As Integer = 0
+            Integer.TryParse(Session("Id_Usuario"), res)
+            Return res
+        End Get
+        Set(ByVal value As Integer)
+            Session("Id_Usuario") = value
+        End Set
+    End Property
+
+    Public Property Id_Sucursal() As Integer
+        Get
+            Dim res As Integer = 0
+            Integer.TryParse(Session("Id_Sucursal"), res)
+            Return res
+        End Get
+        Set(ByVal value As Integer)
+            Session("Id_Sucursal") = value
+        End Set
+    End Property
+
+    Public Property TipoContacto() As Short
+        Get
+            Dim res As Short = 0
+            Short.TryParse(Session("TipoContacto"), res)
+            Return res
+        End Get
+        Set(ByVal value As Short)
+            Session("TipoContacto") = value
+        End Set
+    End Property
+
+    Public Property Nombre() As String
+        Get
+            Return Session("Nombre")
+        End Get
+        Set(ByVal value As String)
+            Session("Nombre") = value
+        End Set
+    End Property
+
+    Public Property NombreUsuario() As String
+        Get
+            Return Session("NombreUsuario")
+        End Get
+        Set(ByVal value As String)
+            Session("NombreUsuario") = value
+        End Set
+    End Property
+
+    Public Property IdCliente() As Integer
+        Get
+            Dim res As Integer = 0
+            Integer.TryParse(Session("IdCliente"), res)
+            Return res
+        End Get
+        Set(ByVal value As Integer)
+            Session("IdCliente") = value
+        End Set
+    End Property
+
+    Public Property IdClienteP() As Integer
+        Get
+            Dim res As Integer = 0
+            Integer.TryParse(Session("IdClienteP"), res)
+            Return res
+        End Get
+        Set(ByVal value As Integer)
+            Session("IdClienteP") = value
+        End Set
+    End Property
+
+    Public Property IdCia() As Integer
+        Get
+            Dim res As Integer = 0
+            Integer.TryParse(Session("IdCia"), res)
+            Return res
+        End Get
+        Set(ByVal value As Integer)
+            Session("IdCia") = value
+        End Set
+    End Property
+
+    Public ReadOnly Property IpCliente() As String
+        Get
+            Return Request.UserHostAddress
+        End Get
+    End Property
+
+    Public ReadOnly Property EstacionCliente() As String
+        Get
+            Return Request.UserHostName
+        End Get
+    End Property
+
+    Public Property Tabla(ByVal Clave As String) As DataTable
+        Get
+            Dim Ds As New DataSet
+            If ViewState("TablaXML") = Nothing Then Return Nothing
+            Ds.ReadXml(New System.IO.StringReader(ViewState("TablaXML")))
+            Return Ds.Tables(Clave)
+        End Get
+        Set(ByVal value As DataTable)
+
+            Dim Ds As New DataSet
+            If (ViewState("TablaXML") <> "") Then Ds.ReadXml(New System.IO.StringReader(ViewState("TablaXML")))
+            If Ds.Tables(Clave) IsNot Nothing Then Ds.Tables.Remove(Clave)
+            If value Is Nothing Then Exit Property
+
+            value.TableName = Clave
+            Ds.Tables.Add(value.Copy)
+
+            ViewState("TablaXML") = Ds.GetXml
+
+        End Set
+    End Property
+
+    Public Property Nivel() As Integer
+        Get
+            Dim res As Integer = 0
+            Integer.TryParse(Session("Nivel"), res)
+            Return res
+        End Get
+        Set(ByVal value As Integer)
+            Session("Nivel") = value
+        End Set
+    End Property
+
+#End Region
+
+#Region "Constantes"
+
+    Public Const ClaveModulo As String = "25"
+
+#End Region
+
+#Region "Metodos"
+
+    Public Sub fn_Alerta(ByVal Mensaje As String)
+        _Alerta.Alerta(Mensaje)
+    End Sub
+
+    Public Function fn_MostrarSiempre(ByVal Tabla As DataTable) As DataTable
+        For Each col As DataColumn In Tabla.Columns
+            col.AllowDBNull = True
+        Next
+
+        If Tabla.Rows.Count = 0 Then Tabla.Rows.InsertAt(Tabla.NewRow(), 0)
+        Return Tabla
+    End Function
+
+    Public Function fn_LlenarDropDown(ByRef ddl As DropDownList, ByVal Tbl As DataTable) As DataTable
+        Dim RowSeleccione As DataRow = Tbl.NewRow()
+
+        For Each c As DataColumn In Tbl.Columns
+            If c.ColumnName = ddl.DataTextField And c.DataType Is GetType(String) Then
+                If c.MaxLength > 0 Then
+                    RowSeleccione(c.ColumnName) = Left("Seleccione...", c.MaxLength)
+                Else
+                    RowSeleccione(c.ColumnName) = "Seleccione..."
+                End If
+            ElseIf c.ColumnName = ddl.DataValueField And c.DataType IsNot GetType(Date) Then
+                RowSeleccione(c.ColumnName) = 0
+            ElseIf (Not c.AllowDBNull) And c.DataType Is GetType(String) Then
+                RowSeleccione(c.ColumnName) = String.Empty
+            ElseIf (Not c.AllowDBNull) And c.DataType Is GetType(Decimal) Then
+                RowSeleccione(c.ColumnName) = 0
+            ElseIf (Not c.AllowDBNull) And c.DataType Is GetType(Date) Then
+                RowSeleccione(c.ColumnName) = Today
+            Else
+                RowSeleccione(c.ColumnName) = DBNull.Value
+            End If
+        Next
+
+        Tbl.Rows.InsertAt(RowSeleccione, 0)
+
+        ddl.DataSource = Tbl
+        ddl.DataBind()
+
+        Return Tbl
+    End Function
+
+#End Region
+
+End Class

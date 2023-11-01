@@ -1,0 +1,74 @@
+﻿Imports System.Web.Security
+Imports System.Web.Configuration
+Imports System.Configuration
+
+Partial Public Class Login
+    Inherits BasePage
+
+    Private Property ContraseñaExpirada() As Boolean
+        Get
+            Return Convert.ToBoolean(Session("ContraseñaExpirada"))
+        End Get
+        Set(ByVal value As Boolean)
+            Session("ContraseñaExpirada") = value
+        End Set
+    End Property
+
+    Private Property ContraseñaVieja() As String
+        Get
+            Return Session("ContraseñaVieja")
+        End Get
+        Set(ByVal value As String)
+            Session("ContraseñaVieja") = value
+        End Set
+    End Property
+
+    Protected Sub btn_IniciarSesion_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_IniciarSesion.Click
+        Dim Usuario As String = txt_Usuario.Text
+
+        Dim row As DataRow = cn.fn_Login_Validar(Usuario)
+
+        If row Is Nothing Then
+            fn_Alerta("El usuario no existe.")
+            Exit Sub
+        End If
+
+        Dim Contraseña = txt_Contraseña.Text
+        Dim hsh_Constraseña = FormsAuthentication.HashPasswordForStoringInConfigFile(Contraseña, "SHA1")
+
+        If hsh_Constraseña <> row("Password") Then
+            fn_Alerta("Contraseña Incorrecta.")
+            Exit Sub
+        End If
+
+        If row("Validar_IP") = "S" AndAlso IpCliente <> row("Direccion_IP") Then
+            fn_Alerta("Este usuario no tiene autorizacion para accesar desde esta IP.")
+            Exit Sub
+        End If
+
+        If row("Status") <> "A" Then
+            fn_Alerta("Su usuario ha sido bloqueado.")
+            Exit Sub
+        End If
+
+        Id_Usuario = row("Id_Usuario")
+        TipoContacto = row("Tipo")
+        Nombre = row("Nombre")
+        NombreUsuario = Usuario
+        IdCliente = row("Id_Cliente")
+        IdClienteP = row("Id_ClienteP")
+        IdCia = row("IdCia")
+        Id_Sucursal = row("Id_Sucursal")
+        Nivel = row("Nivel")
+
+        If row("Fecha_Expira") <= Today.Date Then
+            FormsAuthentication.SetAuthCookie(Usuario, False)
+            ContraseñaExpirada = True
+            ContraseñaVieja = Contraseña
+
+            Response.Redirect("CambiarContrasena.aspx")
+        Else
+            FormsAuthentication.RedirectFromLoginPage(Usuario, False)
+        End If
+    End Sub
+End Class

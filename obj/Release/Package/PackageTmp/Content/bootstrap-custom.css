@@ -1,0 +1,30 @@
+﻿body {
+    padding:0;
+    margin:0
+}
+.font-custom-family {
+    font-family:Stencil,Verdana,sans-serif;
+   }
+
+.modal-header-bg {
+    background-color:#dc3545;
+    font-weight:bold;
+    color:#fff
+}
+
+.table-custom {
+    width:100%;
+    font-family:Arial,sans-serif,Verdana;
+    border:2px solid #000000;
+    margin:10px 0 10px 0;
+    font:small
+}
+
+.table-custom tr td {
+    padding:5px
+}
+
+.table-custom tr.row-custom {
+   padding:20px;
+}
+

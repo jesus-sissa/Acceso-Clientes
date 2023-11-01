@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/sissa/!svn/ver/288/Portal/SissaPortal/SissaPortal/Scripts
+END
+web_Login_validar.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sissa/!svn/ver/284/Portal/SissaPortal/SissaPortal/Scripts/web_Login_validar.sql
+END
+web_Servicios_Efectivo.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sissa/!svn/ver/277/Portal/SissaPortal/SissaPortal/Scripts/web_Servicios_Efectivo.sql
+END
+web_Usuarios_GetPermisos.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sissa/!svn/ver/277/Portal/SissaPortal/SissaPortal/Scripts/web_Usuarios_GetPermisos.sql
+END
+web_Tripulacion_Validar.sql
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sissa/!svn/ver/282/Portal/SissaPortal/SissaPortal/Scripts/web_Tripulacion_Validar.sql
+END
+web_Servicios_Otros.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sissa/!svn/ver/277/Portal/SissaPortal/SissaPortal/Scripts/web_Servicios_Otros.sql
+END
+web_Servicios_Dotaciones.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sissa/!svn/ver/288/Portal/SissaPortal/SissaPortal/Scripts/web_Servicios_Dotaciones.sql
+END
+web_Tripulacion_GetNombres.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sissa/!svn/ver/282/Portal/SissaPortal/SissaPortal/Scripts/web_Tripulacion_GetNombres.sql
+END
+web_Dotaciones_Dotaciones.sql
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sissa/!svn/ver/277/Portal/SissaPortal/SissaPortal/Scripts/web_Dotaciones_Dotaciones.sql
+END
+web_Sevicios_Cheques.sql
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sissa/!svn/ver/277/Portal/SissaPortal/SissaPortal/Scripts/web_Sevicios_Cheques.sql
+END
+web_Servicios_Fichas.sql
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sissa/!svn/ver/277/Portal/SissaPortal/SissaPortal/Scripts/web_Servicios_Fichas.sql
+END
+Cli_Incidencias.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sissa/!svn/ver/284/Portal/SissaPortal/SissaPortal/Scripts/Cli_Incidencias.sql
+END

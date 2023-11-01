@@ -1,0 +1,257 @@
+<%@ Page Language="vb" AutoEventWireup="false" Theme="NegroAmarillo" MasterPageFile="~/MasterPage.Master"
+    CodeBehind="ConsultaDepositos.aspx.vb" Inherits="SissaPortal.ConsultaDepositos" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <fieldset>
+        <br />
+        <table>
+            <tr>
+                <td style="text-align: right;">
+                    <label class="label">
+                        Fecha Inicial:</label>
+                </td>
+                <td>
+                    <asp:TextBox ID="txt_FInicial" runat="server" CssClass="txt_Fecha" MaxLength="10" />
+                    <asp:CalendarExtender ID="txt_FInicial_CalendarExtender" runat="server" Enabled="True"
+                        TargetControlID="txt_FInicial" Format="dd/MM/yyyy">
+                    </asp:CalendarExtender>
+                </td>
+                <td style="text-align: right;">
+                    <label class="label">
+                        Status:</label>
+                </td>
+                <td>
+                    <asp:DropDownList ID="ddl_Status" runat="server" AutoPostBack="True">
+                        <asp:ListItem Value="0" Text="Seleccione..." Selected="True" />
+                        <asp:ListItem Value="RC" Text="RECIBIDO" />
+                        <asp:ListItem Value="AS" Text="ASIGNADO" />
+                        <asp:ListItem Value="AC" Text="ACEPTADO POR CAJERO" />
+                        <asp:ListItem Value="IN" Text="INICIADO" />
+                        <asp:ListItem Value="BL" Text="BLOQUEADO" />
+                        <asp:ListItem Value="VE" Text="VERIFICADO" />
+                        <asp:ListItem Value="CO" Text="CONTABILIZADO" />
+                        <asp:ListItem Value="DB" Text="DEVUELTO A BOVEDA" />
+                        <asp:ListItem Value="DV" Text="EN BOVEDA" />
+                        <asp:ListItem Value="RE" Text="RETENIDO" />
+                        <asp:ListItem Value="RB" Text="RETENIDO A BOVEDA" />
+                        <asp:ListItem Value="RR" Text="RETENIDO EN BOVEDA" />
+                        <asp:ListItem Value="DC" Text="DEVUELTO AL CLIENTE" />
+                    </asp:DropDownList>
+                    <asp:CheckBox ID="cbx_Todos" runat="server" Text="Todos" AutoPostBack="True" />
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    <label class="label">
+                        Fecha Final:</label>
+                </td>
+                <td>
+                    <asp:TextBox ID="txt_FFinal" runat="server" CssClass="txt_Fecha" MaxLength="10" />
+                    <asp:CalendarExtender ID="txt_FFinal_CalendarExtender" runat="server" Enabled="True"
+                        TargetControlID="txt_FFinal" Format="dd/MM/yyyy">
+                    </asp:CalendarExtender>
+                </td>
+                <td colspan="2" align="right">
+                    <asp:Button ID="btn_Mostrar" runat="server" Text="Mostrar" /><br />
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br />
+    <fieldset class="fieldsetFijo">
+        <legend>Depositos</legend>
+        <center>
+            <asp:GridView ID="gv_Dotaciones" runat="server" CellPadding="10" ForeColor="#333333"
+                GridLines="Horizontal" BorderWidth="3px" AutoGenerateColumns="False" DataKeyNames="Id_Servicio"
+                CssClass="gridSISSA" AllowPaging="True" CellSpacing="1" Width="100%">
+                <Columns>
+                    <asp:ButtonField DataTextField="Remision" Text="Remision" HeaderText="Remisión" CommandName="Fichas"
+                        ButtonType="Link">
+                        <ItemStyle CssClass="gv_Item" Width="100px" />
+                    </asp:ButtonField>
+                    <asp:BoundField DataField="Cia" HeaderText="ETV">
+                        <ItemStyle CssClass="gv_Item" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Fecha" HeaderText="Fecha">
+                        <ItemStyle CssClass="gv_Item" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Fichas" HeaderText="Fichas" DataFormatString="{0:n0}">
+                        <ItemStyle CssClass="gv_Item" HorizontalAlign="Center" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Importe" HeaderText="Importe" DataFormatString="{0:c2}">
+                        <ItemStyle HorizontalAlign="Right" CssClass="gv_Item" />
+                        <HeaderStyle HorizontalAlign="Right" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Envases" HeaderText="Envases" DataFormatString="{0:n0}">
+                        <ItemStyle HorizontalAlign="Center" CssClass="gv_Item" Width="100" />
+                        <HeaderStyle HorizontalAlign="Center" Width="100" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Envases SN" HeaderText="Envases SN" DataFormatString="{0:n0}">
+                        <ItemStyle HorizontalAlign="Center" CssClass="gv_Item" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Status" HeaderText="Status">
+                        <ItemStyle CssClass="gv_Item" />
+                    </asp:BoundField>
+                </Columns>
+                <RowStyle BackColor="White" ForeColor="#333333" />
+                <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                    Font-Underline="False" />
+                <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+            </asp:GridView>
+        </center>
+    </fieldset>
+    <br />
+    <fieldset class="fieldsetFijo">
+        <legend>Fichas</legend>
+        <center>
+            <asp:GridView ID="gv_Fichas" runat="server" AllowPaging="True" GridLines="Horizontal"
+                BorderWidth="3px" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Id_Ficha"
+                CssClass="gridSISSA" ForeColor="#333333" Width="100%">
+                <Columns>
+                    <asp:ButtonField DataTextField="Ficha" HeaderText="Ficha" CommandName="Desglose" />
+                    <asp:BoundField DataField="Moneda" HeaderText="Moneda" />
+                    <asp:BoundField DataField="Tipo" HeaderText="Tipo" />
+                    <asp:BoundField DataField="Efectivo" DataFormatString="{0:c2}" HeaderText="Efectivo">
+                        <HeaderStyle HorizontalAlign="Right" />
+                        <ItemStyle HorizontalAlign="Right" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Cheques" DataFormatString="{0:c2}" HeaderText="Cheques">
+                        <HeaderStyle HorizontalAlign="Right" />
+                        <ItemStyle HorizontalAlign="Right" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Otros" DataFormatString="{0:c2}" HeaderText="Otros">
+                        <HeaderStyle HorizontalAlign="Right" />
+                        <ItemStyle HorizontalAlign="Right" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Dif. Efectivo" DataFormatString="{0:c2}" HeaderText="Dif. Efectivo">
+                        <HeaderStyle HorizontalAlign="Right" />
+                        <ItemStyle HorizontalAlign="Right" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Dif. Cheques" DataFormatString="{0:c2}" HeaderText="Dif. Cheques">
+                        <HeaderStyle HorizontalAlign="Right" />
+                        <ItemStyle HorizontalAlign="Right" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="Dif. Otros" DataFormatString="{0:c2}" HeaderText="Dif. Otros">
+                        <HeaderStyle HorizontalAlign="Right" />
+                        <ItemStyle HorizontalAlign="Right" />
+                    </asp:BoundField>
+                </Columns>
+                <RowStyle BackColor="White" ForeColor="#333333" />
+                <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                    Font-Underline="False" />
+                <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+            </asp:GridView>
+        </center>
+    </fieldset>
+    <br />
+    <asp:TabContainer ID="tc_Desglose" runat="server" ActiveTabIndex="0">
+        <asp:TabPanel runat="server" HeaderText="Efectivo" ID="tp_Efectivo">
+            <HeaderTemplate>
+                Efectivo
+            </HeaderTemplate>
+            <ContentTemplate>
+                <fieldset class="fieldsetFijo">
+                    <center>
+                        <asp:GridView ID="gv_Efectivo" runat="server" AllowPaging="True" AutoGenerateColumns="False"
+                            CellPadding="4" ForeColor="#333333" GridLines="Horizontal" BorderWidth="3px"
+                            CssClass="gridSISSA">
+                            <Columns>
+                                <asp:BoundField DataField="Denominacion" HeaderText="Denominacion" 
+                                    DataFormatString="{0:c2}" >
+                                    <HeaderStyle HorizontalAlign="Right" />
+                                    <ItemStyle HorizontalAlign="Right" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Cantidad" HeaderText="Cantidad" DataFormatString="{0:n0}">
+                                    <ItemStyle HorizontalAlign="Right" />
+                                    <HeaderStyle HorizontalAlign="Right" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Importe" HeaderText="Importe" DataFormatString="{0:c2}">
+                                    <ItemStyle HorizontalAlign="Right" />
+                                    <HeaderStyle HorizontalAlign="Right" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Presentacion" HeaderText="Presentacion">
+                                    <ItemStyle HorizontalAlign="Center" />
+                                    <HeaderStyle HorizontalAlign="Center" />
+                                </asp:BoundField>
+                            </Columns>
+                            <RowStyle BackColor="White" ForeColor="#333333" />
+                            <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                            <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                                Font-Underline="False" />
+                            <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                            <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                        </asp:GridView>
+                    </center>
+                </fieldset>
+            </ContentTemplate>
+        </asp:TabPanel>
+        <asp:TabPanel ID="tp_Cheques" runat="server" HeaderText="Cheques">
+            <HeaderTemplate>
+                Cheques
+            </HeaderTemplate>
+            <ContentTemplate>
+                <fieldset class="fieldsetFijo">
+                    <center>
+                        <table width="100%">
+                            <tr>
+                                <td colspan="2" align="left">
+                                    <asp:GridView ID="gv_Cheques" runat="server" AllowPaging="True" CellPadding="4" ForeColor="#333333"
+                                        GridLines="Horizontal" BorderWidth="3px" CssClass="gridSISSA" AutoGenerateColumns="False"
+                                        DataKeyNames="Id_Cheque" OnRowCommand="gv_Cheques_RowCommand" Width="100%">
+                                        <Columns>
+                                            <asp:ButtonField DataTextField="Numero" DataTextFormatString="{0:n}" HeaderText="Numero"
+                                                CommandName="Numero">
+                                                <ItemStyle HorizontalAlign="Left" />
+                                            </asp:ButtonField>
+                                            <asp:BoundField DataField="Banco" HeaderText="Banco" />
+                                            <asp:BoundField DataField="Cuenta" HeaderText="Cuenta" DataFormatString="{0:n}">
+                                                <ItemStyle HorizontalAlign="Right" />
+                                                <HeaderStyle HorizontalAlign="Right" />
+                                            </asp:BoundField>
+                                            <asp:BoundField DataField="Importe" HeaderText="Importe" DataFormatString="{0:c2}">
+                                                <ItemStyle HorizontalAlign="Right" />
+                                                <HeaderStyle HorizontalAlign="Right" />
+                                            </asp:BoundField>
+                                        </Columns>
+                                        <RowStyle BackColor="White" ForeColor="#333333" />
+                                        <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                                        <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                                            Font-Underline="False" />
+                                        <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                                        <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                                    </asp:GridView>
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+                </fieldset>
+            </ContentTemplate>
+        </asp:TabPanel>
+        <asp:TabPanel ID="tp_Otros" runat="server" HeaderText="Otros">
+            <ContentTemplate>
+                <fieldset class="fieldsetFijo">
+                    <center>
+                        <asp:GridView ID="gv_Otros" runat="server" AllowPaging="True" CellPadding="4" ForeColor="#333333"
+                            GridLines="Horizontal" BorderWidth="3px" CssClass="gridSISSA" AutoGenerateColumns="true">
+                            <Columns>
+                            </Columns>
+                            <RowStyle BackColor="White" ForeColor="#333333" />
+                            <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                            <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                                Font-Underline="False" />
+                            <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                            <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                        </asp:GridView>
+                    </center>
+                </fieldset>
+            </ContentTemplate>
+        </asp:TabPanel>
+    </asp:TabContainer>
+</asp:Content>

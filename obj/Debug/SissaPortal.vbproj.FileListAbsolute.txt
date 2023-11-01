@@ -1,0 +1,168 @@
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\SissaPortal.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\SissaPortal.pdb
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\SissaPortal.xml
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\obj\Debug\SissaPortal.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\obj\Debug\SissaPortal.xml
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\AjaxControlToolkit.pdb
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Emmanuel\Documents\Visual Studio 2008\Projects\SissaPortal\SissaPortal\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\SissaPortal.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\SissaPortal.pdb
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\SissaPortal.xml
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\AjaxControlToolkit.pdb
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\ar\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\cs\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\de\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\es\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\fr\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\he\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\hi\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\it\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\ja\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\ko\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\nl\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\pt\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\ru\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\obj\Debug\SissaPortal.dll
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\obj\Debug\SissaPortal.xml
+C:\SIAC\CodigoFuente\SissaPortal\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\SissaPortal.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\SissaPortal.pdb
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\SissaPortal.xml
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\AjaxControlToolkit.pdb
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\ar\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\cs\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\de\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\es\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\fr\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\he\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\hi\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\it\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\ja\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\ko\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\nl\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\pt\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\ru\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\obj\Debug\SissaPortal.dll
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\obj\Debug\SissaPortal.xml
+C:\SIAC\SissaPortal\SissaPortal\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\bin\SissaPortal.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\bin\SissaPortal.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\bin\SissaPortal.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\Debug\SissaPortal.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\Debug\SissaPortal.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\inetpub\wwwroot\SissaPortal\bin\SissaPortal.dll
+C:\inetpub\wwwroot\SissaPortal\bin\SissaPortal.pdb
+C:\inetpub\wwwroot\SissaPortal\bin\SissaPortal.xml
+C:\inetpub\wwwroot\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\inetpub\wwwroot\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\SissaPortal\obj\Debug\SissaPortal.dll
+C:\inetpub\wwwroot\SissaPortal\obj\Debug\SissaPortal.xml
+C:\inetpub\wwwroot\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\Documents and Settings\programador3\Escritorio\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\bin\SissaPortal.dll
+C:\Documents and Settings\programador3\Escritorio\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\bin\SissaPortal.pdb
+C:\Documents and Settings\programador3\Escritorio\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\bin\SissaPortal.xml
+C:\Documents and Settings\programador3\Escritorio\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\programador3\Escritorio\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\Documents and Settings\programador3\Escritorio\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\Documents and Settings\programador3\Escritorio\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\SissaPortal.dll
+C:\Documents and Settings\programador3\Escritorio\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\SissaPortal.xml
+C:\Documents and Settings\programador3\Escritorio\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\SIAC\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\bin\SissaPortal.dll
+C:\SIAC\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\bin\SissaPortal.pdb
+C:\SIAC\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\bin\SissaPortal.xml
+C:\SIAC\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\SIAC\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\SIAC\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\SissaPortal.dll
+C:\SIAC\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\SissaPortal.xml
+C:\SIAC\ModulosSIAC Kali\Portal actualizado por mani\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\Users\jose.nuncio\Desktop\SissaPortal\bin\SissaPortal.dll
+C:\Users\jose.nuncio\Desktop\SissaPortal\bin\SissaPortal.pdb
+C:\Users\jose.nuncio\Desktop\SissaPortal\bin\SissaPortal.xml
+C:\Users\jose.nuncio\Desktop\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jose.nuncio\Desktop\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\Users\jose.nuncio\Desktop\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\Users\jose.nuncio\Desktop\SissaPortal\obj\Debug\SissaPortal.dll
+C:\Users\jose.nuncio\Desktop\SissaPortal\obj\Debug\SissaPortal.xml
+C:\Users\jose.nuncio\Desktop\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\SIAC\ModulosSIAC Kali\SissaPortal\bin\SissaPortal.dll
+C:\SIAC\ModulosSIAC Kali\SissaPortal\bin\SissaPortal.pdb
+C:\SIAC\ModulosSIAC Kali\SissaPortal\bin\SissaPortal.xml
+C:\SIAC\ModulosSIAC Kali\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\ModulosSIAC Kali\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\SIAC\ModulosSIAC Kali\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\SIAC\ModulosSIAC Kali\SissaPortal\obj\Debug\SissaPortal.dll
+C:\SIAC\ModulosSIAC Kali\SissaPortal\obj\Debug\SissaPortal.xml
+C:\SIAC\ModulosSIAC Kali\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\SIAC\ModulosSIAC Kali\Web\SissaPortal\bin\SissaPortal.dll
+C:\SIAC\ModulosSIAC Kali\Web\SissaPortal\bin\SissaPortal.pdb
+C:\SIAC\ModulosSIAC Kali\Web\SissaPortal\bin\SissaPortal.xml
+C:\SIAC\ModulosSIAC Kali\Web\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\ModulosSIAC Kali\Web\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\SIAC\ModulosSIAC Kali\Web\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\SIAC\ModulosSIAC Kali\Web\SissaPortal\obj\Debug\SissaPortal.dll
+C:\SIAC\ModulosSIAC Kali\Web\SissaPortal\obj\Debug\SissaPortal.xml
+C:\SIAC\ModulosSIAC Kali\Web\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\SIAC\Web\SissaPortal\bin\SissaPortal.dll
+C:\SIAC\Web\SissaPortal\bin\SissaPortal.pdb
+C:\SIAC\Web\SissaPortal\bin\SissaPortal.xml
+C:\SIAC\Web\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\Web\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\SIAC\Web\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\SIAC\Web\SissaPortal\obj\Debug\SissaPortal.dll
+C:\SIAC\Web\SissaPortal\obj\Debug\SissaPortal.xml
+C:\SIAC\Web\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\SIAC\Web\Respaldo8.11.13\SissaPortal\bin\SissaPortal.dll
+C:\SIAC\Web\Respaldo8.11.13\SissaPortal\bin\SissaPortal.pdb
+C:\SIAC\Web\Respaldo8.11.13\SissaPortal\bin\SissaPortal.xml
+C:\SIAC\Web\Respaldo8.11.13\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\Web\Respaldo8.11.13\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\SIAC\Web\Respaldo8.11.13\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\SIAC\Web\Respaldo8.11.13\SissaPortal\obj\Debug\SissaPortal.dll
+C:\SIAC\Web\Respaldo8.11.13\SissaPortal\obj\Debug\SissaPortal.xml
+C:\SIAC\Web\Respaldo8.11.13\SissaPortal\obj\Debug\SissaPortal.pdb
+C:\SIAC\Web\SissaPortal\SissaPortal\bin\SissaPortal.dll
+C:\SIAC\Web\SissaPortal\SissaPortal\bin\SissaPortal.pdb
+C:\SIAC\Web\SissaPortal\SissaPortal\bin\SissaPortal.xml
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\Debug\ResolveAssemblyReference.cache
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\Debug\SissaPortal.Resources.resources
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\Debug\SissaPortal.vbproj.GenerateResource.Cache
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\Debug\SissaPortal.dll
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\Debug\SissaPortal.xml
+C:\SIAC\Web\SissaPortal\SissaPortal\obj\Debug\SissaPortal.pdb

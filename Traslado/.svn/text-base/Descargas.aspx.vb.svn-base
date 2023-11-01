@@ -1,0 +1,36 @@
+﻿Public Partial Class Descargas
+    Inherits BasePage
+
+    Private WriteOnly Property IdDescarga() As Integer
+        Set(ByVal value As Integer)
+            Session("IdDescarga") = value
+        End Set
+    End Property
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        Dim Lista As DataTable = cn.fn_Descargas_GetLista()
+
+        Tabla("Lista") = Lista
+
+        gv_Lista.DataSource = fn_MostrarSiempre(Lista)
+        gv_Lista.DataBind()
+
+    End Sub
+
+    Protected Sub gv_Lista_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Lista.PageIndexChanging
+        Dim Lista As DataTable = Tabla("Lista")
+
+        gv_Lista.PageIndex = e.NewPageIndex
+        gv_Lista.DataSource = fn_MostrarSiempre(Lista)
+        gv_Lista.DataBind()
+    End Sub
+
+    Protected Sub gv_Lista_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles gv_Lista.RowCommand
+        Dim Id As Integer = Convert.ToInt32(gv_Lista.DataKeys(e.CommandArgument).Value)
+
+        IdDescarga = Id
+
+        Response.Redirect("Download.aspx")
+    End Sub
+End Class

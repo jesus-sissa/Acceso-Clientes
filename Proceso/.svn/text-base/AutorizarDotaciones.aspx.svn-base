@@ -1,0 +1,108 @@
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.Master"
+    CodeBehind="AutorizarDotaciones.aspx.vb" Inherits="SissaPortal.AutorizarDotaciones" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <fieldset>
+        <table width="100%">
+            <tr>
+                <td>
+                    Clientes
+                </td>
+                <td>
+                    <asp:DropDownList ID="ddl_Clientes" runat="server" AutoPostBack="true" DataTextField="Nombre_Comercial" Width="300"
+                        DataValueField="Id_Cliente">
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <asp:Panel ID="pnl_Dotaciones" runat="server" Height="476px">
+                        <b>Dotaciones</b>
+                        <asp:GridView ID="gv_DotacionesActivas" runat="server" AutoGenerateColumns="False"
+                            CellPadding="4" ForeColor="#333333" Width="100%" GridLines="Horizontal" BorderWidth="3px"
+                            CssClass="gridSISSA" DataKeyNames="Id_DotacionCli" AllowPaging="True" PageSize="15">
+                            <Columns>
+                                <asp:ButtonField ButtonType="Image" HeaderText="" Text="Ver Detalle" ImageUrl="~/Imagenes/billeteselect.png"
+                                    CommandName="VerDetalle">
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" Width="20px" />
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:ButtonField>
+                                <asp:ButtonField ButtonType="Image" HeaderText="" Text="Autorizar" ImageUrl="~/Imagenes/HoraSi.png"
+                                    CommandName="Autorizar">
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" Width="20px" />
+                                </asp:ButtonField>
+                                <asp:ButtonField ButtonType="Image" HeaderText="" Text="Cancelar" ImageUrl="~/Imagenes/Eliminar16x16.png"
+                                    CommandName="Cancelar">
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" Width="20px" />
+                                </asp:ButtonField>
+                                <asp:BoundField DataField="FechaCaptura" HeaderText="Fecha Captura">
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" Width="70px" />
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="HoraCaptura" HeaderText="Hora Captura">
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" Width="50px" />
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="FechaEntrega" HeaderText="Fecha Entrega">
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" Width="70px" />
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Cliente" HeaderText="Cliente">
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Importe" HeaderText="Importe">
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" Width="70px" />
+                                    <ItemStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Moneda" HeaderText="Moneda">
+                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" Width="70px" />
+                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                </asp:BoundField>
+                            </Columns>
+                            <RowStyle BackColor="White" ForeColor="#333333" />
+                            <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                            <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                                Font-Underline="False" />
+                            <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                            <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                        </asp:GridView>
+                    </asp:Panel>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <b>Detalle</b>
+                    <asp:GridView ID="gv_Detalle" runat="server" AutoGenerateColumns="False" CellPadding="4"
+                        ForeColor="#333333" GridLines="Horizontal" BorderWidth="3px" CssClass="gridSISSAPequeño">
+                        <Columns>
+                            <asp:BoundField DataField="Presentacion" HeaderText="Presentación">
+                                <HeaderStyle HorizontalAlign="Center" Width="100px" VerticalAlign="Middle" />
+                                <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="Denominacion" HeaderText="Denominación">
+                                <HeaderStyle HorizontalAlign="Right" Width="100px" />
+                                <ItemStyle HorizontalAlign="Right" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="Cantidad" HeaderText="Cantidad">
+                                <HeaderStyle HorizontalAlign="Right" VerticalAlign="Middle" Width="90px" />
+                                <ItemStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="Importe" HeaderText="Importe">
+                                <HeaderStyle HorizontalAlign="Right" VerticalAlign="Middle" Width="100px" />
+                                <ItemStyle HorizontalAlign="Right" VerticalAlign="Middle" />
+                            </asp:BoundField>
+                        </Columns>
+                        <RowStyle BackColor="White" ForeColor="#333333" />
+                        <FooterStyle BackColor="White" ForeColor="Black" Font-Underline="False" />
+                        <PagerStyle BackColor="Black" ForeColor="White" HorizontalAlign="Center" CssClass="futerPaje"
+                            Font-Underline="False" />
+                        <SelectedRowStyle BackColor="#D8A42C" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="Black" ForeColor="White" HorizontalAlign="Left" />
+                    </asp:GridView>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</asp:Content>

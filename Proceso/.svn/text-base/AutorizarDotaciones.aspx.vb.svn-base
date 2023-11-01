@@ -1,0 +1,126 @@
+﻿Public Partial Class AutorizarDotaciones
+    Inherits BasePage
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        If IsPostBack Then Return
+
+        Dim tablaClientes As DataTable = cn.fn_AutorizarDotaciones_GetClientes()
+
+        If tablaClientes Is Nothing Then
+            fn_Alerta("No se puede continuar debido a un error.")
+            Exit Sub
+        End If
+
+        fn_LlenarDropDown(ddl_Clientes, tablaClientes)
+
+        'ddl_Clientes.SelectedValue = IdCliente
+
+        fn_LlenarDotaciones(0)
+
+        fn_LlenarDetalle(0)
+    End Sub
+
+    Private Sub ddl_Clientes_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddl_Clientes.SelectedIndexChanged
+        Dim IdCliente As Integer = ddl_Clientes.SelectedValue
+        fn_LlenarDotaciones(IdCliente)
+    End Sub
+
+    Protected Sub fn_LlenarDotaciones(ByVal IdCliente As Integer)
+
+        If IdCliente.Equals(0) Then
+            gv_DotacionesActivas.DataSource = fn_MostrarSiempre(New DsAutorizarDotaciones.ActivasDataTable)
+            gv_DotacionesActivas.DataBind()
+            Exit Sub
+        End If
+
+        Dim tablaDotaciones As DataTable = cn.fn_AutorizarDotaciones_GetActivas(IdCliente)
+
+        If tablaDotaciones Is Nothing OrElse tablaDotaciones.Rows.Count.Equals(0) Then
+            gv_DotacionesActivas.DataSource = fn_MostrarSiempre(New DsAutorizarDotaciones.ActivasDataTable)
+            gv_DotacionesActivas.DataBind()
+        Else
+            gv_DotacionesActivas.DataSource = fn_MostrarSiempre(tablaDotaciones)
+            gv_DotacionesActivas.DataBind()
+            Tabla("tablaDotaciones") = tablaDotaciones
+        End If
+    End Sub
+
+    Protected Sub gv_DotacionesActivas_RowCommand(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewCommandEventArgs) Handles gv_DotacionesActivas.RowCommand
+        Select Case e.CommandName
+            Case "VerDetalle"
+
+                Dim Indice As Integer = e.CommandArgument
+                Dim Id_DotacionCli As Integer = gv_DotacionesActivas.DataKeys(Indice).Value
+
+                fn_LlenarDetalle(Id_DotacionCli)
+                gv_DotacionesActivas.SelectedIndex = Indice
+
+            Case "Autorizar"
+
+                Dim Indice As Integer = e.CommandArgument
+                Dim Id_DotacionCli As Integer = gv_DotacionesActivas.DataKeys(Indice).Value
+
+                If Not cn.fn_AutorizarDotaciones_Autorizar(Id_DotacionCli) Then
+                    fn_Alerta("No se puede Autorizar la dotación debido a un error")
+                End If
+                fn_LlenarDotaciones(ddl_Clientes.SelectedValue)
+
+            Case "Cancelar"
+
+                Dim Indice As Integer = e.CommandArgument
+                Dim Id_DotacionCli As Integer = gv_DotacionesActivas.DataKeys(Indice).Value
+
+                If Not cn.fn_AutorizarDoraciones_Cancelar(Id_DotacionCli) Then
+                    fn_Alerta("No se puede Cancelar la dotación debido a un error")
+                End If
+                fn_LlenarDotaciones(ddl_Clientes.SelectedValue)
+
+        End Select
+    End Sub
+
+    Protected Sub fn_LlenarDetalle(ByVal Id_DotacionCli As Integer)
+
+        If Id_DotacionCli = 0 Then
+            gv_Detalle.DataSource = fn_MostrarSiempre(New DsAutorizarDotaciones.DetalleDataTable)
+            gv_Detalle.DataBind()
+            Exit Sub
+        End If
+
+        Dim tablaDetalle = cn.fn_AutorizarDotaciones_GetDetalle(Id_DotacionCli)
+
+        If tablaDetalle Is Nothing Then
+            fn_Alerta("No se puede continuar debido a un error.")
+            Exit Sub
+        End If
+
+        gv_Detalle.DataSource = tablaDetalle
+        gv_Detalle.DataBind()
+
+    End Sub
+
+    Protected Sub gv_DotacionesActivas_RowCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs) Handles gv_DotacionesActivas.RowCreated
+
+        If e.Row.RowType = DataControlRowType.DataRow Then
+            Dim Id As Integer = gv_DotacionesActivas.DataKeys(e.Row.RowIndex).Value
+            If Id.Equals(-1) Then
+                e.Row.Cells(0).Controls.Clear()
+                e.Row.Cells(1).Controls.Clear()
+                e.Row.Cells(2).Controls.Clear()
+            End If
+        End If
+
+    End Sub
+
+    Protected Sub gv_DotacionesActivas_DataBound(ByVal sender As Object, ByVal e As EventArgs) Handles gv_DotacionesActivas.DataBound
+        gv_DotacionesActivas.SelectedIndex = -1
+        fn_LlenarDetalle(0)
+    End Sub
+
+    Protected Sub gv_DotacionesActivas_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_DotacionesActivas.PageIndexChanging
+        Dim tablaDotaciones As DataTable = Tabla("tablaDotaciones")
+        gv_DotacionesActivas.PageIndex = e.NewPageIndex
+        gv_DotacionesActivas.DataSource = tablaDotaciones
+        gv_DotacionesActivas.DataBind()
+    End Sub
+End Class

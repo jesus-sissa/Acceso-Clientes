@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+} 
+
+body {
+background: #fff;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+line-height: 18px;
+color: #333333;
+}
+
+img { border: none; }
+a { color: #57626a; text-decoration: none; }
+a:hover { text-decoration: underline; color : #000; }
+
+#wrap {
+margin: 0 auto;
+width: 1000px;
+}
+
+#header { 
+padding: 10px 0 20px 0;
+}
+#header h1 {
+font-size: 26px;
+font-weight: 100;
+letter-spacing: -3px;
+padding: 12px 0 5px 10px;
+}
+#header h1 a {
+color: #57626a;
+text-decoration: none;
+}
+#header h1 a:hover {
+color: #57626a;
+text-decoration: none;
+}
+#header h2 {
+color: #ccc;
+font-size: 15px;
+font-weight: 100;
+padding: 0 0 0 11px;
+letter-spacing: -1px;
+line-height: 12px;
+}
+
+#menu {
+height: 40px;
+line-height: 40px;
+background: #57626a url(../../Imagenes/menu.jpg) no-repeat;
+text-transform: uppercase;
+text-align: right;
+padding-right: 20px;
+padding-left: 20px;
+padding-top: auto;
+font-weight: bold;
+}
+
+#menu a 
+{
+	color: White;
+}
+
+#menu ul {
+padding-left: 10px;
+list-style-type: none;
+}
+#menu ul li {
+display: block;
+float: left;
+}
+
+#menu ul li a {
+color: #eee;
+padding: 0 10px;
+text-decoration: none;
+font-weight: 100;
+font-size: 14px;
+letter-spacing: -1px;
+}
+#menu ul li a:hover {
+color: #eee;
+text-decoration: underline;
+}
+
+#content {
+padding: 10px 20px;
+}
+
+.right {
+width: 768px;
+float: right;
+text-align: justify;
+}
+.right h2 {
+color: #FF4800;
+font-size: 20px;
+letter-spacing: -3px;
+font-weight: 100;
+padding : 10px 0 15px 0;
+}
+
+.left {
+width: 180px;
+float: left;
+padding: 10px;
+border-right: 1px solid #bbb;
+font-size: 12px;
+}
+.left ul {
+list-style-type: square;
+padding: 5px 10px 10px 20px;
+color: #57626a;
+}
+.left h2 {
+height: 30px;
+font-size: 14px;
+color: #666;
+line-height: 30px;
+font-weight: 600;
+}
+.left a { text-decoration: none }
+
+#footer {
+background: #eee;
+border-top: 3px solid #57626a;
+margin-top: 20px;
+text-align: center;
+color: #333;
+font-size: 11px;
+padding: 10px;
+}
+
+.MenuRaiz
+{
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 12pt;
+}
+
+.MenuNivel1
+{
+	background-position: black;
+	color: White;
+	background: #323C45;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 11pt;
+	
+	/*
+	background: #111 url(../../Imagenes/menu.gif) repeat-x;*/
+}
+
+.MenuNivel2
+{
+	font-size: small;
+	background: #C0A062;
+	font-weight: bold;
+	color: white;
+}
+
+.MenuSelected
+{
+	font-size: small;
+	background: #C0A062;
+	font-weight: bold;
+	color: black;
+}
+.label
+{
+	text-align: right;
+	padding: 5px;
+}
+.ModalBackGround
+{
+	background-position: #D1D1D1;
+	background: #D1D1D1;
+}
+.gv_Item
+{
+	margin: 3px;
+}
+.WaterMark
+{
+	color: #C0C0C0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: lighter;
+}
+.fieldsetFijo
+{
+	/*text-align: center;*/
+	position: relative;
+	height: 290px;
+	padding: 5px 5px 5px 5px;
+	top: 0px;
+	/*left: 93px;*/
+}
+.medioFieldset
+{
+	/*text-align: center;*/
+	position: relative;
+	height: 190px;
+	padding: 5px 5px 5px 5px;
+	top: 0px;
+	/*left: 93px;*/
+}
+.modalBackground
+
+{
+	background-color: #3A444D;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+}
+.ModalWindow
+
+{
+	border: 1px solid black;
+	background: #f0f0f0;
+	padding: 0px10px10px10px;
+	position: absolute;
+	top: -1000px;
+}
+
+.gridSISSA
+{
+	width: 100%;    
+	background-color:white;   
+    margin: 10px 0 0 0;
+    border: solid 1px #525252;
+    border-color: Black;
+    border-style:solid;    
+	border-collapse:collapse;
+	font-family:verdana, Arial, helvetica, ms Sans-Serif;
+	font-size:x-small;
+}
+
+.gridSISSAPequeño
+{
+    width: auto;
+	background-color: white;   
+    margin: 10px 0 0 0;
+    border: solid 1px #525252;
+    border-color: Black;
+    border-style: solid;    
+	border-collapse: collapse;
+	font-family: verdana, Arial, helvetica, ms Sans-Serif;
+	font-size: x-small;
+}
+
+.gridSISSA tr.normal:hover, .gridSISSA tr.alternate:hover
+{
+   background-color: Black;
+   color: White;
+   font-weight: bold;
+}
+
+.gridSISSAPequeño tr.normal:hover, .gridSISSAPequeño tr.alternate:hover
+{
+   background-color: Black;
+   color: White;
+   font-weight: bold;
+}
+
+.futerPaje	a
+{
+	text-decoration: underline;
+}
+
+.txt_Fecha
+{
+	width: 70px;
+}

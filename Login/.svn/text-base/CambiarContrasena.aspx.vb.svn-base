@@ -1,0 +1,74 @@
+﻿Imports FormsAuthentication = System.Web.Security.FormsAuthentication
+
+Partial Public Class CambiarContrasena
+    Inherits BasePage
+
+    Private Property ContraseñaExpirada() As Boolean
+        Get
+            Return Convert.ToBoolean(Session("ContraseñaExpirada"))
+        End Get
+        Set(ByVal value As Boolean)
+            Session("ContraseñaExpirada") = value
+        End Set
+    End Property
+
+    Private Property ContraseñaVieja() As String
+        Get
+            Return Session("ContraseñaVieja")
+        End Get
+        Set(ByVal value As String)
+            Session("ContraseñaVieja") = value
+        End Set
+    End Property
+
+    Protected Sub btn_Cambiar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Cambiar.Click
+
+        Dim PasswordRealHASH As String = cn.fn_CambiarContraseña_GetPassword()
+
+        If PasswordRealHASH = "" Then
+            fn_Alerta("No se puede cambiar la contraseña debido a un error.")
+            Exit Sub
+        End If
+
+        Dim Contraseña As String
+
+        If ContraseñaExpirada Then
+            Contraseña = ContraseñaVieja
+        Else
+            Contraseña = txt_Contraseña.Text
+        End If
+
+        Dim PasswordHASH As String = FormsAuthentication.HashPasswordForStoringInConfigFile(Contraseña, "SHA1")
+
+        If PasswordRealHASH <> PasswordHASH Then
+            fn_Alerta("La contraseña es incorrecta.")
+            Exit Sub
+        End If
+
+        If txt_Nueva.Text <> txt_Confirmar.Text Then
+            fn_Alerta("La confirmacion no coincide con la contraseña nueva.")
+            Exit Sub
+        End If
+
+        Dim PasswordNuevoHASH As String = FormsAuthentication.HashPasswordForStoringInConfigFile(txt_Nueva.Text, "SHA1")
+
+        Dim Resultado As String = cn.fn_CambiarContraseña_Guardar(PasswordNuevoHASH)
+
+        If Resultado Then
+            Response.Redirect("~\Default.aspx")
+        Else
+            fn_Alerta("No se puede cambiar la contraseña debido a un error.")
+        End If
+
+
+
+    End Sub
+
+    Private Sub CambiarContrasena_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If ContraseñaExpirada Then
+            txt_Contraseña.Enabled = False
+            rfv_Contraseña.Enabled = False
+            fn_Alerta("Su contraseña esta expirada favor de seleccionar una nueva")
+        End If
+    End Sub
+End Class

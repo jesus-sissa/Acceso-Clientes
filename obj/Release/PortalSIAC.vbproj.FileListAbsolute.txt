@@ -1,0 +1,257 @@
+C:\SIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.dll
+C:\SIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.pdb
+C:\SIAC\PortalSIAC2012\PortalSIAC\bin\PortalSIAC.xml
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Release\PortalSIAC.Resources.resources
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Release\PortalSIAC.dll
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Release\PortalSIAC.xml
+C:\SIAC\PortalSIAC2012\PortalSIAC\obj\Release\PortalSIAC.pdb
+C:\SIAC\PORTALSIAC\PortalSIAC\bin\PortalSIAC.dll
+C:\SIAC\PORTALSIAC\PortalSIAC\bin\PortalSIAC.pdb
+C:\SIAC\PORTALSIAC\PortalSIAC\bin\PortalSIAC.xml
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Release\PortalSIAC.Resources.resources
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Release\PortalSIAC.dll
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Release\PortalSIAC.xml
+C:\SIAC\PORTALSIAC\PortalSIAC\obj\Release\PortalSIAC.pdb
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\bin\PortalSIAC.dll
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\bin\PortalSIAC.pdb
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\bin\PortalSIAC.xml
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Release\PortalSIAC.Resources.resources
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Release\PortalSIAC.dll
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Release\PortalSIAC.xml
+C:\My Documents\Respaldos\SIACv1\2017\07-Julio2017\2017.07.15\PortalSIAC_Raul\obj\Release\PortalSIAC.pdb
+C:\Portal\PortalSIAC\bin\PortalSIAC.dll
+C:\Portal\PortalSIAC\bin\PortalSIAC.pdb
+C:\Portal\PortalSIAC\bin\PortalSIAC.xml
+C:\Portal\PortalSIAC\obj\Release\PortalSIAC.Resources.resources
+C:\Portal\PortalSIAC\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\Portal\PortalSIAC\obj\Release\PortalSIAC.dll
+C:\Portal\PortalSIAC\obj\Release\PortalSIAC.xml
+C:\Portal\PortalSIAC\obj\Release\PortalSIAC.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC_2017.08.05\bin\PortalSIAC.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC_2017.08.05\bin\PortalSIAC.pdb
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC_2017.08.05\bin\PortalSIAC.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.Resources.resources
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.dll
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.xml
+C:\My Documents\SISSA\Nuevo Desarrollo\SIAC\SissaPortalSIAC2012\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.pdb
+C:\Publico\PortalSIAC_2017.08.05\bin\PortalSIAC.dll
+C:\Publico\PortalSIAC_2017.08.05\bin\PortalSIAC.pdb
+C:\Publico\PortalSIAC_2017.08.05\bin\PortalSIAC.xml
+C:\Publico\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\Publico\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.Resources.resources
+C:\Publico\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\Publico\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.dll
+C:\Publico\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.xml
+C:\Publico\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.pdb
+C:\SIACv2\PortalSIAC_2017.08.05\bin\PortalSIAC.dll
+C:\SIACv2\PortalSIAC_2017.08.05\bin\PortalSIAC.pdb
+C:\SIACv2\PortalSIAC_2017.08.05\bin\PortalSIAC.xml
+C:\SIACv2\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\SIACv2\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.Resources.resources
+C:\SIACv2\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIACv2\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.dll
+C:\SIACv2\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.xml
+C:\SIACv2\PortalSIAC_2017.08.05\obj\Release\PortalSIAC.pdb
+C:\SIACv2\PoralSiacClientes\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\SIACv2\PoralSiacClientes\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.Resources.resources
+C:\SIACv2\PoralSiacClientes\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIACv2\PoralSiacClientes\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.dll
+C:\SIACv2\PoralSiacClientes\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.xml
+C:\SIACv2\PoralSiacClientes\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.pdb
+C:\SIACv2\PoralSiacClientes\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.dll
+C:\SIACv2\PoralSiacClientes\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.pdb
+C:\SIACv2\PoralSiacClientes\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.xml
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.Resources.resources
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.dll
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.pdb
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.xml
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\bin\CrystalDecisions.ReportSource.dll
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\bin\CrystalDecisions.Shared.dll
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\bin\Gma.QrCodeNet.Encoding.dll
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\bin\Gma.QrCodeNet.Encoding.pdb
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\bin\Gma.QrCodeNet.Encoding.xml
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.dll
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.xml
+C:\SIACV1\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.pdb
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.dll
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.pdb
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.xml
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\bin\CrystalDecisions.ReportSource.dll
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\bin\CrystalDecisions.Shared.dll
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\bin\Gma.QrCodeNet.Encoding.dll
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\bin\Gma.QrCodeNet.Encoding.pdb
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\bin\Gma.QrCodeNet.Encoding.xml
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.Resources.resources
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.dll
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.xml
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.pdb
+C:\SIACV1\REMISION DIGITAL\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.dll
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.pdb
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\bin\PortalSIAC.xml
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\bin\CrystalDecisions.ReportSource.dll
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\bin\CrystalDecisions.Shared.dll
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\bin\Gma.QrCodeNet.Encoding.dll
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\bin\Gma.QrCodeNet.Encoding.pdb
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\bin\Gma.QrCodeNet.Encoding.xml
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.Resources.resources
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.dll
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.xml
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.pdb
+C:\SIACV1\REMISION DIGITAL\publicado\29Nov2018PortalSIAC_2017.08.05\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\bin\PortalSIAC.dll
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\bin\PortalSIAC.pdb
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\bin\PortalSIAC.xml
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\bin\CrystalDecisions.ReportSource.dll
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\bin\CrystalDecisions.Shared.dll
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\obj\Release\PortalSIAC.Resources.resources
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\obj\Release\PortalSIAC.dll
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\obj\Release\PortalSIAC.xml
+C:\Users\programador1\Desktop\Repositorio-Git\Portal\PortalClienteFinal\obj\Release\PortalSIAC.pdb
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\bin\PortalSIAC.dll
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\bin\PortalSIAC.pdb
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\bin\PortalSIAC.xml
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\bin\CrystalDecisions.ReportSource.dll
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\bin\CrystalDecisions.Shared.dll
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\obj\Release\PortalSIAC.Resources.resources
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\obj\Release\PortalSIAC.dll
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\obj\Release\PortalSIAC.xml
+C:\Users\programador2\Desktop\Portal\PortalClienteFinal\obj\Release\PortalSIAC.pdb
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\PortalSIAC.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\PortalSIAC.pdb
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\PortalSIAC.xml
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\CrystalDecisions.ReportSource.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\CrystalDecisions.Shared.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Release\PortalSIAC.Resources.resources
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Release\PortalSIAC.dll
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Release\PortalSIAC.xml
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Release\PortalSIAC.pdb
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\bin\PortalSIAC.dll.config
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Release\PortalSIAC.vbprojAssemblyReference.cache
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Release\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\programador2\Desktop\REMISION DIGITAL VERSION FINAL\PROYECTOS\Portal\PortalClienteFinal\obj\Release\PortalSIAC.vbproj.CopyComplete
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\bin\PortalSIAC.dll
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\bin\PortalSIAC.pdb
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\bin\PortalSIAC.xml
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\bin\CrystalDecisions.ReportSource.dll
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\bin\CrystalDecisions.Shared.dll
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\obj\Release\PortalSIAC.Resources.resources
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\obj\Release\PortalSIAC.vbproj.GenerateResource.Cache
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\obj\Release\PortalSIAC.dll
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\obj\Release\PortalSIAC.xml
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\obj\Release\PortalSIAC.pdb
+C:\Users\programador1\Desktop\Repositorio-Git\RemisionDigital\Portal\PortalClienteFinal\obj\Release\PortalSIAC.vbprojResolveAssemblyReference.cache
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\PortalSIAC.dll.config
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\PortalSIAC.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\PortalSIAC.pdb
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\PortalSIAC.xml
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\CrystalDecisions.ReportSource.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\CrystalDecisions.Shared.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Release\PortalSIAC.vbprojAssemblyReference.cache
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Release\PortalSIAC.Resources.resources
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Release\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Release\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Release\PortalSIAC.vbproj.CopyComplete
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Release\PortalSIAC.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Release\PortalSIAC.xml
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\PortalClienteFinal\obj\Release\PortalSIAC.pdb
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\PortalSIAC.dll.config
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\PortalSIAC.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\PortalSIAC.pdb
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\PortalSIAC.xml
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\CrystalDecisions.Shared.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\jesus.medrano\Desktop\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Release\PortalSIAC.vbproj.AssemblyReference.cache
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Release\PortalSIAC.Resources.resources
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Release\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Release\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Release\PortalSIAC.vbproj.CopyComplete
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Release\PortalSIAC.dll
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Release\PortalSIAC.xml
+C:\Users\jesus.medrano\Desktop\PortalCliente\obj\Release\PortalSIAC.pdb
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\PortalSIAC.dll.config
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\PortalSIAC.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\PortalSIAC.pdb
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\PortalSIAC.xml
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\BouncyCastle.Crypto.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\CrystalDecisions.Shared.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\itextsharp.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\bin\itextsharp.xml
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Release\PortalSIAC.vbproj.AssemblyReference.cache
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Release\PortalSIAC.Resources.resources
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Release\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Release\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Release\PortalSIAC.vbproj.CopyComplete
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Release\PortalSIAC.dll
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Release\PortalSIAC.xml
+C:\Users\jesus.medrano\Desktop\Fuentes Sissa\PortalCliente\obj\Release\PortalSIAC.pdb
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.dll.config
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.pdb
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\PortalSIAC.xml
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\BouncyCastle.Crypto.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\CrystalDecisions.ReportSource.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\CrystalDecisions.Shared.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\itextsharp.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.pdb
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\Gma.QrCodeNet.Encoding.xml
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\bin\itextsharp.xml
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Release\PortalSIAC.vbproj.AssemblyReference.cache
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Release\PortalSIAC.Resources.resources
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Release\PortalSIAC.vbproj.GenerateResource.cache
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Release\PortalSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Release\PortalSIAC.vbproj.CopyComplete
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Release\PortalSIAC.dll
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Release\PortalSIAC.xml
+C:\Users\jesus.ortega\Desktop\Portal SIAC\PortalCliente\obj\Release\PortalSIAC.pdb

@@ -1,0 +1,61 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" Theme="NegroAmarillo" MasterPageFile="~/MasterPage.Master" CodeBehind="ConsultaDiferencias.aspx.vb" Inherits="SissaPortal.ConsultaDiferencias" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>    
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table>
+        <tr>
+            <td>
+                Fecha Inicial:
+            </td>
+            <td>
+                <asp:TextBox ID="txt_FInicial" runat="server" />
+                <asp:CalendarExtender ID="txt_FInicial_CalendarExtender" runat="server" Enabled="True"
+                    TargetControlID="txt_FInicial" Format="dd/MM/yyyy">
+                </asp:CalendarExtender>
+            </td>
+            <td>
+                Tipo:
+            </td>
+            <td>
+                <asp:DropDownList ID="ddl_Tipo" runat="server">
+                    <asp:ListItem Text="Contra Remision" Value="C" />
+                    <asp:ListItem Text="Contra Ficha" Value="F" />
+                    <asp:ListItem Text="Contra Parcial" Value="P" />
+                    <asp:ListItem Selected="True" Value="0">Seleccione...</asp:ListItem>
+                </asp:DropDownList>
+                <asp:CheckBox ID="cbx_Tipo" runat="server" AutoPostBack="True" Text="Todas" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Fecha Final:
+            </td>
+            <td>
+                <asp:TextBox ID="txt_FFinal" runat="server" />
+                <asp:CalendarExtender ID="txt_FFinal_CalendarExtender" runat="server" Enabled="True"
+                    TargetControlID="txt_FFinal" Format="dd/MM/yyyy">
+                </asp:CalendarExtender>
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+                <asp:Button ID="btn_Mostrar" runat="server" Text="Mostrar" />
+            </td>
+        </tr>
+    </table>
+    <fieldset class="fieldsetFijo">
+        <legend>Resultados</legend>
+        <asp:GridView ID="gv_Resultados" runat="server" CellPadding="4" 
+            ForeColor="#333333" GridLines="None">
+            <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+            <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+            <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+            <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+            <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+            <EditRowStyle BackColor="#999999" />
+            <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+        </asp:GridView>
+    </fieldset>
+</asp:Content>

@@ -1,0 +1,19 @@
+﻿Public Partial Class Foto
+    Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Response.Clear()
+
+        Dim cn As New Cn_Portal(Session, Request)
+
+        Dim IdEmpleado As Integer = Request("Id")
+
+        Dim row As DataRow = cn.fn_Foto_Get(IdEmpleado)
+
+        If row IsNot Nothing Then
+            Dim Foto As Byte() = row("Frente")
+            Response.BinaryWrite(Foto)
+        End If
+    End Sub
+
+End Class

@@ -1,0 +1,49 @@
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage.Master" CodeBehind="CambiarContrasena.aspx.vb" Inherits="SissaPortal.CambiarContrasena" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table>
+    <tr>
+        <td>
+            Contraseña
+        </td>
+        <td>
+            <asp:TextBox ID="txt_Contraseña" runat="server" TextMode="Password"></asp:TextBox>
+        </td>
+        <td>
+            <asp:RequiredFieldValidator ID="rfv_Contraseña" runat="server" ValidationGroup="Contraseña" ControlToValidate="txt_Contraseña" ErrorMessage="Debe capturar la contraseña actual" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Nueva Contraseña
+        </td>
+        <td>
+            <asp:TextBox ID="txt_Nueva" runat="server" TextMode="Password"></asp:TextBox>
+        </td>
+        <td>
+            <asp:RequiredFieldValidator ID="rfv_Nueva" runat="server" ValidationGroup="Contraseña" ControlToValidate="txt_Nueva" ErrorMessage="Debe capturar la contraseña nueva" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Confirmar Nueva Contraseña
+        </td>
+        <td>
+            <asp:TextBox ID="txt_Confirmar" runat="server" TextMode="Password"></asp:TextBox>
+        </td>
+        <td>
+            <asp:RequiredFieldValidator ID="rfv_Confirmar" runat="server" ValidationGroup="Contraseña" ControlToValidate="txt_Confirmar" ErrorMessage="Debe confirmar la contraseña nueva" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <asp:Button ID="btn_Cambiar" runat="server" Text="Cambiar" ValidationGroup="Contraseña" />            
+        </td>
+        <td>
+            <asp:ValidationSummary ID="vs_Cambiar" ValidationGroup="Contraseña" 
+                ShowMessageBox="true" runat="server" ShowSummary="False" />
+        </td>
+    </tr>
+</table>
+</asp:Content>

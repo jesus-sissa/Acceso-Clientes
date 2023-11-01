@@ -1,0 +1,67 @@
+﻿Partial Public Class ValidacionTripulacion
+    Inherits BasePage
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If IsPostBack Then Exit Sub
+
+        Dim Tbl As DataTable = cn.fn_ValidacionTripulacion_GetLista()
+        Me.Tabla("Lista") = Tbl
+        gv_Lista.DataSource = fn_MostrarSiempre(Tbl)
+        gv_Lista.DataBind()
+    End Sub
+
+    Protected Sub gv_Lista_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles gv_Lista.SelectedIndexChanged
+        pnl_Tripulacion.Visible = True
+        Dim IdPunto As Integer = gv_Lista.SelectedDataKey.Value
+        If IdPunto = 0 Then
+            pnl_Tripulacion.Visible = False
+            Exit Sub
+        End If
+
+
+        Dim tbl As DataTable = cn.fn_ValidacionTripulacion_GetNombres(IdPunto)
+
+        If tbl.Rows.Count = 0 Then
+            fn_Alerta("No se puede mostrar la tripulación")
+            pnl_Tripulacion.Visible = False
+            Exit Sub
+        End If
+
+        lbl_Operador.Text = tbl.Rows(0)("Operador")
+        lbl_OperadorClave.Text = tbl.Rows(0)("ClaveOperador")
+        lbl_Cajero.Text = tbl.Rows(0)("Cajero")
+        lbl_CajeroClave.Text = tbl.Rows(0)("ClaveCajero")
+
+        img_Operador.ImageUrl = "~/Traslado/Foto.aspx?Id=" & tbl.Rows(0)("Id_Operador")
+        img_OperadorFirma.ImageUrl = "~/Traslado/Firma.aspx?Id=" & tbl.Rows(0)("Id_Operador")
+        img_Cajero.ImageUrl = "~/Traslado/Foto.aspx?Id=" & tbl.Rows(0)("Id_Cajero")
+        img_CajeroFirma.ImageUrl = "~/Traslado/Firma.aspx?Id=" & tbl.Rows(0)("Id_Cajero")
+
+        dl_Custodios.DataSource = cn.fn_ValidacionTripulacion_GetCustodios(IdPunto)
+        dl_Custodios.DataBind()
+    End Sub
+
+    Protected Sub btn_Mostrar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btn_Mostrar.Click
+        Dim Fecha As Date
+
+        If (Not Date.TryParse(txt_Fecha.Text, Fecha)) Then
+            fn_Alerta("Debe seleccionar una fecha valida.")
+            Exit Sub
+        End If
+
+        If Fecha > Today() Then
+            fn_Alerta("Debe seleccionar una fecha menor o igual que hoy.")
+            Exit Sub
+        End If
+
+        Dim Tbl As DataTable = cn.fn_ValidacionTripulacion_GetLista(Fecha)
+        Me.Tabla("Lista") = Tbl
+        gv_Lista.SelectedIndex = -1
+
+        pnl_Tripulacion.Visible = False
+
+        gv_Lista.DataSource = fn_MostrarSiempre(Tbl)
+        gv_Lista.DataBind()
+    End Sub
+
+End Class
